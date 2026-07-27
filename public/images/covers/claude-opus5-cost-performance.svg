@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300">
+  <!-- 背景渐变 -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#78350F"/>
+      <stop offset="100%" stop-color="#451A03"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景矩形 -->
+  <rect width="660" height="300" fill="url(#bgGradient)" />
+
+  <!-- 不规则散点纹理（纸张颗粒感） -->
+  <g fill="#D6A456" opacity="0.06">
+    <circle cx="100" cy="50" r="3"/>
+    <circle cx="200" cy="120" r="4"/>
+    <circle cx="300" cy="80" r="2"/>
+    <circle cx="400" cy="150" r="3"/>
+    <circle cx="500" cy="60" r="4"/>
+    <circle cx="150" cy="200" r="2"/>
+    <circle cx="250" cy="250" r="3"/>
+    <circle cx="350" cy="180" r="2"/>
+    <circle cx="450" cy="100" r="3"/>
+    <circle cx="550" cy="220" r="4"/>
+  </g>
+
+  <!-- 左侧强调线 -->
+  <line x1="50" y1="0" x2="50" y2="293" stroke="url(#accentGradient)" stroke-width="5" />
+
+  <!-- 文字层 -->
+  <text x="70" y="90" font-family="sans-serif" font-size="22" font-weight="bold" fill="#FEFCE8">
+    <tspan x="70" dy="0">还在用贵模型？</tspan>
+    <tspan x="70" dy="28">Claude Opus 5 如何</tspan>
+    <tspan x="70" dy="28">用一半钱做到全栈领先</tspan>
+  </text>
+
+  <text x="70" y="140" font-family="sans-serif" font-size="13" fill="#D6A456">
+    Claude Opus 5 在人工分析 Intelligence Index 拿
+  </text>
+
+  <!-- 标签胶囊 -->
+  <g transform="translate(70, 240)">
+    <!-- 标签1：搞钱实操 -->
+    <rect x="0" y="0" width="80" height="24" rx="12" ry="12" fill="#92400E" opacity="0.4"/>
+    <text x="40" y="16" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#FDE68A">搞钱实操</text>
+    
+    <!-- 标签2：成本优化 -->
+    <rect x="90" y="0" width="75" height="24" rx="12" ry="12" fill="#92400E" opacity="0.4"/>
+    <text x="127.5" y="16" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#FDE68A">成本优化</text>
+    
+    <!-- 标签3：AI模型 -->
+    <rect x="175" y="0" width="65" height="24" rx="12" ry="12" fill="#92400E" opacity="0.4"/>
+    <text x="207.5" y="16" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#FDE68A">AI模型</text>
+  </g>
+
+  <!-- 装饰元素（右下角，x ≥ 480, y ≥ 180） -->
+  <g transform="translate(500, 190)" opacity="0.2">
+    <!-- 简笔线条风格：柱状图图标 -->
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#F59E0B" stroke-width="2"/>
+    <line x1="15" y1="15" x2="15" y2="40" stroke="#F59E0B" stroke-width="2"/>
+    <line x1="30" y1="25" x2="30" y2="40" stroke="#F59E0B" stroke-width="2"/>
+    <line x1="45" y1="35" x2="45" y2="40" stroke="#F59E0B" stroke-width="2"/>
+    <!-- 简笔线条风格：折线图图标 -->
+    <polyline points="0,50 10,45 20,50 30,45 40,50" fill="none" stroke="#D6A456" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- 底部色条 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGradient)" />
+</svg>

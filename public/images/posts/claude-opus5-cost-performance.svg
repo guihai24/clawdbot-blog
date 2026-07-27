@@ -1,0 +1,39 @@
+<svg viewBox='0 0 660 400' xmlns='http://www.w3.org/2000/svg'>
+  <rect width='100%' height='100%' fill='#FAFAFA' rx='12'/>
+  
+  <!-- 标题 -->
+  <text x='330' y='40' text-anchor='middle' font-family='-apple-system, Segoe UI, sans-serif' font-size='18' fill='#1f2937' font-weight='600'>模型性能与成本对比</text>
+
+  <!-- Intelligence Index 分数 -->
+  <g transform='translate(100, 80)'>
+    <text x='0' y='-20' font-family='-apple-system, Segoe UI, sans-serif' font-size='14' fill='#374151' font-weight='500'>Intelligence Index</text>
+    <!-- Claude Opus 5 -->
+    <rect x='0' y='0' width='30' height='183' fill='#2563EB' rx='4'/>
+    <text x='15' y='200' text-anchor='middle' font-family='-apple-system, Segoe UI, sans-serif' font-size='12' fill='#1f2937'>Opus 5 (61)</text>
+    <!-- Fable 5 -->
+    <rect x='60' y='5' width='30' height='180' fill='#EA580C' rx='4'/>
+    <text x='75' y='200' text-anchor='middle' font-family='-apple-system, Segoe UI, sans-serif' font-size='12' fill='#1f2937'>Fable 5 (60)</text>
+    <!-- GPT-5.6 Sol -->
+    <rect x='120' y='10' width='30' height='177' fill='#16A34A' rx='4'/>
+    <text x='135' y='200' text-anchor='middle' font-family='-apple-system, Segoe UI, sans-serif' font-size='12' fill='#1f2937'>GPT-5.6 (59)</text>
+  </g>
+
+  <!-- 典型任务平均成本 -->
+  <g transform='translate(350, 80)'>
+    <text x='0' y='-20' font-family='-apple-system, Segoe UI, sans-serif' font-size='14' fill='#374151' font-weight='500'>任务平均成本 ($)</text>
+    <!-- Claude Opus 5 -->
+    <rect x='0' y='0' width='30' height='183' fill='#2563EB' rx='4'/>
+    <text x='15' y='200' text-anchor='middle' font-family='-apple-system, Segoe UI, sans-serif' font-size='12' fill='#1f2937'>Opus 5 (~$2.03)</text>
+    <!-- Fable 5 -->
+    <rect x='60' y='-68' width='30' height='180' fill='#EA580C' rx='4'/>
+    <text x='75' y='200' text-anchor='middle' font-family='-apple-system, Segoe UI, sans-serif' font-size='12' fill='#1f2937'>Fable 5 (~$2.75)</text>
+    <!-- GPT-5.6 Sol -->
+    <rect x='120' y='0' width='30' height='177' fill='#16A34A' rx='4'/>
+    <text x='135' y='200' text-anchor='middle' font-family='-apple-system, Segoe UI, sans-serif' font-size='12' fill='#1f2937'>GPT-5.6 (数据少)</text>
+  </g>
+
+  <!-- 关键结论 -->
+  <rect x='50' y='280' width='560' height='80' fill='white' stroke='#E5E7EB' rx='8'/>
+  <text x='330' y='305' text-anchor='middle' font-family='-apple-system, Segoe UI, sans-serif' font-size='14' fill='#1f2937' font-weight='600'>Opus 5 在复杂任务上成本砍半，性价比翻倍</text>
+  <text x='330' y='325' text-anchor='middle' font-family='-apple-system, Segoe UI, sans-serif' font-size='12' fill='#6b7280'>同等级分数下显著降低重试与并行运行开销</text>
+</svg>
