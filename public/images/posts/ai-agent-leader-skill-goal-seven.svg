@@ -1,0 +1,52 @@
+<svg viewBox="0 0 660 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#FAFAFA" rx="12"/>
+  <style>
+    .title { font-family: -apple-system, 'Segoe UI', sans-serif; font-size: 20px; font-weight: 600; fill: #1f2937; text-anchor: middle; }
+    .label { font-family: -apple-system, 'Segoe UI', sans-serif; font-size: 14px; fill: #374151; }
+    .card { fill: white; stroke: #e5e7eb; stroke-width: 1; rx: 12; }
+    .arrow { stroke: #9ca3af; stroke-width: 2; marker-end: url(#arrowhead); }
+    .dash-line { stroke-dasharray: 5,5; stroke: #d1d5db; stroke-width: 1; }
+  </style>
+
+  <!-- 箭头定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#9ca3af" />
+    </marker>
+  </defs>
+
+  <!-- 标题 -->
+  <text x="330" y="30" class="title">交互范式演进：从聊天到目标制</text>
+
+  <!-- 卡片1：聊天制 -->
+  <rect x="50" y="80" width="160" height="140" class="card"/>
+  <text x="130" y="100" class="label" font-weight="600">🗣️ 聊天制</text>
+  <text x="70" y="130" class="label">你问一句，它答一句</text>
+  <text x="70" y="150" class="label">短程、即时响应</text>
+  <text x="70" y="170" class="label">适合简单问答</text>
+  <line x1="130" y1="220" x2="130" y2="240" class="dash-line"/>
+
+  <!-- 卡片2：任务制 -->
+  <rect x="250" y="80" width="160" height="140" class="card"/>
+  <text x="330" y="100" class="label" font-weight="600">⚙️ 任务制</text>
+  <text x="270" y="130" class="label">你丢一个任务</text>
+  <text x="270" y="150" class="label">它调工具、执行</text>
+  <text x="270" y="170" class="label">适合固定流程</text>
+  <line x1="330" y1="220" x2="330" y2="240" class="dash-line"/>
+
+  <!-- 卡片3：目标制 -->
+  <rect x="450" y="80" width="160" height="140" class="card"/>
+  <text x="530" y="100" class="label" font-weight="600">🎯 目标制</text>
+  <text x="470" y="130" class="label">只给一个目标</text>
+  <text x="470" y="150" class="label">自动拆任务、派SubAgent</text>
+  <text x="470" y="170" class="label">连续运行数小时</text>
+
+  <!-- 箭头连接 -->
+  <line x1="210" y1="150" x2="250" y2="150" class="arrow"/>
+  <line x1="410" y1="150" x2="450" y2="150" class="arrow"/>
+
+  <!-- 核心洞察 -->
+  <rect x="150" y="270" width="360" height="80" fill="#fffbeb" stroke="#fcd34d" stroke-width="1" rx="12"/>
+  <text x="330" y="300" class="label" font-weight="600" fill="#b45309">💡 关键洞察：目标模糊 = Agent跑偏</text>
+  <text x="170" y="325" class="label" fill="#92400e">不是模型笨，是「领导一句话」太模糊</text>
+</svg>

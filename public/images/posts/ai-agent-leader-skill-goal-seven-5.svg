@@ -1,0 +1,51 @@
+<svg viewBox='0 0 660 400' xmlns='http://www.w3.org/2000/svg'>
+  <rect width='100%' height='100%' fill='#FAFAFA' rx='12'/>
+  
+  <!-- 标题 -->
+  <text x='330' y='40' text-anchor='middle' font-family='-apple-system, &quot;Segoe UI&quot;, sans-serif' font-size='18' fill='#1F2937'>目标七问流程</text>
+  
+  <!-- 步骤1：领导式抱怨 -->
+  <rect x='50' y='80' width='160' height='80' fill='#FFFFFF' stroke='#2563EB' stroke-width='2' rx='12'/>
+  <text x='130' y='110' text-anchor='middle' font-family='-apple-system, &quot;Segoe UI&quot;, sans-serif' font-size='14' fill='#1F2937' font-weight='bold'>领导式抱怨</text>
+  <text x='130' y='130' text-anchor='middle' font-family='-apple-system, &quot;Segoe UI&quot;, sans-serif' font-size='12' fill='#6B7280'>重构后台，数据不可信...</text>
+  
+  <!-- 箭头1 -->
+  <line x1='210' y1='120' x2='250' y2='120' stroke='#9CA3AF' stroke-width='2' marker-end='url(#arrowhead)'/>
+  
+  <!-- 步骤2：调研 -->
+  <rect x='250' y='80' width='160' height='80' fill='#FFFFFF' stroke='#EA580C' stroke-width='2' rx='12'/>
+  <text x='330' y='110' text-anchor='middle' font-family='-apple-system, &quot;Segoe UI&quot;, sans-serif' font-size='14' fill='#1F2937' font-weight='bold'>调研现状</text>
+  <text x='330' y='130' text-anchor='middle' font-family='-apple-system, &quot;Segoe UI&quot;, sans-serif' font-size='12' fill='#6B7280'>代码库、文档、最佳实践</text>
+  
+  <!-- 箭头2 -->
+  <line x1='410' y1='120' x2='450' y2='120' stroke='#9CA3AF' stroke-width='2' marker-end='url(#arrowhead)'/>
+  
+  <!-- 步骤3：关键问题 -->
+  <rect x='450' y='80' width='160' height='80' fill='#FFFFFF' stroke='#16A34A' stroke-width='2' rx='12'/>
+  <text x='530' y='110' text-anchor='middle' font-family='-apple-system, &quot;Segoe UI&quot;, sans-serif' font-size='14' fill='#1F2937' font-weight='bold'>关键选择</text>
+  <text x='530' y='130' text-anchor='middle' font-family='-apple-system, &quot;SEGUE UI&quot;, sans-serif' font-size='12' fill='#6B7280'>性能vs可信度？阶段上线？</text>
+  
+  <!-- 箭头3 -->
+  <line x1='330' y1='160' x2='330' y2='200' stroke='#9CA3AF' stroke-width='2' stroke-dasharray='5,5' marker-end='url(#arrowhead)'/>
+  <line x1='330' y1='200' x2='50' y2='220' stroke='#9CA3AF' stroke-width='2' stroke-dasharray='5,5' marker-end='url(#arrowhead)'/>
+  
+  <!-- 步骤4：任务书 -->
+  <rect x='50' y='220' width='560' height='100' fill='#FFFFFF' stroke='#9333EA' stroke-width='2' rx='12'/>
+  <text x='330' y='250' text-anchor='middle' font-family='-apple-system, &quot;Segoe UI&quot;, sans-serif' font-size='14' fill='#1F2937' font-weight='bold'>可执行任务书</text>
+  <text x='330' y='270' text-anchor='middle' font-family='-apple-system, &quot;Segoe UI&quot;, sans-serif' font-size='12' fill='#6B7280'>目的、完成态、证据、反作弊条款</text>
+  <text x='330' y='290' text-anchor='middle' font-family='-apple-system, &quot;Segoe UI&quot;, sans-serif' font-size='12' fill='#6B7280'>优先级、未知处理策略</text>
+  
+  <!-- 箭头4 -->
+  <line x1='330' y1='320' x2='330' y2='350' stroke='#9CA3AF' stroke-width='2' marker-end='url(#arrowhead)'/>
+  
+  <!-- Agent -->
+  <rect x='260' y='350' width='140' height='40' fill='#FFFFFF' stroke='#D97706' stroke-width='2' rx='12'/>
+  <text x='330' y='375' text-anchor='middle' font-family='-apple-system, &quot;Segoe UI&quot;, sans-serif' font-size='12' fill='#1F2937' font-weight='bold'>Agent 执行</text>
+  
+  <!-- 箭头定义 -->
+  <defs>
+    <marker id='arrowhead' markerWidth='10' markerHeight='7' refX='9' refY='3.5' orient='auto'>
+      <polygon points='0 0, 10 3.5, 0 7' fill='#9CA3AF'/>
+    </marker>
+  </defs>
+</svg>
