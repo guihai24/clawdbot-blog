@@ -1,0 +1,60 @@
+<svg viewBox="0 0 660 400" xmlns="http://www.w3.org/2000/svg" style="background:#FAFAFA;font-family:-apple-system,'Segoe UI',sans-serif;" rx="12">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000015"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6B7280"/>
+    </marker>
+  </defs>
+
+  <!-- 标题 -->
+  <text x="330" y="32" text-anchor="middle" font-size="16" font-weight="600" fill="#111827">GPT-Live 全双工架构</text>
+
+  <!-- 麦克风图标 -->
+  <rect x="40" y="70" width="100" height="60" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5" filter="url(#shadow)"/>
+  <circle cx="70" cy="95" r="10" fill="none" stroke="#2563EB" stroke-width="2"/>
+  <path d="M 65 105 L 75 105 L 75 115 C 75 118 65 118 65 115 Z" fill="#2563EB"/>
+  <line x1="70" y1="85" x2="70" y2="95" stroke="#2563EB" stroke-width="2"/>
+  <text x="90" y="148" text-anchor="middle" font-size="12" fill="#374151">音频输入</text>
+
+  <!-- 扬声器图标 -->
+  <rect x="520" y="70" width="100" height="60" rx="10" fill="#ECFDF5" stroke="#16A34A" stroke-width="1.5" filter="url(#shadow)"/>
+  <path d="M 545 90 L 555 90 L 565 100 L 565 110 L 555 120 L 545 120 Z" fill="none" stroke="#16A34A" stroke-width="2"/>
+  <path d="M 570 95 Q 578 105 570 115" fill="none" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="570" y="148" text-anchor="middle" font-size="12" fill="#374151">音频输出</text>
+
+  <!-- 模型核心 -->
+  <rect x="230" y="80" width="200" height="80" rx="12" fill="#F5F3FF" stroke="#9333EA" stroke-width="2" filter="url(#shadow)"/>
+  <text x="330" y="110" text-anchor="middle" font-size="14" font-weight="600" fill="#7C3AED">GPT-Live 模型</text>
+  <text x="330" y="130" text-anchor="middle" font-size="11" fill="#6B7280">原生语音理解</text>
+  <text x="330" y="148" text-anchor="middle" font-size="11" fill="#6B7280">全双工处理</text>
+
+  <!-- 输入箭头 -->
+  <line x1="140" y1="100" x2="228" y2="110" stroke="#6B7280" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow)"/>
+  <text x="175" y="95" font-size="10" fill="#6B7280">音频流</text>
+
+  <!-- 输出箭头 -->
+  <line x1="432" y1="110" x2="518" y2="100" stroke="#6B7280" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow)"/>
+  <text x="480" y="95" font-size="10" fill="#6B7280">音频流</text>
+
+  <!-- 快路径 -->
+  <rect x="100" y="200" width="460" height="70" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="110" y="210" width="8" height="50" rx="4" fill="#2563EB"/>
+  <text x="130" y="232" font-size="12" font-weight="600" fill="#2563EB">快路径</text>
+  <text x="130" y="250" font-size="10" fill="#6B7280">媒体前端 · Go</text>
+  <text x="340" y="240" text-anchor="middle" font-size="11" fill="#374151">音频流传输 → 推理 → 语音生成</text>
+  <text x="340" y="258" text-anchor="middle" font-size="10" fill="#6B7280">持续流动，零阻塞</text>
+
+  <!-- 异步路径 -->
+  <rect x="100" y="290" width="460" height="70" rx="10" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="110" y="300" width="8" height="50" rx="4" fill="#EA580C"/>
+  <text x="130" y="322" font-size="12" font-weight="600" fill="#EA580C">异步路径</text>
+  <text x="130" y="340" font-size="10" fill="#6B7280">应用后端 · Python</text>
+  <text x="340" y="330" text-anchor="middle" font-size="11" fill="#374151">工具调用 → 深度推理 → 状态管理</text>
+  <text x="340" y="348" text-anchor="middle" font-size="10" fill="#6B7280">可慢，不阻塞媒体流</text>
+
+  <!-- 连接线 -->
+  <line x1="330" y1="160" x2="330" y2="198" stroke="#6B7280" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="330" y1="270" x2="330" y2="288" stroke="#6B7280" stroke-width="1.5" stroke-dasharray="4,3"/>
+</svg>

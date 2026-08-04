@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#44403C"/>
+      <stop offset="100%" stop-color="#1C1917"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.06 0"/>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="660" height="300" fill="url(#bgGrad)"/>
+  <rect width="660" height="300" fill="url(#grain)"/>
+
+  <!-- 左侧强调线 -->
+  <rect x="50" y="30" width="4" height="240" rx="2" fill="url(#accentGrad)"/>
+
+  <!-- 标题 -->
+  <text x="70" y="82" fill="#FAFAF9" font-size="22" font-weight="700" font-family="system-ui, -apple-system, sans-serif">
+    <tspan x="70" dy="0">为什么你的语音助手总被打断？</tspan>
+    <tspan x="70" dy="28">OpenAI 的全双工设计让对话</tspan>
+    <tspan x="70" dy="28">真正流畅</tspan>
+  </text>
+
+  <!-- 副标题 -->
+  <text x="70" y="178" fill="#A8A29E" font-size="13" font-family="system-ui, -apple-system, sans-serif">
+    语音 AI 听起来生硬、总被打断？OpenAI 的 GPT-Live 用全双工架构
+  </text>
+
+  <!-- 标签胶囊 -->
+  <rect x="70" y="238" width="76" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
+  <text x="108" y="254" fill="#D6D3D1" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">全双工</text>
+
+  <rect x="156" y="238" width="76" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
+  <text x="194" y="254" fill="#D6D3D1" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">语音AI</text>
+
+  <rect x="242" y="238" width="90" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
+  <text x="287" y="254" fill="#D6D3D1" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">架构设计</text>
+
+  <!-- 右下角装饰：声波图标 -->
+  <g opacity="0.2" transform="translate(530, 200)">
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#EA580C" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#EA580C" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#EA580C" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="4" fill="#F59E0B"/>
+    <!-- 声波弧线 -->
+    <path d="M -28,-18 Q -36,0 -28,18" fill="none" stroke="#EA580C" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M -20,-26 Q -32,0 -20,26" fill="none" stroke="#EA580C" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 28,-18 Q 36,0 28,18" fill="none" stroke="#EA580C" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 20,-26 Q 32,0 20,26" fill="none" stroke="#EA580C" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- 右下角装饰：麦克风简笔 -->
+  <g opacity="0.15" transform="translate(600, 230)">
+    <rect x="-6" y="-16" width="12" height="20" rx="6" fill="none" stroke="#D6D3D1" stroke-width="1.5"/>
+    <path d="M -10,-4 Q -10,6 0,6 Q 10,6 10,-4" fill="none" stroke="#D6D3D1" stroke-width="1.5"/>
+    <line x1="0" y1="6" x2="0" y2="12" stroke="#D6D3D1" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-5" y1="12" x2="5" y2="12" stroke="#D6D3D1" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- 底部色条 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)"/>
+</svg>
