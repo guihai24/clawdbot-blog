@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400">
+<defs>
+<filter id="shadow" x="-2%" y="-2%" width="104%" height="106%">
+<feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+</filter>
+</defs>
+<rect width="660" height="400" fill="#FAFAFA" rx="12"/>
+<text x="330" y="32" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="600" fill="#1F2937">情感分析模型三大数据陷阱</text>
+
+<!-- 陷阱1 -->
+<rect x="20" y="55" width="195" height="140" rx="10" fill="#FFFFFF" filter="url(#shadow)" stroke="#2563EB" stroke-width="1.5"/>
+<circle cx="40" cy="75" r="12" fill="#2563EB"/>
+<text x="40" y="80" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">1</text>
+<text x="58" y="78" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#1F2937">类别顺序偏差</text>
+<text x="30" y="100" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">train/test未按顺序打乱</text>
+<text x="30" y="116" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">模型记住位置而非情感</text>
+<rect x="30" y="128" width="175" height="28" rx="6" fill="#EFF6FF"/>
+<text x="38" y="146" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10" fill="#2563EB">✓ shuffle后再子采样</text>
+
+<!-- 陷阱2 -->
+<rect x="232" y="55" width="195" height="140" rx="10" fill="#FFFFFF" filter="url(#shadow)" stroke="#EA580C" stroke-width="1.5"/>
+<circle cx="252" cy="75" r="12" fill="#EA580C"/>
+<text x="252" y="80" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">2</text>
+<text x="270" y="78" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#1F2937">长度倾斜</text>
+<text x="242" y="100" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">短评论占训练数据大头</text>
+<text x="242" y="116" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">长评论上下文被裁剪丢失</text>
+<rect x="242" y="128" width="175" height="28" rx="6" fill="#FFF7ED"/>
+<text x="250" y="146" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10" fill="#EA580C">✓ 动态长度或加权采样</text>
+
+<!-- 陷阱3 -->
+<rect x="444" y="55" width="195" height="140" rx="10" fill="#FFFFFF" filter="url(#shadow)" stroke="#9333EA" stroke-width="1.5"/>
+<circle cx="464" cy="75" r="12" fill="#9333EA"/>
+<text x="464" y="80" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">3</text>
+<text x="482" y="78" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#1F2937">训练测试泄漏</text>
+<text x="454" y="100" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">train/test存在重复评论</text>
+<text x="454" y="116" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">模型通过记忆直接过拟合</text>
+<rect x="454" y="128" width="175" height="28" rx="6" fill="#F5F3FF"/>
+<text x="462" y="146" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10" fill="#9333EA">✓ 哈希去重消除泄漏</text>
+
+<!-- 流程箭头 -->
+<line x1="215" y1="125" x2="232" y2="125" stroke="#9CA3AF" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="427" y1="125" x2="444" y2="125" stroke="#9CA3AF" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+<!-- 底部说明 -->
+<rect x="20" y="215" width="620" height="170" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="40" y="245" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#1F2937">核心教训</text>
+<text x="40" y="270" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#4B5563">数据预处理是模型成功的关键。顺序偏差、长度分布和训练测试泄漏是最常见的三个陷阱。</text>
+<text x="40" y="295" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#4B5563">每个陷阱都需要针对性的解决方案：打乱顺序、动态长度处理、去重验证。</text>
+
+<!-- 代码片段 -->
+<rect x="40" y="310" width="580" height="55" rx="8" fill="#1F2937"/>
+<text x="52" y="332" font-family="monospace" font-size="10" fill="#10B981">train_full = raw["train"].shuffle(seed=42)</text>
+<text x="52" y="350" font-family="monospace" font-size="10" fill="#10B981">test_full = raw["test"].shuffle(seed=42)</text>
+<text x="52" y="365" font-family="monospace" font-size="10" fill="#6B7280"># 确保类别平衡，避免顺序偏差</text>
+</svg>

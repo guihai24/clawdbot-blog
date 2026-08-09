@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#44403C"/>
+      <stop offset="100%" stop-color="#1C1917"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="660" height="300" fill="url(#bgGrad)"/>
+
+  <!-- Paper grain texture dots -->
+  <g fill="#D6D3D1" opacity="0.06">
+    <circle cx="30" cy="45" r="1.2"/><circle cx="120" cy="15" r="0.8"/><circle cx="250" cy="60" r="1.5"/><circle cx="380" cy="25" r="1"/><circle cx="500" cy="50" r="1.3"/><circle cx="600" cy="30" r="0.9"/><circle cx="80" cy="100" r="1.1"/><circle cx="200" cy="110" r="0.7"/><circle cx="340" cy="95" r="1.4"/><circle cx="450" cy="120" r="0.8"/><circle cx="560" cy="105" r="1.2"/><circle cx="640" cy="80" r="1"/><circle cx="40" cy="160" r="0.9"/><circle cx="160" cy="175" r="1.3"/><circle cx="290" cy="155" r="0.7"/><circle cx="410" cy="170" r="1.1"/><circle cx="530" cy="160" r="1.4"/><circle cx="620" cy="145" r="0.8"/><circle cx="70" cy="220" r="1.2"/><circle cx="190" cy="235" r="0.9"/><circle cx="310" cy="215" r="1.5"/><circle cx="430" cy="240" r="0.7"/><circle cx="550" cy="225" r="1.1"/><circle cx="630" cy="210" r="1.3"/><circle cx="100" cy="270" r="0.8"/><circle cx="230" cy="280" r="1.2"/><circle cx="360" cy="265" r="0.9"/><circle cx="480" cy="275" r="1.4"/><circle cx="590" cy="260" r="0.7"/><circle cx="50" cy="290" r="1"/><circle cx="170" cy="285" r="1.3"/><circle cx="600" cy="278" r="0.8"/>
+  </g>
+
+  <!-- Left accent line -->
+  <line x1="50" y1="30" x2="50" y2="270" stroke="url(#accentGrad)" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Title: 3 lines -->
+  <text x="75" y="82" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="22" font-weight="700" fill="#FAFAF9">
+    <tspan x="75" dy="0">做情感分析，</tspan>
+    <tspan x="75" dy="28">90%的人死在这</tspan>
+    <tspan x="75" dy="28">3个数据陷阱上</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="75" y="172" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" fill="#A8A29E">
+    从TF-IDF基线到DistilBERT微调，教你把情感分类器从跑通变成可靠可用
+  </text>
+
+  <!-- Tag 1: 情感分析 -->
+  <rect x="75" y="242" width="78" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+  <text x="114" y="258" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">情感分析</text>
+
+  <!-- Tag 2: 数据陷阱 -->
+  <rect x="163" y="242" width="78" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+  <text x="202" y="258" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">数据陷阱</text>
+
+  <!-- Tag 3: 上手指南 -->
+  <rect x="251" y="242" width="86" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+  <text x="294" y="258" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">上手指南</text>
+
+  <!-- Decorative: minimalist data flow / neural nodes (bottom-right, x≥480, y≥180) -->
+  <g opacity="0.22" stroke="#EA580C" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Connection lines -->
+    <line x1="510" y1="210" x2="555" y2="195"/>
+    <line x1="510" y1="210" x2="555" y2="230"/>
+    <line x1="555" y1="195" x2="600" y2="210"/>
+    <line x1="555" y1="230" x2="600" y2="210"/>
+    <line x1="600" y1="210" x2="635" y2="200"/>
+    <line x1="600" y1="210" x2="635" y2="225"/>
+    <!-- Nodes -->
+    <circle cx="510" cy="210" r="7" fill="#1C1917"/>
+    <circle cx="555" cy="195" r="5.5" fill="#1C1917"/>
+    <circle cx="555" cy="230" r="5.5" fill="#1C1917"/>
+    <circle cx="600" cy="210" r="7" fill="#1C1917"/>
+    <circle cx="635" cy="200" r="5" fill="#1C1917"/>
+    <circle cx="635" cy="225" r="5" fill="#1C1917"/>
+  </g>
+
+  <!-- Bottom color bar -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)"/>
+</svg>
