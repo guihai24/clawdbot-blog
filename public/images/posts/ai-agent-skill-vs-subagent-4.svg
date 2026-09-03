@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000015"/>
+    </filter>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#9333EA"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4ADE80"/>
+      <stop offset="100%" stop-color="#16A34A"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FB923C"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="660" height="400" fill="#FAFAFA" rx="12"/>
+  
+  <!-- Title -->
+  <text x="330" y="38" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#1E293B">Skill 架构：主 Agent + 按需加载的领域手册</text>
+  
+  <!-- Central Agent Card -->
+  <rect x="230" y="70" width="200" height="100" rx="12" fill="white" filter="url(#shadow)" stroke="#2563EB" stroke-width="2"/>
+  <rect x="230" y="70" width="200" height="36" rx="12" fill="url(#blueGrad)"/>
+  <rect x="230" y="90" width="200" height="20" fill="url(#blueGrad)"/>
+  <text x="330" y="94" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="white">主 Agent</text>
+  <text x="330" y="118" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#64748B">完整上下文 · 购物车 · 用户偏好</text>
+  <text x="330" y="142" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#64748B">对话状态全程保持连续</text>
+  
+  <!-- Skill Cards -->
+  <!-- Skill 1: 高频规则 -->
+  <rect x="40" y="200" width="160" height="70" rx="10" fill="white" filter="url(#shadow)"/>
+  <rect x="40" y="200" width="160" height="28" rx="10" fill="url(#greenGrad)"/>
+  <rect x="40" y="218" width="160" height="12" fill="url(#greenGrad)"/>
+  <text x="120" y="219" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="white">高频规则</text>
+  <text x="120" y="244" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#475569">写入 System Prompt</text>
+  <text x="120" y="260" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#475569">每轮自动加载</text>
+  
+  <!-- Skill 2: 低频复杂操作 -->
+  <rect x="250" y="200" width="160" height="70" rx="10" fill="white" filter="url(#shadow)"/>
+  <rect x="250" y="200" width="160" height="28" rx="10" fill="url(#orangeGrad)"/>
+  <rect x="250" y="218" width="160" height="12" fill="url(#orangeGrad)"/>
+  <text x="330" y="219" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="white">低频复杂操作</text>
+  <text x="330" y="244" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#475569">按需加载 Skill 文件</text>
+  <text x="330" y="260" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#475569">任务触发时注入</text>
+  
+  <!-- Skill 3: 多业务线 -->
+  <rect x="460" y="200" width="160" height="70" rx="10" fill="white" filter="url(#shadow)"/>
+  <rect x="460" y="200" width="160" height="28" rx="10" fill="url(#purpleGrad)"/>
+  <rect x="460" y="218" width="160" height="12" fill="url(#purpleGrad)"/>
+  <text x="540" y="219" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="white">多业务线 Skill</text>
+  <text x="540" y="244" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#475569">不同业务独立文件</text>
+  <text x="540" y="260" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#475569">主 Agent 智能调度</text>
+  
+  <!-- Dashed connecting lines -->
+  <line x1="200" y1="170" x2="120" y2="200" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="330" y1="170" x2="330" y2="200" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="460" y1="170" x2="540" y2="200" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  
+  <!-- Arrow labels -->
+  <text x="155" y="178" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10" fill="#64748B">按需加载</text>
+  <text x="340" y="178" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10" fill="#64748B">按需加载</text>
+  <text x="500" y="178" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10" fill="#64748B">按需加载</text>
+  
+  <!-- Bottom comparison note -->
+  <rect x="100" y="300" width="460" height="56" rx="10" fill="white" filter="url(#shadow)"/>
+  <text x="330" y="324" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#1E293B">✦ 核心优势：无需 Handoff，上下文零丢失</text>
+  <text x="330" y="344" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#64748B">Skill 直接注入主 Agent 上下文，保留完整对话状态与用户信息</text>
+  <text x="330" y="360" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#64748B">相比多子 Agent 架构，避免状态同步开销与碎片化问题</text>
+</svg>

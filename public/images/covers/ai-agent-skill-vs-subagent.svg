@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#44403C"/>
+      <stop offset="100%" stop-color="#1C1917"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="660" height="300" fill="url(#bgGrad)"/>
+
+  <!-- 散点纹理 -->
+  <g fill="#D6D3D1" opacity="0.06">
+    <circle cx="30" cy="50" r="1.5"/>
+    <circle cx="80" cy="120" r="1"/>
+    <circle cx="150" cy="40" r="2"/>
+    <circle cx="200" cy="90" r="1"/>
+    <circle cx="260" cy="30" r="1.5"/>
+    <circle cx="320" cy="110" r="1"/>
+    <circle cx="380" cy="60" r="2"/>
+    <circle cx="440" cy="130" r="1"/>
+    <circle cx="500" cy="45" r="1.5"/>
+    <circle cx="550" cy="100" r="1"/>
+    <circle cx="610" cy="55" r="2"/>
+    <circle cx="45" cy="180" r="1"/>
+    <circle cx="110" cy="220" r="1.5"/>
+    <circle cx="180" cy="170" r="1"/>
+    <circle cx="240" cy="240" r="2"/>
+    <circle cx="300" cy="190" r="1"/>
+    <circle cx="360" cy="250" r="1.5"/>
+    <circle cx="420" cy="200" r="1"/>
+    <circle cx="480" cy="260" r="2"/>
+    <circle cx="540" cy="180" r="1"/>
+    <circle cx="600" cy="230" r="1.5"/>
+    <circle cx="640" cy="170" r="1"/>
+    <circle cx="70" cy="270" r="1"/>
+    <circle cx="130" cy="290" r="1.5"/>
+    <circle cx="190" cy="280" r="1"/>
+    <circle cx="250" cy="295" r="2"/>
+    <circle cx="310" cy="275" r="1"/>
+    <circle cx="370" cy="285" r="1.5"/>
+    <circle cx="430" cy="270" r="1"/>
+    <circle cx="490" cy="290" r="2"/>
+    <circle cx="560" cy="278" r="1"/>
+    <circle cx="620" cy="288" r="1.5"/>
+    <circle cx="25" cy="140" r="1"/>
+    <circle cx="95" cy="60" r="1.5"/>
+    <circle cx="165" cy="150" r="1"/>
+    <circle cx="225" cy="70" r="2"/>
+    <circle cx="285" cy="160" r="1"/>
+    <circle cx="345" cy="80" r="1.5"/>
+    <circle cx="405" cy="170" r="1"/>
+    <circle cx="465" cy="90" r="2"/>
+    <circle cx="525" cy="155" r="1"/>
+    <circle cx="585" cy="75" r="1.5"/>
+    <circle cx="635" cy="145" r="1"/>
+  </g>
+
+  <!-- 左侧强调线 -->
+  <rect x="50" y="30" width="5" height="240" rx="2.5" fill="url(#accentGrad)"/>
+
+  <!-- 标题 -->
+  <text x="70" y="80" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" fill="#FAFAF9">
+    <tspan x="70" dy="0">AI Agent 越拆越慢？</tspan>
+    <tspan x="70" dy="28">Anthropic 用一年试出来的</tspan>
+    <tspan x="70" dy="28">反直觉答案</tspan>
+  </text>
+
+  <!-- 副标题 -->
+  <text x="70" y="162" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#A8A29E">
+    AI Agent 一旦上生产，很多团队都会掉进同一个坑：越忙越爱拆子智能体，结果
+  </text>
+
+  <!-- 标签胶囊 -->
+  <rect x="70" y="242" width="72" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+  <text x="106" y="258" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">AI Agent</text>
+
+  <rect x="150" y="242" width="80" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+  <text x="190" y="258" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">架构设计</text>
+
+  <rect x="238" y="242" width="76" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+  <text x="276" y="258" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">Anthropic</text>
+
+  <!-- 右下角装饰：简笔线条风格的循环箭头图标 -->
+  <g opacity="0.2" stroke="#EA580C" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 循环箭头 -->
+    <path d="M 530 200 A 25 25 0 1 1 505 225" />
+    <polyline points="505,218 505,225 512,225" />
+    <path d="M 570 200 A 25 25 0 1 1 545 225" />
+    <polyline points="545,218 545,225 552,225" />
+    <!-- 小圆点 -->
+    <circle cx="550" cy="212" r="3" stroke="none" fill="#EA580C" opacity="0.5"/>
+  </g>
+
+  <!-- 底部色条 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)"/>
+</svg>
