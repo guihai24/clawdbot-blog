@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300">
+  <!-- 定义样式和滤镜 -->
+  <defs>
+    <!-- 背景渐变 -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78350F" />
+      <stop offset="100%" stop-color="#451A03" />
+    </linearGradient>
+
+    <!-- 强调线和底部条渐变 -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <!-- 散点纹理 -->
+    <pattern id="dotPattern" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1" fill="#D6A456" opacity="0.06" />
+      <circle cx="15" cy="12" r="1.5" fill="#D6A456" opacity="0.06" />
+      <circle cx="8" cy="20" r="1" fill="#D6A456" opacity="0.06" />
+    </pattern>
+  </defs>
+
+  <!-- 1. 背景层 -->
+  <rect width="660" height="300" fill="url(#bgGrad)" />
+  <rect width="660" height="300" fill="url(#dotPattern)" />
+
+  <!-- 2. 左侧强调线 -->
+  <rect x="50" y="45" width="4" height="210" rx="2" fill="url(#accentGrad)" />
+
+  <!-- 3. 文字层 -->
+  <g transform="translate(70, 0)">
+    <!-- 标题 (最多20字每行，font-size=22，dy=28) -->
+    <text x="0" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="bold" fill="#FEFCE8">
+      <tspan x="0" dy="0">DeepSeek开源推理框架DeepInfer：</tspan>
+      <tspan x="0" dy="30">独立开发者如何用它压低AI算力成本？</tspan>
+    </text>
+
+    <!-- 副标题 -->
+    <text x="0" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#D6A456">
+      DeepSeek 开源的推理引擎 DeepInfer 带来了高缓存命中与工业级吞吐
+    </text>
+
+    <!-- 标签胶囊 (y ≈ 240-260) -->
+    <g transform="translate(0, 215)">
+      <!-- 标签 1 -->
+      <rect x="0" y="0" width="80" height="24" rx="12" fill="#92400E" fill-opacity="0.4" />
+      <text x="40" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#FDE68A" text-anchor="middle">搞钱实操</text>
+
+      <!-- 标签 2 -->
+      <rect x="90" y="0" width="84" height="24" rx="12" fill="#92400E" fill-opacity="0.4" />
+      <text x="132" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#FDE68A" text-anchor="middle">算力优化</text>
+
+      <!-- 标签 3 -->
+      <rect x="184" y="0" width="74" height="24" rx="12" fill="#92400E" fill-opacity="0.4" />
+      <text x="221" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#FDE68A" text-anchor="middle">DeepInfer</text>
+    </g>
+  </g>
+
+  <!-- 4. 装饰元素 (仅在右下角 x ≥ 480, y ≥ 180 区域) -->
+  <g transform="translate(530, 195)" stroke="#F59E0B" stroke-width="1.5" fill="none" opacity="0.25" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 简笔服务器/芯片架构风格几何装饰 -->
+    <rect x="0" y="0" width="80" height="60" rx="6" />
+    <line x1="0" y1="20" x2="80" y2="20" />
+    <line x1="0" y1="40" x2="80" y2="40" />
+    <circle cx="15" cy="10" r="2.5" fill="#F59E0B" />
+    <circle cx="25" cy="10" r="2.5" fill="#F59E0B" />
+    <circle cx="15" cy="30" r="2.5" fill="#F59E0B" />
+    <circle cx="25" cy="30" r="2.5" fill="#F59E0B" />
+    <path d="M 35 50 L 45 50 M 55 50 L 65 50" />
+  </g>
+
+  <!-- 5. 底部色条 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
+</svg>
