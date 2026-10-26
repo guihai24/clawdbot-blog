@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" style="background: #FAFAFA; border-radius: 12px; font-family: -apple-system, 'Segoe UI', sans-serif;">
+  <defs>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- 标题 -->
+  <text x="330" y="45" text-anchor="middle" font-size="20" font-weight="700" fill="#1E293B">Playwright MCP 扩展模式配置流程</text>
+
+  <!-- 步骤 1 -->
+  <g transform="translate(50, 80)">
+    <rect width="160" height="260" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="160" height="8" rx="4" fill="#2563EB"/>
+    <circle cx="80" cy="45" r="24" fill="#EFF6FF"/>
+    <text x="80" y="53" text-anchor="middle" font-size="18" font-weight="700" fill="#2563EB">1</text>
+    <text x="80" y="95" text-anchor="middle" font-size="14" font-weight="600" fill="#1E293B">安装浏览器扩展</text>
+    <text x="80" y="130" text-anchor="middle" font-size="12" fill="#64748B">在 Chrome 中</text>
+    <text x="80" y="150" text-anchor="middle" font-size="12" fill="#64748B">安装 Playwright</text>
+    <text x="80" y="170" text-anchor="middle" font-size="12" fill="#64748B">扩展程序，作为</text>
+    <text x="80" y="190" text-anchor="middle" font-size="12" fill="#64748B">连接桥梁</text>
+  </g>
+
+  <!-- 箭头 1 -->
+  <path d="M 220 210 L 246 210" fill="none" stroke="#94A3B8" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="246,206 254,210 246,214" fill="#94A3B8"/>
+
+  <!-- 步骤 2 -->
+  <g transform="translate(250, 80)">
+    <rect width="160" height="260" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="160" height="8" rx="4" fill="#D97706"/>
+    <circle cx="80" cy="45" r="24" fill="#FEF3C7"/>
+    <text x="80" y="53" text-anchor="middle" font-size="18" font-weight="700" fill="#D97706">2</text>
+    <text x="80" y="95" text-anchor="middle" font-size="14" font-weight="600" fill="#1E293B">配置 mcp.json</text>
+    <text x="80" y="130" text-anchor="middle" font-size="12" fill="#64748B">在项目根目录</text>
+    <text x="80" y="150" text-anchor="middle" font-size="12" fill="#64748B">中写入配置，</text>
+    <text x="80" y="170" text-anchor="middle" font-size="12" fill="#64748B">显式带上参数</text>
+    <text x="80" y="190" text-anchor="middle" font-size="11" font-weight="600" fill="#D97706">--extension</text>
+  </g>
+
+  <!-- 箭头 2 -->
+  <path d="M 420 210 L 446 210" fill="none" stroke="#94A3B8" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="446,206 454,210 446,214" fill="#94A3B8"/>
+
+  <!-- 步骤 3 -->
+  <g transform="translate(450, 80)">
+    <rect width="160" height="260" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="160" height="8" rx="4" fill="#16A34A"/>
+    <circle cx="80" cy="45" r="24" fill="#DCFCE7"/>
+    <text x="80" y="53" text-anchor="middle" font-size="18" font-weight="700" fill="#16A34A">3</text>
+    <text x="80" y="95" text-anchor="middle" font-size="14" font-weight="600" fill="#1E293B">授权与静默连接</text>
+    <text x="80" y="130" text-anchor="middle" font-size="12" fill="#64748B">首次弹窗勾选，</text>
+    <text x="80" y="150" text-anchor="middle" font-size="12" fill="#64748B">或配置环境变量</text>
+    <text x="80" y="170" text-anchor="middle" font-size="12" fill="#64748B">实现 Token</text>
+    <text x="80" y="190" text-anchor="middle" font-size="12" fill="#64748B">完全静默自动化</text>
+  </g>
+</svg>

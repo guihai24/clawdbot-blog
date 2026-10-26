@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#44403C"/>
+      <stop offset="100%" stop-color="#1C1917"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <pattern id="grain" width="37" height="31" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="7" r="1" fill="#D6D3D1" opacity="0.6"/>
+      <circle cx="19" cy="22" r="0.8" fill="#D6D3D1" opacity="0.6"/>
+      <circle cx="31" cy="4" r="0.7" fill="#D6D3D1" opacity="0.6"/>
+      <path d="M10 27l2-1M27 15l1.5 1" stroke="#D6D3D1" stroke-width="0.7" opacity="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="660" height="300" fill="url(#bg)"/>
+  <rect width="660" height="293" fill="url(#grain)" opacity="0.06"/>
+  <rect x="50" y="32" width="5" height="226" rx="2.5" fill="url(#accent)"/>
+  <g font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" fill="#FAFAF9" font-weight="700" font-size="22">
+    <text x="70" y="55">
+      <tspan x="70" dy="0">每次让 AI 操作网页都要</tspan>
+      <tspan x="70" dy="28">重新登录？教你一招复用</tspan>
+      <tspan x="70" dy="28">已登录 Chrome</tspan>
+    </text>
+  </g>
+  <text x="70" y="145" font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" font-size="13" fill="#A8A29E">让编程智能体直连真实浏览器，告别登录失效与验证码</text>
+  <g font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" font-size="11" fill="#D6D3D1">
+    <rect x="70" y="240" width="76" height="24" rx="12" fill="#57534E" fill-opacity="0.4" stroke="#A8A29E" stroke-opacity="0.25"/>
+    <text x="108" y="255.5" text-anchor="middle">浏览器自动化</text>
+    <rect x="154" y="240" width="76" height="24" rx="12" fill="#57534E" fill-opacity="0.4" stroke="#A8A29E" stroke-opacity="0.25"/>
+    <text x="192" y="255.5" text-anchor="middle">Chrome</text>
+    <rect x="238" y="240" width="76" height="24" rx="12" fill="#57534E" fill-opacity="0.4" stroke="#A8A29E" stroke-opacity="0.25"/>
+    <text x="276" y="255.5" text-anchor="middle">上手指南</text>
+  </g>
+  <g fill="none" stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.24">
+    <rect x="526" y="199" width="60" height="47" rx="6"/>
+    <path d="M526 211h60M535 205h1M541 205h1M547 205h1"/>
+    <path d="M543 224l-7 7 7 7M558 224l7 7-7 7M554 222l-6 18"/>
+    <path d="M608 220a17 17 0 1 1-6-13" stroke="#A8A29E"/>
+    <path d="M602 201l1 8 8-1" stroke="#A8A29E"/>
+  </g>
+  <g fill="none" stroke="#A8A29E" stroke-width="1.5" opacity="0.2">
+    <path d="M501 255h26M514 242v26"/>
+    <circle cx="514" cy="255" r="12"/>
+  </g>
+  <rect x="0" y="293" width="660" height="7" fill="url(#accent)"/>
+</svg>
