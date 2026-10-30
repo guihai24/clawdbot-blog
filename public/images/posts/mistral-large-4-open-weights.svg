@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" font-family="-apple-system, 'Segoe UI', sans-serif">
+  <rect width="100%" height="100%" fill="#FAFAFA" rx="12" />
+  
+  <!-- 标题 -->
+  <text x="40" y="45" font-size="20" font-weight="bold" fill="#1E293B">Mistral Large 4: 规格与架构拆解</text>
+  
+  <!-- 左侧：参数与内存错位 (MoE) -->
+  <g transform="translate(40, 75)">
+    <rect width="270" height="280" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.05))" />
+    <rect x="0" y="0" width="270" height="40" rx="8" fill="#2563EB" />
+    <text x="20" y="26" font-size="14" font-weight="bold" fill="#FFFFFF">参数与资源错位 (MoE)</text>
+    
+    <g transform="translate(20, 60)">
+      <circle cx="15" cy="15" r="12" fill="#EFF6FF" />
+      <text x="15" y="20" font-size="12" font-weight="bold" fill="#2563EB" text-anchor="middle">1T</text>
+      <text x="40" y="15" font-size="13" font-weight="bold" fill="#1E293B">总参数量</text>
+      <text x="40" y="32" font-size="11" fill="#64748B">显存按 1T 付（硬件门槛高）</text>
+    </g>
+    
+    <g transform="translate(20, 130)">
+      <circle cx="15" cy="15" r="12" fill="#F0FDF4" />
+      <text x="15" y="20" font-size="12" font-weight="bold" fill="#16A34A" text-anchor="middle">49B</text>
+      <text x="40" y="15" font-size="13" font-weight="bold" fill="#1E293B">激活参数量</text>
+      <text x="40" y="32" font-size="11" fill="#64748B">计算量按 49B 付（算力成本省）</text>
+    </g>
+
+    <g transform="translate(20, 200)">
+      <rect width="230" height="50" rx="6" fill="#F8FAFC" stroke="#E2E8F0" />
+      <text x="15" y="22" font-size="11" font-weight="bold" fill="#334155">MoE 路由机制:</text>
+      <text x="15" y="38" font-size="11" fill="#64748B">128选4 + 1共享专家 (每token活5个)</text>
+    </g>
+  </g>
+  
+  <!-- 右侧：双层稀疏与长文本 -->
+  <g transform="translate(350, 75)">
+    <rect width="270" height="280" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.05))" />
+    <rect x="0" y="0" width="270" height="40" rx="8" fill="#9333EA" />
+    <text x="20" y="26" font-size="14" font-weight="bold" fill="#FFFFFF">双层稀疏与长文本支撑</text>
+    
+    <g transform="translate(20, 65)">
+      <rect width="230" height="60" rx="6" fill="#FAF5FF" stroke="#E9D5FF" />
+      <text x="15" y="22" font-size="12" font-weight="bold" fill="#7E22CE">1层：专家维度稀疏</text>
+      <text x="15" y="42" font-size="11" fill="#6B21A8">MoE 动态路由选择网络专家</text>
+    </g>
+    
+    <g transform="translate(20, 140)">
+      <rect width="230" height="60" rx="6" fill="#FAF5FF" stroke="#E9D5FF" />
+      <text x="15" y="22" font-size="12" font-weight="bold" fill="#7E22CE">2层：上下文维度稀疏</text>
+      <text x="15" y="42" font-size="11" fill="#6B21A8">MLA 压缩 KV + 稀疏索引 (每Q限2048)</text>
+    </g>
+    
+    <g transform="translate(20, 215)">
+      <circle cx="15" cy="15" r="10" fill="#FEF3C7" />
+      <text x="15" y="19" font-size="10" font-weight="bold" fill="#D97706" text-anchor="middle">⚡</text>
+      <text x="35" y="19" font-size="12" font-weight="bold" fill="#D97706">1M tokens 上下文运行前提</text>
+    </g>
+  </g>
+</svg>

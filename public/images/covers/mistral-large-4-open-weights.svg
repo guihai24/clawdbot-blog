@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300">
+  <defs>
+    <!-- 背景渐变 -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3F4A3C" />
+      <stop offset="100%" stop-color="#1A2218" />
+    </linearGradient>
+
+    <!-- 强调线渐变 -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8B9A6D" />
+      <stop offset="100%" stop-color="#6B7A4E" />
+    </linearGradient>
+
+    <!-- 不规则散点纹理 -->
+    <pattern id="dotTexture" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="1" fill="#A8B89A" opacity="0.06" />
+      <circle cx="18" cy="12" r="1.5" fill="#A8B89A" opacity="0.04" />
+      <circle cx="12" cy="22" r="1" fill="#A8B89A" opacity="0.05" />
+      <circle cx="25" cy="27" r="1.2" fill="#A8B89A" opacity="0.06" />
+    </pattern>
+  </defs>
+
+  <!-- 背景层 -->
+  <rect width="660" height="300" fill="url(#bgGrad)" />
+  <rect width="660" height="300" fill="url(#dotTexture)" />
+
+  <!-- 左侧强调线 -->
+  <rect x="50" y="45" width="4.5" height="195" rx="2" fill="url(#accentGrad)" />
+
+  <!-- 文字层 -->
+  <g transform="translate(72, 0)">
+    <!-- 标题 (多行) -->
+    <text x="0" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#F0F4EC">
+      <tspan x="0" dy="0">Mistral Large 4 开源：</tspan>
+      <tspan x="0" dy="30">1M 上下文很香，1T 参数别急着跑</tspan>
+    </text>
+
+    <!-- 副标题 -->
+    <text x="0" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="400" font-size="13" fill="#A8B89A">
+      1T 参数、49B 激活、1M 上下文，开源权重模型的极限与现实
+    </text>
+
+    <!-- 标签胶囊区域 (y ≈ 215) -->
+    <g transform="translate(0, 205)">
+      <!-- 标签 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="84" height="24" rx="12" fill="#5A664F" fill-opacity="0.4" />
+        <text x="42" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#D4DEC8" text-anchor="middle">开源大模型</text>
+      </g>
+      <!-- 标签 2 -->
+      <g transform="translate(94, 0)">
+        <rect width="74" height="24" rx="12" fill="#5A664F" fill-opacity="0.4" />
+        <text x="37" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#D4DEC8" text-anchor="middle">行业速递</text>
+      </g>
+      <!-- 标签 3 -->
+      <g transform="translate(178, 0)">
+        <rect width="74" height="24" rx="12" fill="#5A664F" fill-opacity="0.4" />
+        <text x="37" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#D4DEC8" text-anchor="middle">模型架构</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 装饰元素 (只能放在右下角，x >= 480, y >= 180) -->
+  <g transform="translate(530, 195)" opacity="0.25">
+    <!-- 简笔神经网络/MoE 节点抽象线条风格 -->
+    <circle cx="10" cy="30" r="6" fill="none" stroke="#8B9A6D" stroke-width="2" />
+    <circle cx="50" cy="10" r="5" fill="none" stroke="#8B9A6D" stroke-width="2" />
+    <circle cx="50" cy="50" r="5" fill="none" stroke="#8B9A6D" stroke-width="2" />
+    <circle cx="90" cy="30" r="8" fill="none" stroke="#8B9A6D" stroke-width="2" />
+    
+    <!-- 连接线 -->
+    <line x1="16" y1="27" x2="44" y2="13" stroke="#8B9A6D" stroke-width="1.5" stroke-dasharray="3 3" />
+    <line x1="16" y1="33" x2="44" y2="47" stroke="#8B9A6D" stroke-width="1.5" />
+    <line x1="55" y1="13" x2="83" y2="27" stroke="#8B9A6D" stroke-width="1.5" />
+    <line x1="55" y1="47" x2="83" y2="33" stroke="#8B9A6D" stroke-width="1.5" stroke-dasharray="3 3" />
+  </g>
+
+  <!-- 底部色条 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
+</svg>
