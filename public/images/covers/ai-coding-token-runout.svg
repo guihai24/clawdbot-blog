@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300">
+  <defs>
+    <!-- 背景渐变 -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#44403C" />
+      <stop offset="100%" stop-color="#1C1917" />
+    </linearGradient>
+
+    <!-- 强调线和底部条渐变 -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+
+    <!-- 不规则散点纹理 -->
+    <pattern id="dotPattern" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="18" cy="12" r="1.5" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="10" cy="22" r="1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="25" cy="25" r="1.2" fill="#D6D3D1" opacity="0.06" />
+    </pattern>
+  </defs>
+
+  <!-- 1. 背景层 -->
+  <rect width="660" height="300" fill="url(#bgGrad)" />
+  <rect width="660" height="300" fill="url(#dotPattern)" />
+
+  <!-- 2. 左侧强调线 -->
+  <rect x="50" y="45" width="4.5" height="210" rx="2" fill="url(#accentGrad)" />
+
+  <!-- 3. 文字层 -->
+  <g transform="translate(70, 0)">
+    <!-- 标题 (多行，最多20字/行) -->
+    <text x="0" y="78" fill="#FAFAF9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold">
+      <tspan x="0" dy="0">AI 编程没额度时，能自己</tspan>
+      <tspan x="0" dy="28">接手的只有三类改动</tspan>
+    </text>
+
+    <!-- 副标题 -->
+    <text x="0" y="152" fill="#A8A29E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">
+      AI 编程没额度时，暴露的不是手速问题，是代码里有没有给人留入口。
+    </text>
+
+    <!-- 标签胶囊 -->
+    <g transform="translate(0, 240)">
+      <!-- 标签 1: 上手指南 -->
+      <rect x="0" y="0" width="80" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
+      <text x="40" y="16" fill="#D6D3D1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" text-anchor="middle">上手指南</text>
+
+      <!-- 标签 2: AI 编程 -->
+      <rect x="88" y="0" width="80" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
+      <text x="128" y="16" fill="#D6D3D1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" text-anchor="middle">AI 编程</text>
+
+      <!-- 标签 3: 断粮应急 -->
+      <rect x="176" y="0" width="80" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
+      <text x="216" y="16" fill="#D6D3D1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" text-anchor="middle">断粮应急</text>
+    </g>
+  </g>
+
+  <!-- 4. 装饰元素 (右下角 x >= 480, y >= 180) -->
+  <g transform="translate(530, 190)" opacity="0.22">
+    <!-- 简笔代码窗口图形 -->
+    <rect x="0" y="0" width="90" height="64" rx="6" fill="none" stroke="#EA580C" stroke-width="2" />
+    <line x1="12" y1="16" x2="35" y2="16" stroke="#EA580C" stroke-width="2" stroke-linecap="round" />
+    <line x1="12" y1="28" x2="65" y2="28" stroke="#A8A29E" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="12" y1="38" x2="50" y2="38" stroke="#A8A29E" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="12" y1="48" x2="40" y2="48" stroke="#EA580C" stroke-width="1.5" stroke-linecap="round" />
+    <!-- 状态指示点 -->
+    <circle cx="75" cy="16" r="3" fill="#F59E0B" />
+  </g>
+
+  <!-- 5. 底部色条 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
+</svg>
