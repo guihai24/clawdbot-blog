@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300">
+  <!-- 定义渐变与纹理 -->
+  <defs>
+    <!-- 背景渐变 -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#44403C" />
+      <stop offset="100%" stop-color="#1C1917" />
+    </linearGradient>
+
+    <!-- 强调线和底部色条渐变 -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+
+    <!-- 颗粒感散点纹理 -->
+    <pattern id="dotTexture" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="12" cy="15" r="0.8" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="17" cy="7" r="1.2" fill="#D6D3D1" opacity="0.06" />
+    </pattern>
+  </defs>
+
+  <!-- 1. 背景层 -->
+  <rect width="660" height="300" fill="url(#bgGrad)" />
+  <rect width="660" height="300" fill="url(#dotTexture)" />
+
+  <!-- 2. 左侧强调线 -->
+  <rect x="50" y="45" width="4.5" height="210" rx="2" fill="url(#accentGrad)" />
+
+  <!-- 3. 文字层 -->
+  <g transform="translate(70, 0)">
+    <!-- 标题 (font-size=22px，最多2行，dy=28) -->
+    <text x="0" y="85" fill="#FAFAF9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22px" font-weight="bold">
+      <tspan x="0" dy="0">AI 自动化测试：代码写完了，</tspan>
+      <tspan x="0" dy="28">谁替你点登录和支付</tspan>
+    </text>
+
+    <!-- 副标题 (font-size=13px，紧跟标题下方) -->
+    <text x="0" y="152" fill="#A8A29E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13px">
+      AI 能把一个小产品一天写完，但登录、加购、支付没人替你点。
+    </text>
+
+    <!-- 标签胶囊 (y ≈ 215-240) -->
+    <g transform="translate(0, 205)">
+      <!-- 标签 1: 上手指南 -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="80" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
+        <text x="40" y="16" fill="#D6D3D1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11px" text-anchor="middle">上手指南</text>
+      </g>
+      <!-- 标签 2: AI 测试 -->
+      <g transform="translate(88, 0)">
+        <rect x="0" y="0" width="76" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
+        <text x="38" y="16" fill="#D6D3D1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11px" text-anchor="middle">AI 测试</text>
+      </g>
+      <!-- 标签 3: E2E 自动化 -->
+      <g transform="translate(172, 0)">
+        <rect x="0" y="0" width="90" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
+        <text x="45" y="16" fill="#D6D3D1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11px" text-anchor="middle">E2E 自动化</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 4. 装饰元素 (严格放在右下角 x ≥ 480, y ≥ 180 区域) -->
+  <g transform="translate(520, 195)" opacity="0.25">
+    <!-- 简笔线条风格：浏览器/测试窗口与对勾几何图形 -->
+    <rect x="0" y="0" width="100" height="70" rx="6" fill="none" stroke="#EA580C" stroke-width="2" />
+    <!-- 浏览器顶部圆点 -->
+    <circle cx="12" cy="10" r="2.5" fill="#EA580C" />
+    <circle cx="21" cy="10" r="2.5" fill="#EA580C" />
+    <circle cx="30" cy="10" r="2.5" fill="#EA580C" />
+    <!-- 内部线条 (模拟UI元素) -->
+    <line x1="12" y1="24" x2="60" y2="24" stroke="#A8A29E" stroke-width="2" stroke-linecap="round" />
+    <rect x="12" y="34" width="76" height="12" rx="3" fill="none" stroke="#A8A29E" stroke-width="1.5" />
+    <!-- 成功对勾小图标 -->
+    <circle cx="78" cy="53" r="10" fill="#EA580C" opacity="0.3" />
+    <path d="M73 53 L76 56 L84 48" fill="none" stroke="#FAFAF9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- 5. 底部色条 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
+</svg>
