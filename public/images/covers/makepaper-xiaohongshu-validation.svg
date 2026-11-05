@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300">
+  <defs>
+    <!-- 背景渐变 -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78350F" />
+      <stop offset="100%" stop-color="#451A03" />
+    </linearGradient>
+
+    <!-- 强调线和底部条渐变 -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <!-- 不规则散点纹理 -->
+    <pattern id="dotTexture" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="1" fill="#D6A456" opacity="0.06" />
+      <circle cx="18" cy="12" r="1.5" fill="#D6A456" opacity="0.05" />
+      <circle cx="12" cy="24" r="1" fill="#D6A456" opacity="0.06" />
+      <circle cx="25" cy="22" r="0.8" fill="#D6A456" opacity="0.07" />
+    </pattern>
+  </defs>
+
+  <!-- 1. 背景层 -->
+  <rect width="660" height="300" fill="url(#bgGrad)" />
+  <rect width="660" height="300" fill="url(#dotTexture)" />
+
+  <!-- 2. 左侧强调线 -->
+  <rect x="50" y="45" width="4.5" height="210" rx="2.25" fill="url(#accentGrad)" />
+
+  <!-- 3. 文字层 -->
+  <g transform="translate(70, 0)">
+    <!-- 标题 (自动换行，每行控制在20字以内) -->
+    <text y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#FEFCE8">
+      <tspan x="70" dy="0">小红书百万流量：独立开发者</tspan>
+      <tspan x="70" dy="30">如何低成本验证需求</tspan>
+    </text>
+
+    <!-- 副标题 -->
+    <text x="70" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#D6A456">
+      MakePaper 靠持续发布 AI 壁纸，半年多收获 100 万浏览量
+    </text>
+
+    <!-- 标签胶囊 (y ≈ 240-260) -->
+    <g transform="translate(70, 230)">
+      <!-- 标签 1 -->
+      <rect x="0" y="0" width="76" height="24" rx="12" fill="#92400E" fill-opacity="0.4" />
+      <text x="38" y="16" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#FDE68A" text-anchor="middle">搞钱实操</text>
+
+      <!-- 标签 2 -->
+      <rect x="86" y="0" width="76" height="24" rx="12" fill="#92400E" fill-opacity="0.4" />
+      <text x="124" y="16" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#FDE68A" text-anchor="middle">需求验证</text>
+
+      <!-- 标签 3 -->
+      <rect x="172" y="0" width="76" height="24" rx="12" fill="#92400E" fill-opacity="0.4" />
+      <text x="210" y="16" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#FDE68A" text-anchor="middle">独立开发</text>
+    </g>
+  </g>
+
+  <!-- 4. 装饰元素 (右下角 x ≥ 480, y ≥ 180 区域) -->
+  <g transform="translate(540, 185)" opacity="0.25">
+    <!-- 简笔图标：手机与趋势折线 -->
+    <rect x="10" y="5" width="40" height="70" rx="6" fill="none" stroke="#F59E0B" stroke-width="2.5" />
+    <line x1="22" y1="12" x2="38" y2="12" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" />
+    <circle cx="30" cy="68" r="3" fill="#F59E0B" />
+    <!-- 增长曲线 -->
+    <path d="M 58 60 L 72 45 L 85 52 L 102 22" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <polyline points="92,22 102,22 102,32" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- 5. 底部色条 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
+</svg>
