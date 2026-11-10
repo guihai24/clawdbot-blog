@@ -1,0 +1,76 @@
+<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" viewBox="0 0 660 300" width="660" height="300">
+  <defs>
+    <!-- 背景渐变 -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#44403C" />
+      <stop offset="100%" stop-color="#1C1917" />
+    </linearGradient>
+
+    <!-- 强调线和底部色条渐变 -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+
+    <!-- 颗粒感纹理图案 -->
+    <pattern id="dotTexture" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="12" cy="15" r="1.2" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="17" cy="8" r="0.8" fill="#D6D3D1" opacity="0.06" />
+    </pattern>
+  </defs>
+
+  <!-- 1. 背景层：渐变背景 + 纸张颗粒感散点纹理 -->
+  <rect width="660" height="300" fill="url(#bgGrad)" />
+  <rect width="660" height="300" fill="url(#dotTexture)" />
+
+  <!-- 2. 左侧强调线 (x=50, 宽 4px, 高度覆盖主体区域) -->
+  <rect x="50" y="45" width="4" height="210" rx="2" fill="url(#accentGrad)" />
+
+  <!-- 3. 文字层 (从 x=70 开始) -->
+  <g transform="translate(70, 0)">
+    <!-- 标题 (font-size=22px 粗体，用 tspan 拆行，行间距 dy=28) -->
+    <text x="0" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22px" font-weight="bold" fill="#FAFAF9">
+      <tspan x="0" dy="0">GPT-Image 2.6 做 GIF：</tspan>
+      <tspan x="0" dy="28">提示词其实只有三段</tspan>
+    </text>
+
+    <!-- 副标题 (font-size=13px，紧跟标题下方) -->
+    <text x="0" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13px" fill="#A8A29E">
+      GPT-Image 2.6 原生支持生成 GIF，但决定成败的不是模型，是提示词
+    </text>
+
+    <!-- 标签胶囊 (y ≈ 240-260) -->
+    <g transform="translate(0, 222)">
+      <!-- 标签 1：上手指南 -->
+      <g transform="translate(0, 0)">
+        <rect width="84" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
+        <text x="42" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11px" fill="#D6D3D1" text-anchor="middle">上手指南</text>
+      </g>
+      <!-- 标签 2：GIF动画 -->
+      <g transform="translate(94, 0)">
+        <rect width="84" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
+        <text x="42" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11px" fill="#D6D3D1" text-anchor="middle">GIF动画</text>
+      </g>
+      <!-- 标签 3：提示词结构 -->
+      <g transform="translate(188, 0)">
+        <rect width="92" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
+        <text x="46" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11px" fill="#D6D3D1" text-anchor="middle">提示词结构</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 4. 装饰元素 (放在右下角，x ≥ 480, y ≥ 180 的区域内，简笔线条风格，opacity 0.25) -->
+  <g transform="translate(520, 195)" stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.25">
+    <!-- 循环播放/动图图标 (简笔线条) -->
+    <path d="M 15 10 A 25 25 0 1 1 5 35" />
+    <polyline points="0,35 5,35 5,30" />
+    <path d="M 35 55 A 25 25 0 1 1 45 30" />
+    <polyline points="50,30 45,30 45,35" />
+    <!-- 内部几何点缀 -->
+    <circle cx="25" cy="32" r="6" stroke-dasharray="3 3" />
+  </g>
+
+  <!-- 5. 底部色条：y=293，高 7px，横贯全宽 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
+</svg>
