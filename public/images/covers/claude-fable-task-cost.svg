@@ -1,0 +1,85 @@
+<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" viewBox="0 0 660 300" width="660" height="300">
+  <!-- 颜色定义与样式 -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3F4A3C" />
+      <stop offset="100%" stop-color="#1A2218" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B9A6D" />
+      <stop offset="100%" stop-color="#6B7A4E" />
+    </linearGradient>
+  </defs>
+
+  <!-- 1. 背景层：渐变背景 -->
+  <rect width="660" height="300" fill="url(#bgGrad)" />
+
+  <!-- 背景颗粒散点纹理 (opacity 0.06) -->
+  <g fill="#A8B89A" opacity="0.06">
+    <circle cx="45" cy="30" r="1.5" />
+    <circle cx="120" cy="85" r="1" />
+    <circle cx="210" cy="40" r="1.2" />
+    <circle cx="330" cy="70" r="1" />
+    <circle cx="420" cy="25" r="1.5" />
+    <circle cx="510" cy="90" r="1.2" />
+    <circle cx="615" cy="45" r="1" />
+    <circle cx="85" cy="150" r="1" />
+    <circle cx="170" cy="190" r="1.5" />
+    <circle cx="260" cy="130" r="1.2" />
+    <circle cx="390" cy="175" r="1" />
+    <circle cx="480" cy="140" r="1.5" />
+    <circle cx="580" cy="180" r="1" />
+    <circle cx="30" cy="240" r="1.2" />
+    <circle cx="140" cy="270" r="1" />
+    <circle cx="230" cy="220" r="1.5" />
+    <circle cx="350" cy="260" r="1.2" />
+    <circle cx="450" cy="230" r="1" />
+    <circle cx="550" cy="265" r="1.5" />
+  </g>
+
+  <!-- 2. 左侧强调线 (x=50, 宽 4px, 全高部分) -->
+  <rect x="50" y="45" width="4" height="210" rx="2" fill="url(#accentGrad)" />
+
+  <!-- 3. 文字层 (从 x=70 开始) -->
+  <!-- 标题：font-size=22px 粗体，每行最多20个汉字，行间距 dy=28 -->
+  <text x="70" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22px" font-weight="bold" fill="#F0F4EC">
+    <tspan x="70" dy="0">Claude单价降20%，</tspan>
+    <tspan x="70" dy="28">为什么账单反而涨了</tspan>
+  </text>
+
+  <!-- 副标题：font-size=13px，一行，紧跟标题下方 -->
+  <text x="70" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13px" fill="#A8B89A">
+    Claude Fable 5.2 降价背后：当模型比你想象的更勤奋
+  </text>
+
+  <!-- 标签胶囊：y ≈ 240-260，宽 70-90px，高 24px -->
+  <g transform="translate(70, 238)">
+    <!-- 标签 1 -->
+    <rect x="0" y="0" width="76" height="24" rx="12" fill="#5A664F" fill-opacity="0.4" />
+    <text x="38" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11px" fill="#D4DEC8" text-anchor="middle">行业速递</text>
+
+    <!-- 标签 2 -->
+    <rect x="88" y="0" width="88" height="24" rx="12" fill="#5A664F" fill-opacity="0.4" />
+    <text x="132" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11px" fill="#D4DEC8" text-anchor="middle">API成本分析</text>
+
+    <!-- 标签 3 -->
+    <rect x="188" y="0" width="76" height="24" rx="12" fill="#5A664F" fill-opacity="0.4" />
+    <text x="226" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11px" fill="#D4DEC8" text-anchor="middle">省钱策略</text>
+  </g>
+
+  <!-- 4. 装饰元素 (右下角 x ≥ 480, y ≥ 180) -->
+  <g transform="translate(530, 195)" stroke="#8B9A6D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.25">
+    <!-- 简笔大模型/数据折线图标 -->
+    <path d="M 10 40 L 30 20 L 50 32 L 75 10" />
+    <circle cx="30" cy="20" r="3" fill="#8B9A6D" />
+    <circle cx="50" cy="32" r="3" fill="#8B9A6D" />
+    <circle cx="75" cy="10" r="3" fill="#8B9A6D" />
+    <!-- 趋势上升箭头点缀 -->
+    <path d="M 60 10 L 75 10 L 75 25" />
+    <!-- 底部基准线 -->
+    <line x1="5" y1="50" x2="85" y2="50" stroke-dasharray="3,3" stroke-width="1.5" />
+  </g>
+
+  <!-- 5. 底部色条 (y=293，高 7px，横贯全宽) -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
+</svg>
