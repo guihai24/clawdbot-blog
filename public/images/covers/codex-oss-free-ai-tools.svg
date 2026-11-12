@@ -10,23 +10,23 @@
     </linearGradient>
   </defs>
   
-  <rect width="660" height="300" fill="url(#bgGrad)"/>
+  <rect width="660" height="300" fill="url(#bgGrad)" />
   
   <g opacity="0.06">
-    <circle cx="120" cy="45" r="2" fill="#D6A456"/>
-    <circle cx="280" cy="80" r="1.5" fill="#D6A456"/>
-    <circle cx="450" cy="60" r="2" fill="#D6A456"/>
-    <circle cx="180" cy="120" r="1.5" fill="#D6A456"/>
-    <circle cx="380" cy="140" r="2" fill="#D6A456"/>
-    <circle cx="520" cy="110" r="1.5" fill="#D6A456"/>
-    <circle cx="150" cy="180" r="2" fill="#D6A456"/>
-    <circle cx="320" cy="200" r="1.5" fill="#D6A456"/>
-    <circle cx="240" cy="160" r="1.5" fill="#D6A456"/>
+    <circle cx="120" cy="45" r="2" fill="#D6A456" />
+    <circle cx="280" cy="80" r="1.5" fill="#D6A456" />
+    <circle cx="450" cy="60" r="2" fill="#D6A456" />
+    <circle cx="180" cy="120" r="1.5" fill="#D6A456" />
+    <circle cx="380" cy="140" r="2" fill="#D6A456" />
+    <circle cx="520" cy="110" r="1.5" fill="#D6A456" />
+    <circle cx="150" cy="180" r="2" fill="#D6A456" />
+    <circle cx="320" cy="200" r="1.5" fill="#D6A456" />
+    <circle cx="240" cy="160" r="1.5" fill="#D6A456" />
   </g>
   
-  <rect x="50" y="0" width="5" height="300" fill="url(#accentGrad)"/>
+  <rect x="50" y="0" width="5" height="300" fill="url(#accentGrad)" />
   
-  <text x="70" y="80" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="bold" fill="#FEFCE8">
+  <text x="70" y="80" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16.038" font-weight="bold" fill="#FEFCE8">
     <tspan x="70" dy="0">OpenAI 和 Anthropic 都在送钱：</tspan>
     <tspan x="70" dy="28">开源维护者如何领 6 个月</tspan>
     <tspan x="70" dy="28">免费 AI 工具</tspan>
@@ -37,30 +37,30 @@
   </text>
   
   <g transform="translate(70, 245)">
-    <rect width="85" height="24" rx="12" fill="#92400E" opacity="0.4"/>
+    <rect width="85" height="24" rx="12" fill="#92400E" opacity="0.4" />
     <text x="42.5" y="16" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#FDE68A" text-anchor="middle">开源项目</text>
   </g>
   
   <g transform="translate(170, 245)">
-    <rect width="75" height="24" rx="12" fill="#92400E" opacity="0.4"/>
+    <rect width="75" height="24" rx="12" fill="#92400E" opacity="0.4" />
     <text x="37.5" y="16" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#FDE68A" text-anchor="middle">AI 工具</text>
   </g>
   
   <g transform="translate(260, 245)">
-    <rect width="80" height="24" rx="12" fill="#92400E" opacity="0.4"/>
+    <rect width="80" height="24" rx="12" fill="#92400E" opacity="0.4" />
     <text x="40" y="16" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#FDE68A" text-anchor="middle">搞钱实操</text>
   </g>
   
   <g transform="translate(540, 210)" opacity="0.2">
-    <circle cx="30" cy="30" r="25" fill="none" stroke="#F59E0B" stroke-width="2"/>
-    <path d="M 20 30 L 30 20 L 40 30 L 30 40 Z" fill="#F59E0B"/>
+    <circle cx="30" cy="30" r="25" fill="none" stroke="#F59E0B" stroke-width="2" />
+    <path d="M 20 30 L 30 20 L 40 30 L 30 40 Z" fill="#F59E0B" />
   </g>
   
   <g transform="translate(500, 240)" opacity="0.25">
-    <rect x="0" y="0" width="35" height="35" rx="4" fill="none" stroke="#D6A456" stroke-width="2"/>
-    <line x1="8" y1="17.5" x2="27" y2="17.5" stroke="#D6A456" stroke-width="2"/>
-    <line x1="17.5" y1="8" x2="17.5" y2="27" stroke="#D6A456" stroke-width="2"/>
+    <rect x="0" y="0" width="35" height="35" rx="4" fill="none" stroke="#D6A456" stroke-width="2" />
+    <line x1="8" y1="17.5" x2="27" y2="17.5" stroke="#D6A456" stroke-width="2" />
+    <line x1="17.5" y1="8" x2="17.5" y2="27" stroke="#D6A456" stroke-width="2" />
   </g>
   
-  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)"/>
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
 </svg>

@@ -1,31 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#44403C"/>
-      <stop offset="100%" style="stop-color:#1C1917"/>
+      <stop offset="0%" style="stop-color:#44403C" />
+      <stop offset="100%" style="stop-color:#1C1917" />
     </linearGradient>
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#EA580C"/>
-      <stop offset="100%" style="stop-color:#F59E0B"/>
+      <stop offset="0%" style="stop-color:#EA580C" />
+      <stop offset="100%" style="stop-color:#F59E0B" />
     </linearGradient>
   </defs>
   
-  <rect width="660" height="300" fill="url(#bgGrad)"/>
+  <rect width="660" height="300" fill="url(#bgGrad)" />
   
   <g opacity="0.06">
-    <circle cx="120" cy="45" r="2" fill="#D6D3D1"/>
-    <circle cx="280" cy="90" r="1.5" fill="#D6D3D1"/>
-    <circle cx="450" cy="60" r="2" fill="#D6D3D1"/>
-    <circle cx="180" cy="150" r="1.5" fill="#D6D3D1"/>
-    <circle cx="350" cy="180" r="2" fill="#D6D3D1"/>
-    <circle cx="520" cy="120" r="1.5" fill="#D6D3D1"/>
-    <circle cx="90" cy="220" r="2" fill="#D6D3D1"/>
-    <circle cx="240" cy="250" r="1.5" fill="#D6D3D1"/>
+    <circle cx="120" cy="45" r="2" fill="#D6D3D1" />
+    <circle cx="280" cy="90" r="1.5" fill="#D6D3D1" />
+    <circle cx="450" cy="60" r="2" fill="#D6D3D1" />
+    <circle cx="180" cy="150" r="1.5" fill="#D6D3D1" />
+    <circle cx="350" cy="180" r="2" fill="#D6D3D1" />
+    <circle cx="520" cy="120" r="1.5" fill="#D6D3D1" />
+    <circle cx="90" cy="220" r="2" fill="#D6D3D1" />
+    <circle cx="240" cy="250" r="1.5" fill="#D6D3D1" />
   </g>
   
-  <rect x="50" y="0" width="5" height="300" fill="url(#accentGrad)"/>
+  <rect x="50" y="0" width="5" height="300" fill="url(#accentGrad)" />
   
-  <text x="70" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#FAFAF9">
+  <text x="70" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="19.8" font-weight="bold" fill="#FAFAF9">
     <tspan x="70" dy="0">0.6B 小模型微调击败 GPT-5？</tspan>
     <tspan x="70" dy="28">我用 Qwen3 跑了个真实项目</tspan>
   </text>
@@ -34,20 +34,20 @@
     微调后的 Qwen3 小模型在特定任务上能超过大模型。但这对你意味着什么？我用一
   </text>
   
-  <rect x="70" y="240" width="85" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+  <rect x="70" y="240" width="85" height="24" rx="12" fill="#57534E" opacity="0.4" />
   <text x="112.5" y="256" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#D6D3D1" text-anchor="middle">小模型微调</text>
   
-  <rect x="165" y="240" width="70" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+  <rect x="165" y="240" width="70" height="24" rx="12" fill="#57534E" opacity="0.4" />
   <text x="200" y="256" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#D6D3D1" text-anchor="middle">Qwen3</text>
   
-  <rect x="245" y="240" width="75" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+  <rect x="245" y="240" width="75" height="24" rx="12" fill="#57534E" opacity="0.4" />
   <text x="282.5" y="256" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#D6D3D1" text-anchor="middle">上手指南</text>
   
   <g opacity="0.2">
-    <path d="M520 210 L560 210 L560 250 L520 250 Z M525 215 L555 215 L555 230 L525 230 Z M530 235 L550 235 M530 242 L545 242" stroke="#EA580C" stroke-width="2" fill="none"/>
-    <circle cx="600" cy="230" r="25" stroke="#A8A29E" stroke-width="2" fill="none" opacity="0.25"/>
-    <path d="M590 230 L600 220 L610 230" stroke="#A8A29E" stroke-width="2" fill="none"/>
+    <path d="M520 210 L560 210 L560 250 L520 250 Z M525 215 L555 215 L555 230 L525 230 Z M530 235 L550 235 M530 242 L545 242" stroke="#EA580C" stroke-width="2" fill="none" />
+    <circle cx="600" cy="230" r="25" stroke="#A8A29E" stroke-width="2" fill="none" opacity="0.25" />
+    <path d="M590 230 L600 220 L610 230" stroke="#A8A29E" stroke-width="2" fill="none" />
   </g>
   
-  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)"/>
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
 </svg>

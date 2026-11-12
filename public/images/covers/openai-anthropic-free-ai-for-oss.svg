@@ -1,63 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#3F4A3C"/>
-      <stop offset="100%" style="stop-color:#1A2218"/>
+      <stop offset="0%" style="stop-color:#3F4A3C" />
+      <stop offset="100%" style="stop-color:#1A2218" />
     </linearGradient>
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#8B9A6D"/>
-      <stop offset="100%" style="stop-color:#6B7A4E"/>
+      <stop offset="0%" style="stop-color:#8B9A6D" />
+      <stop offset="100%" style="stop-color:#6B7A4E" />
     </linearGradient>
     <filter id="noise">
-      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/>
-      <feColorMatrix type="saturate" values="0"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch" />
+      <feColorMatrix type="saturate" values="0" />
       <feComponentTransfer>
-        <feFuncR type="linear" slope="0.3"/>
-        <feFuncG type="linear" slope="0.3"/>
-        <feFuncB type="linear" slope="0.3"/>
+        <feFuncR type="linear" slope="0.3" />
+        <feFuncG type="linear" slope="0.3" />
+        <feFuncB type="linear" slope="0.3" />
       </feComponentTransfer>
     </filter>
   </defs>
   
-  <rect width="660" height="300" fill="url(#bgGrad)"/>
-  <rect width="660" height="300" fill="#A8B89A" filter="url(#noise)" opacity="0.06"/>
+  <rect width="660" height="300" fill="url(#bgGrad)" />
+  <rect width="660" height="300" fill="#A8B89A" filter="url(#noise)" opacity="0.06" />
   
-  <rect x="50" y="20" width="5" height="260" fill="url(#accentGrad)" opacity="0.8"/>
+  <rect x="50" y="20" width="5" height="260" fill="url(#accentGrad)" opacity="0.8" />
   
-  <text x="70" y="85" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#F0F4EC" letter-spacing="-0.3">
+  <text x="70" y="85" font-family="system-ui, -apple-system, sans-serif" font-size="17.82" font-weight="bold" fill="#F0F4EC" letter-spacing="-0.3">
     <tspan x="70" dy="0">OpenAI 和 Anthropic</tspan>
     <tspan x="70" dy="28">都在给开源维护者发钱，</tspan>
     <tspan x="70" dy="28">但你可能申请错了</tspan>
   </text>
   
-  <text x="70" y="175" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#A8B89A">
+  <text x="70" y="175" font-family="system-ui, -apple-system, sans-serif" font-size="11.7" fill="#A8B89A">
     <tspan>两家 AI 公司同时推出免费计划，表面上都是 6 个月 $200/月，</tspan>
     <tspan x="70" dy="18">但申请门槛、工具权益、审批逻辑完全不同</tspan>
   </text>
   
   <g transform="translate(70, 245)">
-    <rect x="0" y="0" width="85" height="24" rx="4" fill="#5A664F" opacity="0.4"/>
+    <rect x="0" y="0" width="85" height="24" rx="4" fill="#5A664F" opacity="0.4" />
     <text x="42.5" y="16" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#D4DEC8" text-anchor="middle">开源维护</text>
     
-    <rect x="95" y="0" width="85" height="24" rx="4" fill="#5A664F" opacity="0.4"/>
+    <rect x="95" y="0" width="85" height="24" rx="4" fill="#5A664F" opacity="0.4" />
     <text x="137.5" y="16" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#D4DEC8" text-anchor="middle">AI 工具</text>
     
-    <rect x="190" y="0" width="85" height="24" rx="4" fill="#5A664F" opacity="0.4"/>
+    <rect x="190" y="0" width="85" height="24" rx="4" fill="#5A664F" opacity="0.4" />
     <text x="232.5" y="16" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#D4DEC8" text-anchor="middle">申请攻略</text>
   </g>
   
   <g transform="translate(500, 200)" opacity="0.2" stroke="#A8B89A" stroke-width="2" fill="none">
-    <rect x="0" y="0" width="60" height="45" rx="3"/>
-    <line x1="10" y1="12" x2="50" y2="12"/>
-    <line x1="10" y1="22" x2="40" y2="22"/>
-    <line x1="10" y1="32" x2="45" y2="32"/>
-    <path d="M 55 35 L 65 45 L 55 45 Z" fill="#A8B89A"/>
+    <rect x="0" y="0" width="60" height="45" rx="3" />
+    <line x1="10" y1="12" x2="50" y2="12" />
+    <line x1="10" y1="22" x2="40" y2="22" />
+    <line x1="10" y1="32" x2="45" y2="32" />
+    <path d="M 55 35 L 65 45 L 55 45 Z" fill="#A8B89A" />
   </g>
   
   <g transform="translate(570, 220)" opacity="0.15" stroke="#8B9A6D" stroke-width="1.5" fill="none">
-    <circle cx="15" cy="15" r="12"/>
-    <path d="M 10 15 L 14 19 L 22 11"/>
+    <circle cx="15" cy="15" r="12" />
+    <path d="M 10 15 L 14 19 L 22 11" />
   </g>
   
-  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)"/>
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
 </svg>

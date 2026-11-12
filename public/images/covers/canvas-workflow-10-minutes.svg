@@ -1,63 +1,63 @@
-<svg width="660" height="300" viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#44403C"/>
-      <stop offset="100%" stop-color="#1C1917"/>
+      <stop offset="0%" stop-color="#44403C" />
+      <stop offset="100%" stop-color="#1C1917" />
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#EA580C"/>
-      <stop offset="100%" stop-color="#F59E0B"/>
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#F59E0B" />
     </linearGradient>
     <pattern id="texture" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="4" cy="6" r="1.2" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="14" cy="10" r="1" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="8" cy="18" r="1.1" fill="#D6D3D1" opacity="0.06"/>
+      <circle cx="4" cy="6" r="1.2" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="14" cy="10" r="1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="8" cy="18" r="1.1" fill="#D6D3D1" opacity="0.06" />
     </pattern>
   </defs>
 
-  <!-- Background -->
-  <rect x="0" y="0" width="660" height="300" fill="url(#bg)"/>
-  <rect x="0" y="0" width="660" height="300" fill="url(#texture)"/>
+  
+  <rect x="0" y="0" width="660" height="300" fill="url(#bg)" />
+  <rect x="0" y="0" width="660" height="300" fill="url(#texture)" />
 
-  <!-- Left accent line -->
-  <rect x="50" y="30" width="5" height="240" fill="url(#accent)"/>
+  
+  <rect x="50" y="30" width="5" height="240" fill="url(#accent)" />
 
-  <!-- Title -->
-  <text x="70" y="78" fill="#FAFAF9" font-size="22" font-weight="700" font-family="sans-serif">
+  
+  <text x="70" y="78" fill="#FAFAF9" font-size="17.82" font-weight="700" font-family="sans-serif">
     <tspan x="70" dy="0">从搜索到代码只需 10 分钟？</tspan>
     <tspan x="70" dy="28">试试 Google 新出的 Canvas 工作流</tspan>
   </text>
 
-  <!-- Subtitle -->
+  
   <text x="70" y="138" fill="#A8A29E" font-size="13" font-family="sans-serif">
     Google 搜索里内置了一个代码画板，可以直接从搜索结果生成、修改、运行代码。
   </text>
 
-  <!-- Tags -->
+  
   <g font-family="sans-serif" font-size="12" fill="#D6D3D1">
-    <rect x="70" y="238" width="80" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+    <rect x="70" y="238" width="80" height="24" rx="12" fill="#57534E" opacity="0.4" />
     <text x="110" y="254" text-anchor="middle">Canvas</text>
 
-    <rect x="160" y="238" width="76" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+    <rect x="160" y="238" width="76" height="24" rx="12" fill="#57534E" opacity="0.4" />
     <text x="198" y="254" text-anchor="middle">搜索</text>
 
-    <rect x="246" y="238" width="76" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+    <rect x="246" y="238" width="76" height="24" rx="12" fill="#57534E" opacity="0.4" />
     <text x="284" y="254" text-anchor="middle">代码</text>
   </g>
 
-  <!-- Decorative elements (right-bottom, no overlap with text/tags) -->
+  
   <g opacity="0.22" stroke="#EA580C" stroke-width="2" fill="none">
-    <rect x="500" y="190" width="70" height="52" rx="6"/>
-    <line x1="510" y1="206" x2="560" y2="206"/>
-    <line x1="510" y1="218" x2="548" y2="218"/>
-    <line x1="510" y1="230" x2="540" y2="230"/>
+    <rect x="500" y="190" width="70" height="52" rx="6" />
+    <line x1="510" y1="206" x2="560" y2="206" />
+    <line x1="510" y1="218" x2="548" y2="218" />
+    <line x1="510" y1="230" x2="540" y2="230" />
   </g>
   <g opacity="0.18" stroke="#A8A29E" stroke-width="2" fill="none">
-    <circle cx="590" cy="235" r="24"/>
-    <line x1="590" y1="223" x2="590" y2="247"/>
-    <line x1="578" y1="235" x2="602" y2="235"/>
+    <circle cx="590" cy="235" r="24" />
+    <line x1="590" y1="223" x2="590" y2="247" />
+    <line x1="578" y1="235" x2="602" y2="235" />
   </g>
 
-  <!-- Bottom bar -->
-  <rect x="0" y="293" width="660" height="7" fill="url(#accent)"/>
+  
+  <rect x="0" y="293" width="660" height="7" fill="url(#accent)" />
 </svg>

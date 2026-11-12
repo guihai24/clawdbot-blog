@@ -1,31 +1,31 @@
-<svg width="660" height="300" viewBox="0 0 660 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300" fill="none">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="660" y2="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#44403C"/>
-      <stop offset="1" stop-color="#1C1917"/>
+      <stop offset="0" stop-color="#44403C" />
+      <stop offset="1" stop-color="#1C1917" />
     </linearGradient>
     <linearGradient id="accent" x1="50" y1="0" x2="610" y2="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#EA580C"/>
-      <stop offset="1" stop-color="#F59E0B"/>
+      <stop offset="0" stop-color="#EA580C" />
+      <stop offset="1" stop-color="#F59E0B" />
     </linearGradient>
     <pattern id="texture" width="36" height="36" patternUnits="userSpaceOnUse">
-      <circle cx="6" cy="8" r="1" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="18" cy="5" r="0.8" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="30" cy="10" r="1.1" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="11" cy="20" r="0.9" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="24" cy="18" r="1.2" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="4" cy="31" r="0.8" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="19" cy="29" r="1" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="32" cy="26" r="0.9" fill="#D6D3D1" opacity="0.06"/>
+      <circle cx="6" cy="8" r="1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="18" cy="5" r="0.8" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="30" cy="10" r="1.1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="11" cy="20" r="0.9" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="24" cy="18" r="1.2" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="4" cy="31" r="0.8" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="19" cy="29" r="1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="32" cy="26" r="0.9" fill="#D6D3D1" opacity="0.06" />
     </pattern>
   </defs>
 
-  <rect width="660" height="300" fill="url(#bg)"/>
-  <rect width="660" height="300" fill="url(#texture)"/>
+  <rect width="660" height="300" fill="url(#bg)" />
+  <rect width="660" height="300" fill="url(#texture)" />
 
-  <rect x="50" y="24" width="5" height="228" rx="2.5" fill="url(#accent)"/>
+  <rect x="50" y="24" width="5" height="228" rx="2.5" fill="url(#accent)" />
 
-  <text x="70" y="82" fill="#FAFAF9" font-size="22" font-weight="700" font-family="&quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif">
+  <text x="70" y="82" fill="#FAFAF9" font-size="19.8" font-weight="700" font-family="&quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif">
     <tspan x="70" dy="0">Prompt Injection 不是玄学：</tspan>
     <tspan x="70" dy="28">接外部数据前先补 5 道防线</tspan>
   </text>
@@ -35,30 +35,30 @@
   </text>
 
   <g>
-    <rect x="70" y="240" width="78" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
+    <rect x="70" y="240" width="78" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
     <text x="109" y="256" text-anchor="middle" fill="#D6D3D1" font-size="13" font-family="&quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif">安全防线</text>
 
-    <rect x="158" y="240" width="82" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
+    <rect x="158" y="240" width="82" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
     <text x="199" y="256" text-anchor="middle" fill="#D6D3D1" font-size="13" font-family="&quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif">Agent</text>
 
-    <rect x="250" y="240" width="86" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
+    <rect x="250" y="240" width="86" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
     <text x="293" y="256" text-anchor="middle" fill="#D6D3D1" font-size="13" font-family="&quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif">上下文污染</text>
   </g>
 
   <g opacity="0.22" stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <rect x="515" y="190" width="56" height="42" rx="6"/>
-    <path d="M523 202H563"/>
-    <path d="M523 211H550"/>
-    <path d="M523 220H555"/>
-    <path d="M578 208L592 194"/>
-    <path d="M592 194L597 199"/>
-    <path d="M571 215L583 227"/>
+    <rect x="515" y="190" width="56" height="42" rx="6" />
+    <path d="M523 202H563" />
+    <path d="M523 211H550" />
+    <path d="M523 220H555" />
+    <path d="M578 208L592 194" />
+    <path d="M592 194L597 199" />
+    <path d="M571 215L583 227" />
   </g>
 
   <g opacity="0.18" stroke="#A8A29E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <path d="M560 248C560 238 568 230 578 230H600C610 230 618 238 618 248C618 258 610 266 600 266H578C568 266 560 258 560 248Z"/>
-    <path d="M579 248L586 255L600 241"/>
+    <path d="M560 248C560 238 568 230 578 230H600C610 230 618 238 618 248C618 258 610 266 600 266H578C568 266 560 258 560 248Z" />
+    <path d="M579 248L586 255L600 241" />
   </g>
 
-  <rect x="0" y="293" width="660" height="7" fill="url(#accent)"/>
+  <rect x="0" y="293" width="660" height="7" fill="url(#accent)" />
 </svg>

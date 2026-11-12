@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#3F4A3C"/>
-      <stop offset="100%" style="stop-color:#1A2218"/>
+      <stop offset="0%" style="stop-color:#3F4A3C" />
+      <stop offset="100%" style="stop-color:#1A2218" />
     </linearGradient>
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#8B9A6D"/>
-      <stop offset="100%" style="stop-color:#6B7A4E"/>
+      <stop offset="0%" style="stop-color:#8B9A6D" />
+      <stop offset="100%" style="stop-color:#6B7A4E" />
     </linearGradient>
   </defs>
   
-  <rect width="660" height="300" fill="url(#bgGrad)"/>
+  <rect width="660" height="300" fill="url(#bgGrad)" />
   
   <g opacity="0.06">
-    <circle cx="120" cy="45" r="2" fill="#A8B89A"/>
-    <circle cx="280" cy="80" r="1.5" fill="#A8B89A"/>
-    <circle cx="450" cy="60" r="2" fill="#A8B89A"/>
-    <circle cx="180" cy="120" r="1" fill="#A8B89A"/>
-    <circle cx="380" cy="140" r="2" fill="#A8B89A"/>
-    <circle cx="520" cy="110" r="1.5" fill="#A8B89A"/>
-    <circle cx="150" cy="180" r="1" fill="#A8B89A"/>
-    <circle cx="320" cy="200" r="2" fill="#A8B89A"/>
-    <circle cx="240" cy="160" r="1.5" fill="#A8B89A"/>
+    <circle cx="120" cy="45" r="2" fill="#A8B89A" />
+    <circle cx="280" cy="80" r="1.5" fill="#A8B89A" />
+    <circle cx="450" cy="60" r="2" fill="#A8B89A" />
+    <circle cx="180" cy="120" r="1" fill="#A8B89A" />
+    <circle cx="380" cy="140" r="2" fill="#A8B89A" />
+    <circle cx="520" cy="110" r="1.5" fill="#A8B89A" />
+    <circle cx="150" cy="180" r="1" fill="#A8B89A" />
+    <circle cx="320" cy="200" r="2" fill="#A8B89A" />
+    <circle cx="240" cy="160" r="1.5" fill="#A8B89A" />
   </g>
   
-  <rect x="50" y="0" width="5" height="300" fill="url(#accentGrad)"/>
+  <rect x="50" y="0" width="5" height="300" fill="url(#accentGrad)" />
   
-  <text x="70" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#F0F4EC">
+  <text x="70" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="19.8" font-weight="bold" fill="#F0F4EC">
     <tspan x="70" dy="0">Claude 1M 上下文全面开放：</tspan>
     <tspan x="70" dy="28">没有长文本溢价，</tspan>
     <tspan x="70" dy="28">这是个大事</tspan>
@@ -36,20 +36,20 @@
     Claude Opus 4.6 和 Sonnet 4.6 的 1M 上下文窗口正
   </text>
   
-  <rect x="70" y="245" width="85" height="24" rx="12" fill="#5A664F" opacity="0.4"/>
+  <rect x="70" y="245" width="85" height="24" rx="12" fill="#5A664F" opacity="0.4" />
   <text x="112.5" y="262" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#D4DEC8" text-anchor="middle">定价策略</text>
   
-  <rect x="165" y="245" width="90" height="24" rx="12" fill="#5A664F" opacity="0.4"/>
+  <rect x="165" y="245" width="90" height="24" rx="12" fill="#5A664F" opacity="0.4" />
   <text x="210" y="262" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#D4DEC8" text-anchor="middle">长上下文</text>
   
-  <rect x="265" y="245" width="75" height="24" rx="12" fill="#5A664F" opacity="0.4"/>
+  <rect x="265" y="245" width="75" height="24" rx="12" fill="#5A664F" opacity="0.4" />
   <text x="302.5" y="262" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#D4DEC8" text-anchor="middle">AI成本</text>
   
   <g opacity="0.2">
-    <path d="M 530 220 L 570 220 L 550 240 Z" fill="none" stroke="#8B9A6D" stroke-width="2"/>
-    <circle cx="590" cy="210" r="18" fill="none" stroke="#8B9A6D" stroke-width="2"/>
-    <line x1="585" y1="205" x2="595" y2="215" stroke="#8B9A6D" stroke-width="2"/>
+    <path d="M 530 220 L 570 220 L 550 240 Z" fill="none" stroke="#8B9A6D" stroke-width="2" />
+    <circle cx="590" cy="210" r="18" fill="none" stroke="#8B9A6D" stroke-width="2" />
+    <line x1="585" y1="205" x2="595" y2="215" stroke="#8B9A6D" stroke-width="2" />
   </g>
   
-  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)"/>
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
 </svg>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400">
   <defs>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.12"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.12" />
     </filter>
     <style>
       .bg { fill:#FAFAFA; }
@@ -15,55 +15,55 @@
     </style>
   </defs>
 
-  <!-- background -->
-  <rect class="bg" x="0" y="0" width="660" height="400" rx="12"/>
+  
+  <rect class="bg" x="0" y="0" width="660" height="400" rx="12" />
 
-  <!-- header -->
+  
   <text class="title" x="30" y="44">先能跑，再能管：三件事把风险压住</text>
   <text class="small" x="30" y="68">最小权限 → 数据脱敏 → 审计留痕（可追责、可扩展）</text>
 
-  <!-- connector arrows (dashed) -->
-  <path class="dash" d="M 240 195 L 290 195"/>
-  <path class="dash" d="M 450 195 L 500 195"/>
-  <polygon points="290,195 282,190 282,200" fill="#94A3B8"/>
-  <polygon points="500,195 492,190 492,200" fill="#94A3B8"/>
+  
+  <path class="dash" d="M 240 195 L 290 195" />
+  <path class="dash" d="M 450 195 L 500 195" />
+  <polygon points="290,195 282,190 282,200" fill="#94A3B8" />
+  <polygon points="500,195 492,190 492,200" fill="#94A3B8" />
 
-  <!-- Card 1: Least privilege -->
-  <rect class="card" x="30" y="110" width="210" height="190" rx="12"/>
-  <rect x="30" y="110" width="210" height="8" rx="12" fill="#2563EB"/>
+  
+  <rect class="card" x="30" y="110" width="210" height="190" rx="12" />
+  <rect x="30" y="110" width="210" height="8" rx="12" fill="#2563EB" />
   <text class="h" x="48" y="145">1）最小权限</text>
   <text class="p" x="48" y="168">• 仓库分层：先低风险试点</text>
   <text class="p" x="48" y="190">• 只读起步：不直推主干</text>
   <text class="p" x="48" y="212">• 限制工具面：少读少跑</text>
   <text class="p" x="48" y="234">• 密钥隔离：不发 .env / 串</text>
-  <rect x="48" y="252" width="174" height="34" rx="10" fill="#DBEAFE"/>
+  <rect x="48" y="252" width="174" height="34" rx="10" fill="#DBEAFE" />
   <text class="chipText" x="58" y="274">标准：新人能拿到的更少</text>
 
-  <!-- Card 2: Masking -->
-  <rect class="card" x="290" y="110" width="160" height="190" rx="12"/>
-  <rect x="290" y="110" width="160" height="8" rx="12" fill="#D97706"/>
+  
+  <rect class="card" x="290" y="110" width="160" height="190" rx="12" />
+  <rect x="290" y="110" width="160" height="8" rx="12" fill="#D97706" />
   <text class="h" x="308" y="145">2）数据脱敏</text>
   <text class="p" x="308" y="168">• 个人信息：占位符</text>
   <text class="p" x="308" y="190">• 企业标识：去实体化</text>
-  <text class="p" x="308" y="212">• 强语义字段：映射打散</text>
-  <text class="p" x="308" y="234">• 日志：仅保留 20-50 行</text>
-  <rect x="308" y="252" width="124" height="34" rx="10" fill="#FEF3C7"/>
+  <text class="p" x="308" y="212" font-size="12.6">• 强语义字段：映射打散</text>
+  <text class="p" x="308" y="234" font-size="12.6">• 日志：仅保留 20-50 行</text>
+  <rect x="308" y="252" width="124" height="34" rx="10" fill="#FEF3C7" />
   <text class="chipText" x="318" y="274">提示词可复用</text>
 
-  <!-- Card 3: Audit -->
-  <rect class="card" x="500" y="110" width="130" height="190" rx="12"/>
-  <rect x="500" y="110" width="130" height="8" rx="12" fill="#16A34A"/>
+  
+  <rect class="card" x="500" y="110" width="130" height="190" rx="12" />
+  <rect x="500" y="110" width="130" height="8" rx="12" fill="#16A34A" />
   <text class="h" x="518" y="145">3）审计留痕</text>
-  <text class="p" x="518" y="168">• 输入：谁给了什么</text>
-  <text class="p" x="518" y="190">• 输出：生成了哪些补丁</text>
-  <text class="p" x="518" y="212">• 执行：谁批准且影响哪</text>
-  <rect x="518" y="230" width="94" height="56" rx="10" fill="#DCFCE7"/>
-  <text class="chipText" x="528" y="252">试点：只出补丁</text>
+  <text class="p" x="518" y="168" font-size="11.34">• 输入：谁给了什么</text>
+  <text class="p" x="518" y="190" font-size="9.8">• 输出：生成了哪些补丁</text>
+  <text class="p" x="518" y="212" font-size="9.8">• 执行：谁批准且影响哪</text>
+  <rect x="518" y="230" width="94" height="56" rx="10" fill="#DCFCE7" />
+  <text class="chipText" x="528" y="252" font-size="10.206">试点：只出补丁</text>
   <text class="small" x="528" y="272">不自动执行</text>
 
-  <!-- Bottom criterion -->
-  <rect class="card" x="30" y="320" width="600" height="56" rx="12"/>
-  <rect x="30" y="320" width="10" height="56" rx="12" fill="#9333EA"/>
+  
+  <rect class="card" x="30" y="320" width="600" height="56" rx="12" />
+  <rect x="30" y="320" width="10" height="56" rx="12" fill="#9333EA" />
   <text class="h" x="50" y="352">验收标准</text>
   <text class="p" x="150" y="352">出一次问题后，30 分钟内能还原：输入 → 输出 → 执行链路</text>
 </svg>

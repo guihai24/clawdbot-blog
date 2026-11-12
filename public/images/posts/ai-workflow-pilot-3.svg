@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400">
   <defs>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.12"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.12" />
     </filter>
     <style>
       .bg { fill:#FAFAFA; }
@@ -18,82 +18,82 @@
       .accent-yellow { fill:#D97706; }
     </style>
     <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-      <path d="M0,0 L12,6 L0,12 Z" fill="#9CA3AF"/>
+      <path d="M0,0 L12,6 L0,12 Z" fill="#9CA3AF" />
     </marker>
   </defs>
 
-  <!-- Background -->
-  <rect x="10" y="10" width="640" height="380" rx="12" class="bg"/>
+  
+  <rect x="10" y="10" width="640" height="380" rx="12" class="bg" />
 
-  <!-- Header -->
+  
   <text x="30" y="48" class="title">工作流：把邮件回复变成“半自动首稿工位”</text>
   <text x="30" y="70" class="small muted">核心：沉淀团队风格与边界，GPT 只生首稿，人来审再发</text>
 
-  <!-- Left: Inputs -->
-  <rect x="30" y="95" width="190" height="230" rx="12" class="card"/>
-  <rect x="30" y="95" width="190" height="38" rx="12" fill="#EEF2FF"/>
-  <circle cx="50" cy="114" r="6" class="accent-purple"/>
+  
+  <rect x="30" y="95" width="190" height="230" rx="12" class="card" />
+  <rect x="30" y="95" width="190" height="38" rx="12" fill="#EEF2FF" />
+  <circle cx="50" cy="114" r="6" class="accent-purple" />
   <text x="64" y="119" class="text" font-weight="700">固定材料（4类）</text>
 
-  <!-- input items -->
-  <circle cx="48" cy="155" r="5" class="accent-blue"/>
+  
+  <circle cx="48" cy="155" r="5" class="accent-blue" />
   <text x="62" y="159" class="text">常见邮件场景分类</text>
 
-  <circle cx="48" cy="185" r="5" class="accent-green"/>
+  <circle cx="48" cy="185" r="5" class="accent-green" />
   <text x="62" y="189" class="text">团队语气规范</text>
 
-  <circle cx="48" cy="215" r="5" class="accent-orange"/>
+  <circle cx="48" cy="215" r="5" class="accent-orange" />
   <text x="62" y="219" class="text">禁止承诺清单</text>
 
-  <circle cx="48" cy="245" r="5" class="accent-yellow"/>
+  <circle cx="48" cy="245" r="5" class="accent-yellow" />
   <text x="62" y="249" class="text">历史高质量样本</text>
 
-  <text x="42" y="287" class="small muted">最小配置：系统指令 + 知识文件</text>
+  <text x="42" y="287" class="small muted" font-size="11.34">最小配置：系统指令 + 知识文件</text>
   <text x="42" y="306" class="small muted">开场问题 + 固定输出格式</text>
 
-  <!-- Center: GPT Draft -->
-  <rect x="245" y="125" width="180" height="170" rx="12" class="card"/>
-  <rect x="245" y="125" width="180" height="40" rx="12" fill="#DBEAFE"/>
-  <circle cx="265" cy="145" r="6" class="accent-blue"/>
+  
+  <rect x="245" y="125" width="180" height="170" rx="12" class="card" />
+  <rect x="245" y="125" width="180" height="40" rx="12" fill="#DBEAFE" />
+  <circle cx="265" cy="145" r="6" class="accent-blue" />
   <text x="279" y="150" class="text" font-weight="700">邮件 GPT（生首稿）</text>
 
-  <text x="260" y="185" class="small">输出：可审阅、不可自动发送</text>
+  <text x="260" y="185" class="small" font-size="11.34">输出：可审阅、不可自动发送</text>
   <text x="260" y="208" class="small">1 主题  2 正文</text>
   <text x="260" y="228" class="small">3 建议语气  4 待确认点</text>
   <text x="260" y="248" class="small">（可选）5 英文版</text>
 
-  <!-- Right: Human review + Send -->
-  <rect x="450" y="95" width="180" height="110" rx="12" class="card"/>
-  <rect x="450" y="95" width="180" height="38" rx="12" fill="#DCFCE7"/>
-  <circle cx="470" cy="114" r="6" class="accent-green"/>
+  
+  <rect x="450" y="95" width="180" height="110" rx="12" class="card" />
+  <rect x="450" y="95" width="180" height="38" rx="12" fill="#DCFCE7" />
+  <circle cx="470" cy="114" r="6" class="accent-green" />
   <text x="484" y="119" class="text" font-weight="700">人工审阅与修改</text>
   <text x="465" y="155" class="small">补信息、改语气、控承诺</text>
-  <text x="465" y="176" class="small">合同/付款/法律：强制确认</text>
+  <text x="465" y="176" class="small" font-size="12.6">合同/付款/法律：强制确认</text>
 
-  <rect x="450" y="215" width="180" height="80" rx="12" class="card"/>
-  <rect x="450" y="215" width="180" height="38" rx="12" fill="#FFEDD5"/>
-  <circle cx="470" cy="234" r="6" class="accent-orange"/>
+  <rect x="450" y="215" width="180" height="80" rx="12" class="card" />
+  <rect x="450" y="215" width="180" height="38" rx="12" fill="#FFEDD5" />
+  <circle cx="470" cy="234" r="6" class="accent-orange" />
   <text x="484" y="239" class="text" font-weight="700">发送（人工触发）</text>
-  <text x="465" y="270" class="small">先提效，再考虑自动化接入</text>
+  <text x="465" y="270" class="small" font-size="12.6">先提效，再考虑自动化接入</text>
 
-  <!-- Arrows -->
-  <path d="M220 210 C235 210, 235 210, 245 210" class="stroke" marker-end="url(#arrow)"/>
-  <path d="M425 210 C438 210, 438 150, 450 150" class="stroke" marker-end="url(#arrow)"/>
-  <path d="M540 205 C540 210, 540 210, 540 215" class="stroke" marker-end="url(#arrow)"/>
+  
+  <path d="M220 210 C235 210, 235 210, 245 210" class="stroke" marker-end="url(#arrow)" />
+  <path d="M425 210 C438 210, 438 150, 450 150" class="stroke" marker-end="url(#arrow)" />
+  <path d="M540 205 C540 210, 540 210, 540 215" class="stroke" marker-end="url(#arrow)" />
 
-  <!-- Bottom: Metrics -->
-  <rect x="30" y="335" width="600" height="45" rx="12" class="card"/>
-  <rect x="30" y="335" width="600" height="45" rx="12" fill="#F5F3FF" opacity="0.55"/>
+  
+  <rect x="30" y="335" width="600" height="45" rx="12" class="card" />
+  <rect x="30" y="335" width="600" height="45" rx="12" fill="#F5F3FF" opacity="0.55" />
   <text x="44" y="362" class="text" font-weight="700">量化三指标：</text>
 
-  <circle cx="160" cy="356" r="5" class="accent-blue"/>
+  <circle cx="160" cy="356" r="5" class="accent-blue" />
   <text x="172" y="360" class="small">首稿时间</text>
 
-  <circle cx="270" cy="356" r="5" class="accent-green"/>
+  <circle cx="270" cy="356" r="5" class="accent-green" />
   <text x="282" y="360" class="small">采纳率</text>
 
-  <circle cx="360" cy="356" r="5" class="accent-orange"/>
+  <circle cx="360" cy="356" r="5" class="accent-orange" />
   <text x="372" y="360" class="small">修改轮次</text>
 
-  <text x="452" y="360" class="small muted">通过线：更快发出去，不只是更像样</text>
+  <text x="452" y="360" class="small muted" font-size="10.206">通过线：更快发出去，不只是更像样</text>
 </svg>

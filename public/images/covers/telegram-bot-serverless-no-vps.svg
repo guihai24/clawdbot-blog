@@ -1,97 +1,96 @@
-<svg width="660" height="300" viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background gradient -->
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300">
+  
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="300">
-      <stop offset="0%" stop-color="#44403C"/>
-      <stop offset="100%" stop-color="#1C1917"/>
+      <stop offset="0%" stop-color="#44403C" />
+      <stop offset="100%" stop-color="#1C1917" />
     </linearGradient>
     <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#EA580C"/>
-      <stop offset="100%" stop-color="#F59E0B"/>
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#F59E0B" />
     </linearGradient>
-    <!-- Grainy texture pattern -->
+    
     <pattern id="paperTexture" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="3" cy="4" r="1" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="10" cy="2" r="0.8" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="16" cy="8" r="0.9" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="6" cy="12" r="0.7" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="14" cy="15" r="1" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="2" cy="18" r="0.8" fill="#D6D3D1" opacity="0.06"/>
+      <circle cx="3" cy="4" r="1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="10" cy="2" r="0.8" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="16" cy="8" r="0.9" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="6" cy="12" r="0.7" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="14" cy="15" r="1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="2" cy="18" r="0.8" fill="#D6D3D1" opacity="0.06" />
     </pattern>
-    <!-- Simple bot/serverless icon lines -->
+    
     <linearGradient id="iconStroke" x1="480" y1="210" x2="620" y2="260">
-      <stop offset="0%" stop-color="#EA580C" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#A8A29E" stop-opacity="0.2"/>
+      <stop offset="0%" stop-color="#EA580C" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#A8A29E" stop-opacity="0.2" />
     </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect x="0" y="0" width="660" height="300" fill="url(#bgGrad)"/>
-  <rect x="0" y="0" width="660" height="300" fill="url(#paperTexture)"/>
+  
+  <rect x="0" y="0" width="660" height="300" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="660" height="300" fill="url(#paperTexture)" />
 
-  <!-- Left accent line -->
-  <rect x="50" y="40" width="4" height="220" fill="url(#accentGrad)"/>
+  
+  <rect x="50" y="40" width="4" height="220" fill="url(#accentGrad)" />
 
-  <!-- Title -->
-  <text x="70" y="80" fill="#FAFAF9" font-size="22" font-weight="700" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif">
+  
+  <text x="70" y="80" fill="#FAFAF9" font-size="17.82" font-weight="700" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif">
     <tspan x="70" dy="0">Telegram Bot 终于不用租服务器了：</tspan>
     <tspan x="70" dy="28">一条命令上线，自带数据库</tspan>
   </text>
 
-  <!-- Subtitle -->
+  
   <text x="70" y="150" fill="#A8A29E" font-size="13" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif">
     Telegram Serverless 把 Bot 后端托管到官方基础设施上，你
   </text>
 
-  <!-- Tags (bottom left area) -->
-  <!-- Tag 1: Telegram Serverless -->
+  
+  
   <g transform="translate(70,242)">
-    <rect x="0" y="0" width="110" height="24" rx="12" fill="#57534E" opacity="0.4"/>
-    <text x="55" y="16" text-anchor="middle" fill="#D6D3D1" font-size="12" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="110" height="24" rx="12" fill="#57534E" opacity="0.4" />
+    <text x="55" y="16" text-anchor="middle" fill="#D6D3D1" font-size="8.748" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif">
       Telegram Serverless
     </text>
   </g>
-  <!-- Tag 2: 无服务器 Bot -->
+  
   <g transform="translate(190,242)">
-    <rect x="0" y="0" width="96" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+    <rect x="0" y="0" width="96" height="24" rx="12" fill="#57534E" opacity="0.4" />
     <text x="48" y="16" text-anchor="middle" fill="#D6D3D1" font-size="12" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif">
       无服务器 Bot
     </text>
   </g>
-  <!-- Tag 3: 内置数据库 -->
+  
   <g transform="translate(306,242)">
-    <rect x="0" y="0" width="90" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+    <rect x="0" y="0" width="90" height="24" rx="12" fill="#57534E" opacity="0.4" />
     <text x="45" y="16" text-anchor="middle" fill="#D6D3D1" font-size="12" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif">
       内置数据库
     </text>
   </g>
 
-  <!-- Decorative elements (right-bottom corner, x ≥ 480, y ≥ 180) -->
-  <!-- Icon 1: Minimal bot head -->
+  
+  
   <g transform="translate(500,190)" opacity="0.22">
-    <!-- Bot head -->
-    <rect x="0" y="0" width="70" height="48" rx="12" fill="none" stroke="url(#iconStroke)" stroke-width="2"/>
-    <!-- Antenna -->
-    <line x1="35" y1="-8" x2="35" y2="0" stroke="#EA580C" stroke-width="2"/>
-    <circle cx="35" cy="-10" r="3" fill="none" stroke="#EA580C" stroke-width="1.5"/>
-    <!-- Eyes -->
-    <circle cx="22" cy="18" r="4" fill="none" stroke="#A8A29E" stroke-width="1.6"/>
-    <circle cx="48" cy="18" r="4" fill="none" stroke="#A8A29E" stroke-width="1.6"/>
-    <!-- Mouth -->
-    <path d="M22 32 Q35 40 48 32" fill="none" stroke="#EA580C" stroke-width="2" stroke-linecap="round"/>
+    
+    <rect x="0" y="0" width="70" height="48" rx="12" fill="none" stroke="url(#iconStroke)" stroke-width="2" />
+    
+    <line x1="35" y1="-8" x2="35" y2="0" stroke="#EA580C" stroke-width="2" />
+    <circle cx="35" cy="-10" r="3" fill="none" stroke="#EA580C" stroke-width="1.5" />
+    
+    <circle cx="22" cy="18" r="4" fill="none" stroke="#A8A29E" stroke-width="1.6" />
+    <circle cx="48" cy="18" r="4" fill="none" stroke="#A8A29E" stroke-width="1.6" />
+    
+    <path d="M22 32 Q35 40 48 32" fill="none" stroke="#EA580C" stroke-width="2" stroke-linecap="round" />
   </g>
 
-  <!-- Icon 2: Small serverless/db stack -->
+  
   <g transform="translate(580,220)" opacity="0.18">
-    <!-- Cloud outline -->
-    <path d="M14 24 C10 24 7 21 7 17.5 C7 14.5 9 12 11.8 11.4 C12.4 8.5 14.9 6.5 18 6.5 C21.1 6.5 23.6 8.5 24.2 11.4 C27 12 29 14.4 29 17.3 C29 20.8 26.4 24 22.8 24 Z"
-          fill="none" stroke="#A8A29E" stroke-width="1.6"/>
-    <!-- DB disk -->
-    <ellipse cx="18" cy="30" rx="12" ry="4" fill="none" stroke="#EA580C" stroke-width="1.6"/>
-    <path d="M6 30 V38 C6 40.5 10.5 42 18 42 C25.5 42 30 40.5 30 38 V30" fill="none" stroke="#EA580C" stroke-width="1.6"/>
-    <path d="M6 34 C6 36.5 10.5 38 18 38 C25.5 38 30 36.5 30 34" fill="none" stroke="#EA580C" stroke-width="1.2"/>
+    
+    <path d="M14 24 C10 24 7 21 7 17.5 C7 14.5 9 12 11.8 11.4 C12.4 8.5 14.9 6.5 18 6.5 C21.1 6.5 23.6 8.5 24.2 11.4 C27 12 29 14.4 29 17.3 C29 20.8 26.4 24 22.8 24 Z" fill="none" stroke="#A8A29E" stroke-width="1.6" />
+    
+    <ellipse cx="18" cy="30" rx="12" ry="4" fill="none" stroke="#EA580C" stroke-width="1.6" />
+    <path d="M6 30 V38 C6 40.5 10.5 42 18 42 C25.5 42 30 40.5 30 38 V30" fill="none" stroke="#EA580C" stroke-width="1.6" />
+    <path d="M6 34 C6 36.5 10.5 38 18 38 C25.5 38 30 36.5 30 34" fill="none" stroke="#EA580C" stroke-width="1.2" />
   </g>
 
-  <!-- Bottom accent bar -->
-  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)"/>
+  
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
 </svg>

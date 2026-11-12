@@ -1,64 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#44403C"/>
-      <stop offset="1" stop-color="#1C1917"/>
+      <stop offset="0" stop-color="#44403C" />
+      <stop offset="1" stop-color="#1C1917" />
     </linearGradient>
 
     <linearGradient id="accentGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#EA580C"/>
-      <stop offset="1" stop-color="#F59E0B"/>
+      <stop offset="0" stop-color="#EA580C" />
+      <stop offset="1" stop-color="#F59E0B" />
     </linearGradient>
 
     <linearGradient id="accentGradH" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#EA580C"/>
-      <stop offset="1" stop-color="#F59E0B"/>
+      <stop offset="0" stop-color="#EA580C" />
+      <stop offset="1" stop-color="#F59E0B" />
     </linearGradient>
 
     <pattern id="grain" width="120" height="120" patternUnits="userSpaceOnUse">
-      <rect width="120" height="120" fill="none"/>
-      <circle cx="14" cy="18" r="1.2" fill="#D6D3D1"/>
-      <circle cx="38" cy="26" r="0.9" fill="#D6D3D1"/>
-      <circle cx="62" cy="14" r="1.1" fill="#D6D3D1"/>
-      <circle cx="88" cy="22" r="0.8" fill="#D6D3D1"/>
-      <circle cx="104" cy="12" r="1.0" fill="#D6D3D1"/>
+      <rect width="120" height="120" fill="none" />
+      <circle cx="14" cy="18" r="1.2" fill="#D6D3D1" />
+      <circle cx="38" cy="26" r="0.9" fill="#D6D3D1" />
+      <circle cx="62" cy="14" r="1.1" fill="#D6D3D1" />
+      <circle cx="88" cy="22" r="0.8" fill="#D6D3D1" />
+      <circle cx="104" cy="12" r="1.0" fill="#D6D3D1" />
 
-      <circle cx="20" cy="54" r="0.9" fill="#D6D3D1"/>
-      <circle cx="46" cy="62" r="1.1" fill="#D6D3D1"/>
-      <circle cx="70" cy="52" r="0.8" fill="#D6D3D1"/>
-      <circle cx="96" cy="64" r="1.2" fill="#D6D3D1"/>
-      <circle cx="112" cy="48" r="0.8" fill="#D6D3D1"/>
+      <circle cx="20" cy="54" r="0.9" fill="#D6D3D1" />
+      <circle cx="46" cy="62" r="1.1" fill="#D6D3D1" />
+      <circle cx="70" cy="52" r="0.8" fill="#D6D3D1" />
+      <circle cx="96" cy="64" r="1.2" fill="#D6D3D1" />
+      <circle cx="112" cy="48" r="0.8" fill="#D6D3D1" />
 
-      <circle cx="10" cy="92" r="1.0" fill="#D6D3D1"/>
-      <circle cx="34" cy="104" r="0.8" fill="#D6D3D1"/>
-      <circle cx="58" cy="96" r="1.2" fill="#D6D3D1"/>
-      <circle cx="82" cy="108" r="0.9" fill="#D6D3D1"/>
-      <circle cx="108" cy="98" r="1.1" fill="#D6D3D1"/>
+      <circle cx="10" cy="92" r="1.0" fill="#D6D3D1" />
+      <circle cx="34" cy="104" r="0.8" fill="#D6D3D1" />
+      <circle cx="58" cy="96" r="1.2" fill="#D6D3D1" />
+      <circle cx="82" cy="108" r="0.9" fill="#D6D3D1" />
+      <circle cx="108" cy="98" r="1.1" fill="#D6D3D1" />
 
-      <circle cx="6" cy="36" r="0.7" fill="#D6D3D1"/>
-      <circle cx="26" cy="10" r="0.7" fill="#D6D3D1"/>
-      <circle cx="50" cy="34" r="0.7" fill="#D6D3D1"/>
-      <circle cx="74" cy="10" r="0.7" fill="#D6D3D1"/>
-      <circle cx="98" cy="38" r="0.7" fill="#D6D3D1"/>
+      <circle cx="6" cy="36" r="0.7" fill="#D6D3D1" />
+      <circle cx="26" cy="10" r="0.7" fill="#D6D3D1" />
+      <circle cx="50" cy="34" r="0.7" fill="#D6D3D1" />
+      <circle cx="74" cy="10" r="0.7" fill="#D6D3D1" />
+      <circle cx="98" cy="38" r="0.7" fill="#D6D3D1" />
 
-      <circle cx="18" cy="76" r="0.7" fill="#D6D3D1"/>
-      <circle cx="42" cy="84" r="0.7" fill="#D6D3D1"/>
-      <circle cx="66" cy="74" r="0.7" fill="#D6D3D1"/>
-      <circle cx="90" cy="86" r="0.7" fill="#D6D3D1"/>
-      <circle cx="114" cy="80" r="0.7" fill="#D6D3D1"/>
+      <circle cx="18" cy="76" r="0.7" fill="#D6D3D1" />
+      <circle cx="42" cy="84" r="0.7" fill="#D6D3D1" />
+      <circle cx="66" cy="74" r="0.7" fill="#D6D3D1" />
+      <circle cx="90" cy="86" r="0.7" fill="#D6D3D1" />
+      <circle cx="114" cy="80" r="0.7" fill="#D6D3D1" />
     </pattern>
   </defs>
 
-  <!-- Background -->
-  <rect x="0" y="0" width="660" height="300" fill="url(#bgGrad)"/>
-  <rect x="0" y="0" width="660" height="300" fill="url(#grain)" opacity="0.06"/>
+  
+  <rect x="0" y="0" width="660" height="300" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="660" height="300" fill="url(#grain)" opacity="0.06" />
 
-  <!-- Left accent line -->
-  <rect x="50" y="0" width="5" height="300" fill="url(#accentGrad)"/>
+  
+  <rect x="50" y="0" width="5" height="300" fill="url(#accentGrad)" />
 
-  <!-- Text -->
+  
   <g font-family="Inter, 'Noto Sans SC', 'Microsoft YaHei', system-ui, -apple-system, Segoe UI, sans-serif">
-    <text x="70" y="80" fill="#FAFAF9" font-size="22" font-weight="700">
+    <text x="70" y="80" fill="#FAFAF9" font-size="15.4" font-weight="700">
       <tspan x="70" dy="0">ChatGPT 用户正在搬家：</tspan>
       <tspan x="70" dy="28">一份冷静的迁移指南</tspan>
       <tspan x="70" dy="28">（和你可能不需要搬的理由）</tspan>
@@ -68,46 +68,46 @@
       Anthropic 刚推出了迁移工具，ChatGPT 卸载量在涨。但「能搬」和「该搬」是两件事。
     </text>
 
-    <!-- Tag pills (bottom area) -->
+    
     <g>
       <g transform="translate(70,240)">
-        <rect x="0" y="0" width="86" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+        <rect x="0" y="0" width="86" height="24" rx="12" fill="#57534E" opacity="0.4" />
         <text x="43" y="16" text-anchor="middle" fill="#D6D3D1" font-size="12">数据导出</text>
       </g>
       <g transform="translate(166,240)">
-        <rect x="0" y="0" width="86" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+        <rect x="0" y="0" width="86" height="24" rx="12" fill="#57534E" opacity="0.4" />
         <text x="43" y="16" text-anchor="middle" fill="#D6D3D1" font-size="12">迁移工具</text>
       </g>
       <g transform="translate(262,240)">
-        <rect x="0" y="0" width="86" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+        <rect x="0" y="0" width="86" height="24" rx="12" fill="#57534E" opacity="0.4" />
         <text x="43" y="16" text-anchor="middle" fill="#D6D3D1" font-size="12">工作流</text>
       </g>
     </g>
   </g>
 
-  <!-- Decorative elements (right-bottom only, to the right of tags, no overlap with text) -->
+  
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Document + arrow (migration) -->
+    
     <g transform="translate(505,190)" opacity="0.24" stroke="#A8A29E" stroke-width="2">
-      <rect x="0" y="18" width="52" height="62" rx="10"/>
-      <path d="M12 34h28M12 46h22M12 58h18"/>
-      <rect x="18" y="0" width="52" height="62" rx="10" opacity="0.85"/>
-      <path d="M30 18h28M30 30h22M30 42h18"/>
-      <path d="M40 74h46"/>
-      <path d="M78 66l8 8-8 8"/>
+      <rect x="0" y="18" width="52" height="62" rx="10" />
+      <path d="M12 34h28M12 46h22M12 58h18" />
+      <rect x="18" y="0" width="52" height="62" rx="10" opacity="0.85" />
+      <path d="M30 18h28M30 30h22M30 42h18" />
+      <path d="M40 74h46" />
+      <path d="M78 66l8 8-8 8" />
     </g>
 
-    <!-- Simple network node (workflow) -->
+    
     <g transform="translate(585,212)" opacity="0.22" stroke="#EA580C" stroke-width="2">
-      <circle cx="20" cy="20" r="10"/>
-      <circle cx="52" cy="10" r="7"/>
-      <circle cx="56" cy="44" r="8"/>
-      <path d="M29 16L45 12"/>
-      <path d="M28 25L48 39"/>
-      <path d="M50 17L54 36"/>
+      <circle cx="20" cy="20" r="10" />
+      <circle cx="52" cy="10" r="7" />
+      <circle cx="56" cy="44" r="8" />
+      <path d="M29 16L45 12" />
+      <path d="M28 25L48 39" />
+      <path d="M50 17L54 36" />
     </g>
   </g>
 
-  <!-- Bottom color bar -->
-  <rect x="0" y="293" width="660" height="7" fill="url(#accentGradH)"/>
+  
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGradH)" />
 </svg>

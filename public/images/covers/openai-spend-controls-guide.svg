@@ -1,4 +1,4 @@
-<svg width="660" height="300" viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#78350F;stop-opacity:1" />
@@ -14,15 +14,15 @@
     </pattern>
   </defs>
 
-  <!-- 背景层 -->
+  
   <rect width="660" height="300" fill="url(#bgGrad)" />
   <rect width="660" height="300" fill="url(#dots)" />
 
-  <!-- 左侧强调线 -->
+  
   <rect x="50" y="60" width="4" height="130" fill="url(#accentGrad)" rx="2" />
 
-  <!-- 文字层 -->
-  <text x="70" y="90" font-family="Source Han Sans SC, PingFang SC, Microsoft YaHei, sans-serif" font-weight="bold" font-size="22" fill="#FEFCE8">
+  
+  <text x="70" y="90" font-family="Source Han Sans SC, PingFang SC, Microsoft YaHei, sans-serif" font-weight="bold" font-size="19.8" fill="#FEFCE8">
     <tspan x="70" dy="0">OpenAI 成本控制实战：</tspan>
     <tspan x="70" dy="32">别等 AI 把你的信用卡刷爆了再后悔</tspan>
   </text>
@@ -31,7 +31,7 @@
     OpenAI 刚发布的用量分析和花费控制功能，给所有开发者敲响了警钟。
   </text>
 
-  <!-- 标签胶囊 -->
+  
   <g transform="translate(70, 240)">
     <rect width="75" height="24" rx="12" fill="#92400E" opacity="0.4" />
     <text x="37.5" y="16" font-family="Source Han Sans SC, sans-serif" font-size="11" fill="#FDE68A" text-anchor="middle">成本控制</text>
@@ -45,16 +45,16 @@
     <text x="37.5" y="16" font-family="Source Han Sans SC, sans-serif" font-size="11" fill="#FDE68A" text-anchor="middle">预算护栏</text>
   </g>
 
-  <!-- 装饰元素（右下角） -->
+  
   <g opacity="0.2" stroke="#F59E0B" fill="none" stroke-width="1.5">
-    <!-- 盾牌/保护图标 -->
+    
     <path d="M540 190 v15 c0 20 25 35 25 35 s25-15 25-35 v-15 l-25-10 z" />
-    <!-- 折线图简笔画 -->
+    
     <path d="M510 260 l15-20 l10 10 l20-35" stroke-dasharray="2 2" />
     <circle cx="510" cy="260" r="2" fill="#F59E0B" />
     <circle cx="555" cy="215" r="2" fill="#F59E0B" />
   </g>
 
-  <!-- 底部色条 -->
+  
   <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
 </svg>

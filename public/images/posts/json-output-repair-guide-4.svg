@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400">
   <defs>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.12"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.12" />
     </filter>
     <style>
       .bg { fill:#FAFAFA; }
@@ -16,88 +16,88 @@
     </style>
   </defs>
 
-  <!-- Background -->
-  <rect class="bg" x="10" y="10" width="640" height="380" rx="12"/>
+  
+  <rect class="bg" x="10" y="10" width="640" height="380" rx="12" />
 
-  <!-- Title -->
+  
   <text class="txt h1" x="40" y="48">程序侧兜底：把 LLM 输出接入自动化的“四道关”</text>
   <text class="txt p muted" x="40" y="70">原则：repair 必需层；只修语法不替业务做决定；失败回退当作主流程</text>
 
-  <!-- Input -->
-  <rect class="panel" x="40" y="92" width="580" height="50" rx="12"/>
+  
+  <rect class="panel" x="40" y="92" width="580" height="50" rx="12" />
   <text class="txt h2" x="58" y="122">输入：模型输出（可能含代码块/废话/近似 JSON/类型错）</text>
 
-  <!-- Step cards -->
-  <!-- 1 Pre-clean -->
-  <rect class="panel" x="40" y="160" width="580" height="56" rx="12"/>
-  <rect x="54" y="174" width="26" height="26" rx="8" fill="#2563EB"/>
+  
+  
+  <rect class="panel" x="40" y="160" width="580" height="56" rx="12" />
+  <rect x="54" y="174" width="26" height="26" rx="8" fill="#2563EB" />
   <text class="badgeTxt" x="67" y="192" text-anchor="middle">1</text>
   <text class="txt h2" x="92" y="184">预清洗</text>
   <text class="txt p muted" x="92" y="204">去掉代码块外壳/前后废话/空白/常见前缀（保守规则）</text>
 
-  <!-- 2 Syntax repair -->
-  <rect class="panel" x="40" y="228" width="580" height="56" rx="12"/>
-  <rect x="54" y="242" width="26" height="26" rx="8" fill="#EA580C"/>
+  
+  <rect class="panel" x="40" y="228" width="580" height="56" rx="12" />
+  <rect x="54" y="242" width="26" height="26" rx="8" fill="#EA580C" />
   <text class="badgeTxt" x="67" y="260" text-anchor="middle">2</text>
   <text class="txt h2" x="92" y="252">语法修复（JSON repair）</text>
   <text class="txt p muted" x="92" y="272">修尾逗号/单引号/括号/转义/注释残留；不补字段不改业务</text>
 
-  <!-- 3 Schema validation -->
-  <rect class="panel" x="40" y="296" width="580" height="56" rx="12"/>
-  <rect x="54" y="310" width="26" height="26" rx="8" fill="#16A34A"/>
+  
+  <rect class="panel" x="40" y="296" width="580" height="56" rx="12" />
+  <rect x="54" y="310" width="26" height="26" rx="8" fill="#16A34A" />
   <text class="badgeTxt" x="67" y="328" text-anchor="middle">3</text>
   <text class="txt h2" x="92" y="320">Schema 校验（JSON Schema）</text>
   <text class="txt p muted" x="92" y="340">校类型/必填/枚举/数组项；避免“能 parse 冒充能用”</text>
 
-  <!-- Output -->
-  <rect class="panel" x="40" y="364" width="360" height="0" rx="12" opacity="0"/>
+  
+  <rect class="panel" x="40" y="364" width="360" height="0" rx="12" opacity="0" />
 
-  <!-- Success box -->
-  <rect class="panel" x="40" y="362" width="360" height="0" rx="12" opacity="0"/>
+  
+  <rect class="panel" x="40" y="362" width="360" height="0" rx="12" opacity="0" />
 
-  <!-- Bottom success & fallback area -->
-  <rect class="panel" x="40" y="360" width="360" height="0" rx="12" opacity="0"/>
+  
+  <rect class="panel" x="40" y="360" width="360" height="0" rx="12" opacity="0" />
 
-  <!-- Success card -->
-  <rect class="panel" x="40" y="360" width="360" height="0" rx="12" opacity="0"/>
+  
+  <rect class="panel" x="40" y="360" width="360" height="0" rx="12" opacity="0" />
 
-  <!-- Due to view height, place success/fallback above bottom edge -->
-  <rect class="panel" x="40" y="360" width="360" height="0" rx="12" opacity="0"/>
+  
+  <rect class="panel" x="40" y="360" width="360" height="0" rx="12" opacity="0" />
 
-  <!-- Success & fallback cards (placed within canvas) -->
-  <rect class="panel" x="40" y="360" width="0" height="0" rx="12" opacity="0"/>
+  
+  <rect class="panel" x="40" y="360" width="0" height="0" rx="12" opacity="0" />
 
-  <rect class="panel" x="40" y="360" width="0" height="0" rx="12" opacity="0"/>
+  <rect class="panel" x="40" y="360" width="0" height="0" rx="12" opacity="0" />
 
-  <!-- Actually place them at y=356 would overflow; keep at y=356 with reduced height by shifting up -->
-  <rect class="panel" x="40" y="356" width="360" height="34" rx="12"/>
-  <rect x="54" y="363" width="26" height="20" rx="8" fill="#9333EA"/>
+  
+  <rect class="panel" x="40" y="356" width="360" height="34" rx="12" />
+  <rect x="54" y="363" width="26" height="20" rx="8" fill="#9333EA" />
   <text class="badgeTxt" x="67" y="378" text-anchor="middle">OK</text>
   <text class="txt p" x="92" y="377">通过校验 → 下游自动化执行</text>
 
-  <!-- Fallback card -->
-  <rect class="panel" x="416" y="332" width="204" height="58" rx="12"/>
-  <rect x="430" y="346" width="26" height="26" rx="8" fill="#D97706"/>
+  
+  <rect class="panel" x="416" y="332" width="204" height="58" rx="12" />
+  <rect x="430" y="346" width="26" height="26" rx="8" fill="#D97706" />
   <text class="badgeTxt" x="443" y="364" text-anchor="middle">4</text>
   <text class="txt h2" x="468" y="356">失败回退</text>
-  <text class="txt p muted" x="468" y="374">重试/换提示/换模型/空结构+复核</text>
+  <text class="txt p muted" x="468" y="374" font-size="10.206">重试/换提示/换模型/空结构+复核</text>
 
-  <!-- Connectors -->
-  <path class="dash" d="M 330 142 L 330 160"/>
-  <path class="dash" d="M 330 216 L 330 228"/>
-  <path class="dash" d="M 330 284 L 330 296"/>
-  <path class="dash" d="M 220 352 L 220 356"/>
+  
+  <path class="dash" d="M 330 142 L 330 160" />
+  <path class="dash" d="M 330 216 L 330 228" />
+  <path class="dash" d="M 330 284 L 330 296" />
+  <path class="dash" d="M 220 352 L 220 356" />
 
-  <!-- Validation decision to fallback (dashed) -->
-  <path class="dash" d="M 620 324 L 640 324 L 640 360 L 620 360"/>
+  
+  <path class="dash" d="M 620 324 L 640 324 L 640 360 L 620 360" />
   <text class="txt p muted" x="520" y="320">校验失败</text>
 
-  <!-- Fallback loop back to pre-clean -->
-  <path class="dash" d="M 518 332 L 518 120 L 620 120"/>
-  <path class="dash" d="M 620 120 L 620 188 L 620 188"/>
-  <path class="dash" d="M 620 120 L 610 120"/>
-  <text class="txt p muted" x="526" y="136">带错误信息重试</text>
+  
+  <path class="dash" d="M 518 332 L 518 120 L 620 120" />
+  <path class="dash" d="M 620 120 L 620 188 L 620 188" />
+  <path class="dash" d="M 620 120 L 610 120" />
+  <text class="txt p muted" x="526" y="136" font-size="11.34">带错误信息重试</text>
 
-  <!-- Danger note -->
-  <text class="txt p" x="416" y="310" fill="#111827">最危险：解析失败直接抛异常结束</text>
+  
+  <text class="txt p" x="416" y="310" fill="#111827" font-size="12.6">最危险：解析失败直接抛异常结束</text>
 </svg>

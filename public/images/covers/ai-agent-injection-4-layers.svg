@@ -1,68 +1,68 @@
-<svg width="660" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#44403C"/>
-      <stop offset="100%" stop-color="#1C1917"/>
+      <stop offset="0%" stop-color="#44403C" />
+      <stop offset="100%" stop-color="#1C1917" />
     </linearGradient>
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#EA580C"/>
-      <stop offset="100%" stop-color="#F59E0B"/>
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#F59E0B" />
     </linearGradient>
     <pattern id="texture" patternUnits="userSpaceOnUse" width="40" height="40">
-      <circle cx="8" cy="12" r="1.2" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="25" cy="28" r="0.9" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="15" cy="35" r="1.1" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="33" cy="7" r="0.8" fill="#D6D3D1" opacity="0.06"/>
+      <circle cx="8" cy="12" r="1.2" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="25" cy="28" r="0.9" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="15" cy="35" r="1.1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="33" cy="7" r="0.8" fill="#D6D3D1" opacity="0.06" />
     </pattern>
   </defs>
   
-  <!-- 背景 -->
-  <rect width="660" height="300" fill="url(#bgGrad)"/>
-  <rect width="660" height="300" fill="url(#texture)"/>
   
-  <!-- 左侧强调线 -->
-  <rect x="50" y="0" width="4.5" height="300" fill="url(#accentGrad)"/>
+  <rect width="660" height="300" fill="url(#bgGrad)" />
+  <rect width="660" height="300" fill="url(#texture)" />
   
-  <!-- 标题 -->
-  <text x="70" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FAFAF9">
+  
+  <rect x="50" y="0" width="4.5" height="300" fill="url(#accentGrad)" />
+  
+  
+  <text x="70" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="19.8" font-weight="700" fill="#FAFAF9">
     <tspan x="70" dy="0">AI 功能总被一句话绕过？</tspan>
     <tspan x="70" dy="30">OpenAI 教你的 4 层防御</tspan>
     <tspan x="70" dy="30">怎么落地</tspan>
   </text>
   
-  <!-- 副标题 -->
+  
   <text x="70" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#A8A29E">
     用户一句话就能让 Agent 跳过规则？4 层接口防御落地指南
   </text>
   
-  <!-- 标签胶囊 -->
+  
   <g>
-    <!-- 标签1 -->
-    <rect x="70" y="242" width="78" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+    
+    <rect x="70" y="242" width="78" height="24" rx="12" fill="#57534E" opacity="0.4" />
     <text x="109" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">4层防御</text>
     
-    <!-- 标签2 -->
-    <rect x="160" y="242" width="82" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+    
+    <rect x="160" y="242" width="82" height="24" rx="12" fill="#57534E" opacity="0.4" />
     <text x="201" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">Agent安全</text>
     
-    <!-- 标签3 -->
-    <rect x="254" y="242" width="86" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+    
+    <rect x="254" y="242" width="86" height="24" rx="12" fill="#57534E" opacity="0.4" />
     <text x="297" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">接口防护</text>
   </g>
   
-  <!-- 右下角装饰：简笔盾牌 + 层级线条 -->
+  
   <g opacity="0.22">
-    <!-- 盾牌外轮廓 -->
-    <path d="M530 195 L570 195 L570 235 Q550 252 530 235 Z" fill="none" stroke="#EA580C" stroke-width="2.5"/>
-    <!-- 内部层级线 -->
-    <line x1="540" y1="208" x2="560" y2="208" stroke="#EA580C" stroke-width="1.8"/>
-    <line x1="540" y1="218" x2="560" y2="218" stroke="#EA580C" stroke-width="1.8"/>
-    <line x1="540" y1="228" x2="560" y2="228" stroke="#EA580C" stroke-width="1.8"/>
-    <!-- 小锁形 -->
-    <rect x="545" y="200" width="10" height="7" rx="1.5" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
-    <path d="M547 200 Q550 195 553 200" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+    
+    <path d="M530 195 L570 195 L570 235 Q550 252 530 235 Z" fill="none" stroke="#EA580C" stroke-width="2.5" />
+    
+    <line x1="540" y1="208" x2="560" y2="208" stroke="#EA580C" stroke-width="1.8" />
+    <line x1="540" y1="218" x2="560" y2="218" stroke="#EA580C" stroke-width="1.8" />
+    <line x1="540" y1="228" x2="560" y2="228" stroke="#EA580C" stroke-width="1.8" />
+    
+    <rect x="545" y="200" width="10" height="7" rx="1.5" fill="none" stroke="#F59E0B" stroke-width="1.5" />
+    <path d="M547 200 Q550 195 553 200" fill="none" stroke="#F59E0B" stroke-width="1.5" />
   </g>
   
-  <!-- 底部色条 -->
-  <rect y="293" width="660" height="7" fill="url(#accentGrad)"/>
+  
+  <rect y="293" width="660" height="7" fill="url(#accentGrad)" />
 </svg>

@@ -1,7 +1,7 @@
-<svg viewBox="0 0 660 400" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400">
   <defs>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.12"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.12" />
     </filter>
     <style>
       .bg { fill:#FAFAFA; }
@@ -17,67 +17,67 @@
     </style>
   </defs>
 
-  <!-- background -->
-  <rect x="10" y="10" width="640" height="380" rx="12" class="bg"/>
+  
+  <rect x="10" y="10" width="640" height="380" rx="12" class="bg" />
 
-  <!-- header -->
+  
   <text x="40" y="48" class="title">把“脑子、手脚、日志”彻底解耦（不断点）</text>
   <text x="40" y="70" class="subtitle">核心目标：失败只损失当前一步，依靠 session log + cursor/checkpoint 恢复</text>
 
-  <!-- Column titles -->
+  
   <text x="70" y="104" class="h">一体式（常见 Demo）</text>
   <text x="400" y="104" class="h">解耦式（不断点）</text>
 
-  <!-- Left: monolith card -->
-  <rect x="40" y="120" width="280" height="230" rx="12" class="card"/>
-  <rect x="60" y="145" width="240" height="60" rx="10" fill="#2563EB" opacity="0.10"/>
+  
+  <rect x="40" y="120" width="280" height="230" rx="12" class="card" />
+  <rect x="60" y="145" width="240" height="60" rx="10" fill="#2563EB" opacity="0.10" />
   <text x="72" y="170" class="h" fill="#1d4ed8">模型进程</text>
   <text x="72" y="190" class="t">脑子 + 手脚 + 状态</text>
 
-  <rect x="60" y="220" width="240" height="48" rx="10" fill="#EA580C" opacity="0.10"/>
+  <rect x="60" y="220" width="240" height="48" rx="10" fill="#EA580C" opacity="0.10" />
   <text x="72" y="248" class="t" fill="#9a3412">工具执行与模型同生共死</text>
 
-  <rect x="60" y="280" width="240" height="48" rx="10" fill="#9333EA" opacity="0.10"/>
+  <rect x="60" y="280" width="240" height="48" rx="10" fill="#9333EA" opacity="0.10" />
   <text x="72" y="308" class="t" fill="#6b21a8">状态在内存/本地/容器</text>
 
-  <!-- Left failure note -->
-  <rect x="55" y="335" width="250" height="0" rx="10" fill="#ffffff"/>
-  <text x="60" y="342" class="small">失败：一挂就“全没了”，调试多靠 ssh/exec</text>
+  
+  <rect x="55" y="335" width="250" height="0" rx="10" fill="#ffffff" />
+  <text x="60" y="342" class="small" font-size="12.6">失败：一挂就“全没了”，调试多靠 ssh/exec</text>
 
-  <!-- Left internal coupling lines -->
-  <path d="M180 205 L180 220" class="dash"/>
-  <path d="M180 268 L180 280" class="dash"/>
+  
+  <path d="M180 205 L180 220" class="dash" />
+  <path d="M180 268 L180 280" class="dash" />
 
-  <!-- Right: decoupled card -->
-  <rect x="360" y="120" width="280" height="230" rx="12" class="card"/>
+  
+  <rect x="360" y="120" width="280" height="230" rx="12" class="card" />
 
-  <!-- Right components -->
-  <rect x="380" y="145" width="240" height="54" rx="10" fill="#2563EB" opacity="0.10"/>
+  
+  <rect x="380" y="145" width="240" height="54" rx="10" fill="#2563EB" opacity="0.10" />
   <text x="392" y="168" class="h" fill="#1d4ed8">模型（可替换）</text>
   <text x="392" y="188" class="t">通过 harness/适配层接入</text>
 
-  <rect x="380" y="210" width="240" height="52" rx="10" fill="#16A34A" opacity="0.10"/>
+  <rect x="380" y="210" width="240" height="52" rx="10" fill="#16A34A" opacity="0.10" />
   <text x="392" y="233" class="h" fill="#166534">worker / sandbox（可重建）</text>
   <text x="392" y="252" class="t">工具执行与模型解耦</text>
 
-  <rect x="380" y="275" width="240" height="60" rx="10" fill="#9333EA" opacity="0.10"/>
+  <rect x="380" y="275" width="240" height="60" rx="10" fill="#9333EA" opacity="0.10" />
   <text x="392" y="298" class="h" fill="#6b21a8">外部持久化 session log</text>
-  <text x="392" y="318" class="t">cursor/checkpoint：从最后事件恢复</text>
+  <text x="392" y="318" class="t" font-size="12.6">cursor/checkpoint：从最后事件恢复</text>
 
-  <text x="380" y="352" class="small">调试：事件回放 + 指标；并发：session 独立更易水平扩展</text>
+  <text x="380" y="352" class="small" font-size="9.8">调试：事件回放 + 指标；并发：session 独立更易水平扩展</text>
 
-  <!-- Right dashed connections (decoupled via log) -->
-  <path d="M500 199 L500 210" class="dash"/>
-  <path d="M500 262 L500 275" class="dash"/>
+  
+  <path d="M500 199 L500 210" class="dash" />
+  <path d="M500 262 L500 275" class="dash" />
 
-  <!-- Cross-column comparison arrows -->
-  <path d="M320 185 C340 185 340 185 360 185" class="dash"/>
-  <path d="M320 245 C340 245 340 245 360 245" class="dash"/>
-  <path d="M320 305 C340 305 340 305 360 305" class="dash"/>
+  
+  <path d="M320 185 C340 185 340 185 360 185" class="dash" />
+  <path d="M320 245 C340 245 340 245 360 245" class="dash" />
+  <path d="M320 305 C340 305 340 305 360 305" class="dash" />
 
-  <!-- Warning callout about idempotency -->
-  <rect x="40" y="360" width="600" height="24" rx="10" fill="#D97706" opacity="0.12"/>
-  <rect x="48" y="364" width="84" height="16" rx="8" fill="#D97706"/>
+  
+  <rect x="40" y="360" width="600" height="24" rx="10" fill="#D97706" opacity="0.12" />
+  <rect x="48" y="364" width="84" height="16" rx="8" fill="#D97706" />
   <text x="60" y="376" class="tag">现实的坑</text>
   <text x="144" y="376" class="small">允许写文件/发邮件/改表但没有事件日志与幂等设计：重试会重复执行</text>
 </svg>

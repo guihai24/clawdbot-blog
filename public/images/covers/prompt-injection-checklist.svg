@@ -1,31 +1,31 @@
-<svg width="660" height="300" viewBox="0 0 660 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300" fill="none">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="660" y2="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#44403C"/>
-      <stop offset="100%" stop-color="#1C1917"/>
+      <stop offset="0%" stop-color="#44403C" />
+      <stop offset="100%" stop-color="#1C1917" />
     </linearGradient>
     <linearGradient id="accentGrad" x1="50" y1="0" x2="660" y2="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#EA580C"/>
-      <stop offset="100%" stop-color="#F59E0B"/>
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#F59E0B" />
     </linearGradient>
     <pattern id="grain" width="36" height="36" patternUnits="userSpaceOnUse">
-      <circle cx="6" cy="8" r="1" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="18" cy="5" r="0.9" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="29" cy="11" r="1.1" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="10" cy="20" r="0.8" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="24" cy="24" r="1" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="33" cy="30" r="0.9" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="5" cy="31" r="1" fill="#D6D3D1" opacity="0.06"/>
-      <circle cx="16" cy="33" r="0.7" fill="#D6D3D1" opacity="0.06"/>
+      <circle cx="6" cy="8" r="1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="18" cy="5" r="0.9" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="29" cy="11" r="1.1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="10" cy="20" r="0.8" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="24" cy="24" r="1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="33" cy="30" r="0.9" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="5" cy="31" r="1" fill="#D6D3D1" opacity="0.06" />
+      <circle cx="16" cy="33" r="0.7" fill="#D6D3D1" opacity="0.06" />
     </pattern>
   </defs>
 
-  <rect width="660" height="300" fill="url(#bgGrad)"/>
-  <rect width="660" height="300" fill="url(#grain)"/>
+  <rect width="660" height="300" fill="url(#bgGrad)" />
+  <rect width="660" height="300" fill="url(#grain)" />
 
-  <rect x="50" y="24" width="5" height="218" rx="2.5" fill="url(#accentGrad)"/>
+  <rect x="50" y="24" width="5" height="218" rx="2.5" fill="url(#accentGrad)" />
 
-  <text x="70" y="78" fill="#FAFAF9" font-size="22" font-weight="700" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <text x="70" y="78" fill="#FAFAF9" font-size="19.8" font-weight="700" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
     <tspan x="70" dy="0">Prompt Injection 不是概念，</tspan>
     <tspan x="70" dy="28">是你 AI 工具最容易漏的洞</tspan>
   </text>
@@ -35,32 +35,32 @@
   </text>
 
   <g>
-    <rect x="70" y="238" width="78" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
-    <text x="109" y="254" text-anchor="middle" fill="#D6D3D1" font-size="12" font-weight="500" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Prompt 注入</text>
+    <rect x="70" y="238" width="78" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
+    <text x="109" y="254" text-anchor="middle" fill="#D6D3D1" font-size="10.8" font-weight="500" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Prompt 注入</text>
 
-    <rect x="158" y="238" width="74" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
+    <rect x="158" y="238" width="74" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
     <text x="195" y="254" text-anchor="middle" fill="#D6D3D1" font-size="12" font-weight="500" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Agent 安全</text>
 
-    <rect x="242" y="238" width="78" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
+    <rect x="242" y="238" width="78" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
     <text x="281" y="254" text-anchor="middle" fill="#D6D3D1" font-size="12" font-weight="500" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">防线清单</text>
   </g>
 
   <g opacity="0.22" stroke="#EA580C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <rect x="520" y="188" width="58" height="42" rx="6"/>
-    <path d="M531 200H567"/>
-    <path d="M531 208H558"/>
-    <path d="M531 216H549"/>
-    <path d="M578 196L594 188"/>
-    <path d="M578 222L594 230"/>
+    <rect x="520" y="188" width="58" height="42" rx="6" />
+    <path d="M531 200H567" />
+    <path d="M531 208H558" />
+    <path d="M531 216H549" />
+    <path d="M578 196L594 188" />
+    <path d="M578 222L594 230" />
   </g>
 
   <g opacity="0.18" stroke="#A8A29E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <path d="M560 248C560 236 569 228 581 228C593 228 602 236 602 248C602 260 593 268 581 268C569 268 560 260 560 248Z"/>
-    <path d="M581 236V250"/>
-    <path d="M581 257H581.5"/>
-    <path d="M607 236L620 223"/>
-    <path d="M609 260L624 270"/>
+    <path d="M560 248C560 236 569 228 581 228C593 228 602 236 602 248C602 260 593 268 581 268C569 268 560 260 560 248Z" />
+    <path d="M581 236V250" />
+    <path d="M581 257H581.5" />
+    <path d="M607 236L620 223" />
+    <path d="M609 260L624 270" />
   </g>
 
-  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)"/>
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
 </svg>

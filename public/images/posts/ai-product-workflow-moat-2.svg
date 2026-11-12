@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400">
   <defs>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.12"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.12" />
     </filter>
     <style>
       .bg { fill:#FAFAFA; }
@@ -14,67 +14,67 @@
     </style>
   </defs>
 
-  <!-- Background -->
-  <rect class="bg" x="0" y="0" width="660" height="400" rx="12"/>
+  
+  <rect class="bg" x="0" y="0" width="660" height="400" rx="12" />
 
-  <!-- Center: System of Record -->
-  <rect class="card" x="220" y="92" width="220" height="216" rx="12"/>
-  <rect x="220" y="92" width="220" height="42" rx="12" fill="#2563EB"/>
+  
+  <rect class="card" x="220" y="92" width="220" height="216" rx="12" />
+  <rect x="220" y="92" width="220" height="42" rx="12" fill="#2563EB" />
   <text x="330" y="118" text-anchor="middle" class="badge">System of Record（记录源）</text>
 
   <text x="238" y="156" class="text">以谁的记录为准</text>
   <text x="238" y="178" class="muted">可追责 · 可回查 · 可审批</text>
 
-  <!-- Mini checklist -->
-  <circle cx="240" cy="210" r="5" fill="#16A34A"/>
+  
+  <circle cx="240" cy="210" r="5" fill="#16A34A" />
   <text x="252" y="214" class="text">落一条正式记录</text>
 
-  <circle cx="240" cy="235" r="5" fill="#16A34A"/>
+  <circle cx="240" cy="235" r="5" fill="#16A34A" />
   <text x="252" y="239" class="text">驱动流程与协作</text>
 
-  <circle cx="240" cy="260" r="5" fill="#16A34A"/>
+  <circle cx="240" cy="260" r="5" fill="#16A34A" />
   <text x="252" y="264" class="text">形成默认路径（护城河）</text>
 
-  <!-- Left: AI suggestion -->
-  <rect class="card" x="40" y="140" width="155" height="120" rx="12"/>
-  <rect x="40" y="140" width="155" height="36" rx="12" fill="#9333EA"/>
+  
+  <rect class="card" x="40" y="140" width="155" height="120" rx="12" />
+  <rect x="40" y="140" width="155" height="36" rx="12" fill="#9333EA" />
   <text x="117.5" y="163" text-anchor="middle" class="badge">AI 建议</text>
   <text x="55" y="198" class="text">话说得很漂亮</text>
   <text x="55" y="220" class="muted">但不落库 = 只是聊天</text>
 
-  <!-- Right: examples -->
-  <rect class="card" x="465" y="80" width="175" height="250" rx="12"/>
-  <rect x="465" y="80" width="175" height="38" rx="12" fill="#EA580C"/>
+  
+  <rect class="card" x="465" y="80" width="175" height="250" rx="12" />
+  <rect x="465" y="80" width="175" height="38" rx="12" fill="#EA580C" />
   <text x="552.5" y="104" text-anchor="middle" class="badge">常见记录源例子</text>
 
   <text x="482" y="140" class="text">工单：ServiceNow</text>
   <text x="482" y="166" class="text">任务：Jira</text>
   <text x="482" y="192" class="text">客户：Salesforce</text>
   <text x="482" y="218" class="text">合同：合同系统</text>
-  <text x="482" y="244" class="muted">也可能是多维表格/Notion/Excel</text>
+  <text x="482" y="244" class="muted" font-size="10.206">也可能是多维表格/Notion/Excel</text>
 
-  <!-- Bottom: Value judgment -->
-  <rect class="card" x="140" y="325" width="380" height="55" rx="12"/>
-  <rect x="140" y="325" width="380" height="55" rx="12" fill="#FFFFFF"/>
-  <circle cx="160" cy="352" r="7" fill="#D97706"/>
+  
+  <rect class="card" x="140" y="325" width="380" height="55" rx="12" />
+  <rect x="140" y="325" width="380" height="55" rx="12" fill="#FFFFFF" />
+  <circle cx="160" cy="352" r="7" fill="#D97706" />
   <text x="175" y="347" class="text">用户更愿意为</text>
   <text x="278" y="347" class="text" font-weight="700">“把事办完”</text>
   <text x="360" y="347" class="text">付费，</text>
   <text x="175" y="370" class="muted">而不是长期为“把话说好”持续付费</text>
 
-  <!-- Dashed connectors -->
-  <path class="dash" d="M195 200 C220 200, 205 200, 220 200"/>
-  <path class="dash" d="M195 200 C210 200, 215 180, 220 170"/>
+  
+  <path class="dash" d="M195 200 C220 200, 205 200, 220 200" />
+  <path class="dash" d="M195 200 C210 200, 215 180, 220 170" />
 
-  <path class="dash" d="M440 180 C455 180, 450 180, 465 180"/>
+  <path class="dash" d="M440 180 C455 180, 450 180, 465 180" />
 
-  <path class="dash" d="M330 308 C330 318, 330 318, 330 325"/>
+  <path class="dash" d="M330 308 C330 318, 330 318, 330 325" />
 
-  <!-- Arrowheads (simple triangles) -->
-  <polygon points="220,200 211,195 211,205" fill="#9CA3AF"/>
-  <polygon points="465,180 456,175 456,185" fill="#9CA3AF"/>
-  <polygon points="330,325 325,316 335,316" fill="#9CA3AF"/>
+  
+  <polygon points="220,200 211,195 211,205" fill="#9CA3AF" />
+  <polygon points="465,180 456,175 456,185" fill="#9CA3AF" />
+  <polygon points="330,325 325,316 335,316" fill="#9CA3AF" />
 
-  <!-- Caption -->
+  
   <text x="330" y="34" text-anchor="middle" class="title">为什么 System of Record 比“模型更强”更值钱</text>
 </svg>

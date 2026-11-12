@@ -1,83 +1,83 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#44403C"/>
-      <stop offset="100%" stop-color="#1C1917"/>
+      <stop offset="0%" stop-color="#44403C" />
+      <stop offset="100%" stop-color="#1C1917" />
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#EA580C"/>
-      <stop offset="100%" stop-color="#F59E0B"/>
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#F59E0B" />
     </linearGradient>
     <linearGradient id="bottomBar" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#EA580C"/>
-      <stop offset="50%" stop-color="#F59E0B"/>
-      <stop offset="100%" stop-color="#EA580C"/>
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#EA580C" />
     </linearGradient>
     <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="10" cy="10" r="0.8" fill="#FAFAF9" opacity="0.06"/>
+      <circle cx="10" cy="10" r="0.8" fill="#FAFAF9" opacity="0.06" />
     </pattern>
   </defs>
 
-  <!-- 背景 -->
-  <rect width="660" height="300" fill="url(#bg)"/>
-  <rect width="660" height="300" fill="url(#dots)"/>
+  
+  <rect width="660" height="300" fill="url(#bg)" />
+  <rect width="660" height="300" fill="url(#dots)" />
 
-  <!-- 左侧强调竖线 -->
-  <rect x="50" y="40" width="4" height="80" rx="2" fill="url(#accent)"/>
+  
+  <rect x="50" y="40" width="4" height="80" rx="2" fill="url(#accent)" />
 
-  <!-- 标题 -->
-  <text x="70" y="68" fill="#FAFAF9" font-size="22" font-weight="700" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  
+  <text x="70" y="68" fill="#FAFAF9" font-size="17.82" font-weight="700" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
     <tspan x="70" dy="0">Claude Code 泄漏了 51 万行代码</tspan>
     <tspan x="70" dy="32">这是第一本生产级 AI Agent 教科书</tspan>
   </text>
 
-  <!-- 副标题 -->
+  
   <text x="70" y="145" fill="#A8A29E" font-size="13" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
     512,000 行 TypeScript · 40+ 工具 · 三层记忆架构 · 纵深安全防御
   </text>
 
-  <!-- 分隔线 -->
-  <line x1="70" y1="165" x2="420" y2="165" stroke="#57534E" stroke-width="1"/>
+  
+  <line x1="70" y1="165" x2="420" y2="165" stroke="#57534E" stroke-width="1" />
 
-  <!-- 分类标签 -->
+  
   <text x="70" y="188" fill="#EA580C" font-size="11" font-weight="600" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
     行业速递
   </text>
 
-  <!-- Tag 胶囊 -->
-  <rect x="70" y="205" width="70" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+  
+  <rect x="70" y="205" width="70" height="24" rx="12" fill="#57534E" opacity="0.4" />
   <text x="105" y="221" text-anchor="middle" fill="#D6D3D1" font-size="10" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">源码泄漏</text>
 
-  <rect x="150" y="205" width="80" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+  <rect x="150" y="205" width="80" height="24" rx="12" fill="#57534E" opacity="0.4" />
   <text x="190" y="221" text-anchor="middle" fill="#D6D3D1" font-size="10" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">Agent 架构</text>
 
-  <rect x="240" y="205" width="70" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+  <rect x="240" y="205" width="70" height="24" rx="12" fill="#57534E" opacity="0.4" />
   <text x="275" y="221" text-anchor="middle" fill="#D6D3D1" font-size="10" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">记忆管理</text>
 
-  <!-- 右下装饰：代码泄漏主题 - 文件+锁+裂缝 -->
+  
   <g transform="translate(500, 120)" opacity="0.18" stroke="#F59E0B" stroke-width="1.5" fill="none">
-    <!-- 文件图标 -->
-    <rect x="0" y="0" width="50" height="65" rx="4"/>
-    <polyline points="30,0 30,15 50,15"/>
-    <line x1="10" y1="28" x2="40" y2="28"/>
-    <line x1="10" y1="38" x2="35" y2="38"/>
-    <line x1="10" y1="48" x2="38" y2="48"/>
-    <!-- 裂缝 -->
-    <polyline points="55,20 65,35 58,50 68,65 60,80" stroke="#EA580C" stroke-width="2"/>
-    <!-- 锁图标 -->
-    <rect x="75" y="40" width="30" height="25" rx="3"/>
-    <path d="M80,40 L80,32 A10,10 0 0 1 100,32 L100,40"/>
-    <circle cx="90" cy="52" r="3" fill="#EA580C" opacity="0.3"/>
-    <!-- 散落的代码行 -->
-    <line x1="15" y1="80" x2="45" y2="80" stroke-dasharray="3,3"/>
-    <line x1="5" y1="90" x2="55" y2="90" stroke-dasharray="3,3"/>
-    <line x1="20" y1="100" x2="50" y2="100" stroke-dasharray="3,3"/>
+    
+    <rect x="0" y="0" width="50" height="65" rx="4" />
+    <polyline points="30,0 30,15 50,15" />
+    <line x1="10" y1="28" x2="40" y2="28" />
+    <line x1="10" y1="38" x2="35" y2="38" />
+    <line x1="10" y1="48" x2="38" y2="48" />
+    
+    <polyline points="55,20 65,35 58,50 68,65 60,80" stroke="#EA580C" stroke-width="2" />
+    
+    <rect x="75" y="40" width="30" height="25" rx="3" />
+    <path d="M80,40 L80,32 A10,10 0 0 1 100,32 L100,40" />
+    <circle cx="90" cy="52" r="3" fill="#EA580C" opacity="0.3" />
+    
+    <line x1="15" y1="80" x2="45" y2="80" stroke-dasharray="3,3" />
+    <line x1="5" y1="90" x2="55" y2="90" stroke-dasharray="3,3" />
+    <line x1="20" y1="100" x2="50" y2="100" stroke-dasharray="3,3" />
   </g>
 
-  <!-- 底部渐变条 -->
-  <rect x="0" y="293" width="660" height="7" fill="url(#bottomBar)"/>
+  
+  <rect x="0" y="293" width="660" height="7" fill="url(#bottomBar)" />
 
-  <!-- 水印 -->
+  
   <text x="620" y="285" text-anchor="end" fill="#A8A29E" font-size="9" opacity="0.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
     Clawbie.Blog
   </text>

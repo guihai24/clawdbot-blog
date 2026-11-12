@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="100%" height="100%">
   <defs>
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.05"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.05" />
     </filter>
     <style>
       .axis-text { font-family: -apple-system, 'Segoe UI', sans-serif; font-size: 12px; fill: #6B7280; }
@@ -11,14 +11,14 @@
     </style>
   </defs>
 
-  <!-- Background -->
+  
   <rect width="660" height="400" fill="#FAFAFA" rx="12" />
 
-  <!-- Header Card -->
+  
   <rect x="20" y="20" width="620" height="60" fill="#FFFFFF" rx="8" filter="url(#shadow)" />
   <text x="30" y="50" class="title">Token 膨胀倍率对比 (基准: GPT o200k = 1.0x)</text>
   
-  <!-- Legend -->
+  
   <rect x="40" y="100" width="12" height="12" fill="#2563EB" rx="2" />
   <text x="58" y="111" class="legend-text">GPT-5 (Baseline)</text>
   
@@ -28,105 +28,105 @@
   <rect x="360" y="100" width="12" height="12" fill="#9333EA" rx="2" />
   <text x="378" y="111" class="legend-text">Claude 旧 Tokenizer</text>
 
-  <!-- Chart Area -->
-  <!-- Y-Axis Grid Lines & Labels (0 to 2.0x, step 0.2) -->
-  <!-- Chart Height: 250px (y=130 to 380). Scale: 125px per 1.0x -->
   
-  <!-- 0.0 -->
+  
+  
+  
+  
   <line x1="80" y1="380" x2="640" y2="380" stroke="#E5E7EB" stroke-width="1" />
   <text x="70" y="384" class="axis-text" text-anchor="end">0.0x</text>
   
-  <!-- 0.4x (50px up) -->
+  
   <line x1="80" y1="330" x2="640" y2="330" stroke="#F3F4F6" stroke-width="1" stroke-dasharray="4" />
   <text x="70" y="334" class="axis-text" text-anchor="end">0.4x</text>
 
-  <!-- 0.8x (100px up) -->
+  
   <line x1="80" y1="280" x2="640" y2="280" stroke="#F3F4F6" stroke-width="1" stroke-dasharray="4" />
   <text x="70" y="284" class="axis-text" text-anchor="end">0.8x</text>
 
-  <!-- 1.2x (150px up) -->
+  
   <line x1="80" y1="230" x2="640" y2="230" stroke="#F3F4F6" stroke-width="1" stroke-dasharray="4" />
   <text x="70" y="234" class="axis-text" text-anchor="end">1.2x</text>
 
-  <!-- 1.6x (200px up) -->
+  
   <line x1="80" y1="180" x2="640" y2="180" stroke="#F3F4F6" stroke-width="1" stroke-dasharray="4" />
   <text x="70" y="184" class="axis-text" text-anchor="end">1.6x</text>
 
-  <!-- 2.0x (250px up) -->
+  
   <line x1="80" y1="130" x2="640" y2="130" stroke="#E5E7EB" stroke-width="1" />
   <text x="70" y="134" class="axis-text" text-anchor="end">2.0x</text>
 
-  <!-- Bars Grouping -->
-  <!-- Bar Width: 24px. Gap between groups: Variable. Gap within group: 4px -->
-  <!-- Center X positions for each category -->
-  <!-- TS: 140, Rust: 230, JS: 320, Py: 410, HTML: 500, EN: 560, CN: 600 -->
   
-  <!-- Helper function logic for Y: Y = 380 - (Value * 125) -->
+  
+  
+  
+  
+  
 
-  <!-- 1. TypeScript -->
-  <!-- Baseline 1.0x -> Y=255, H=125 -->
+  
+  
   <rect x="128" y="255" width="24" height="125" fill="#2563EB" rx="2" />
-  <!-- New 1.73x -> Y=163.75, H=216.25 -->
+  
   <rect x="132" y="163.75" width="24" height="216.25" fill="#16A34A" rx="2" />
-  <!-- Old 1.32x -> Y=215, H=165 -->
+  
   <rect x="136" y="215" width="24" height="165" fill="#9333EA" rx="2" />
-  <text x="156" y="395" class="axis-text" text-anchor="middle">TypeScript</text>
+  <text x="156" y="395" class="axis-text" text-anchor="middle" font-size="10.206">TypeScript</text>
 
-  <!-- 2. Rust -->
-  <!-- Baseline 1.0x -> Y=255 -->
+  
+  
   <rect x="218" y="255" width="24" height="125" fill="#2563EB" rx="2" />
-  <!-- New 1.58x -> Y=222.5, H=157.5 -->
+  
   <rect x="222" y="222.5" width="24" height="157.5" fill="#16A34A" rx="2" />
-  <!-- Old 1.22x -> Y=227.5, H=152.5 -->
+  
   <rect x="226" y="227.5" width="24" height="152.5" fill="#9333EA" rx="2" />
-  <text x="238" y="395" class="axis-text" text-anchor="middle">Rust</text>
+  <text x="238" y="395" class="axis-text" text-anchor="middle" font-size="10.206">Rust</text>
 
-  <!-- 3. JavaScript -->
-  <!-- Baseline 1.0x -> Y=255 -->
+  
+  
   <rect x="308" y="255" width="24" height="125" fill="#2563EB" rx="2" />
-  <!-- New 1.52x -> Y=230, H=150 -->
+  
   <rect x="312" y="230" width="24" height="150" fill="#16A34A" rx="2" />
-  <!-- Old 1.26x -> Y=222.5, H=157.5 -->
+  
   <rect x="316" y="222.5" width="24" height="157.5" fill="#9333EA" rx="2" />
-  <text x="328" y="395" class="axis-text" text-anchor="middle">JavaScript</text>
+  <text x="328" y="395" class="axis-text" text-anchor="middle" font-size="10.206">JavaScript</text>
 
-  <!-- 4. Python -->
-  <!-- Baseline 1.0x -> Y=255 -->
+  
+  
   <rect x="398" y="255" width="24" height="125" fill="#2563EB" rx="2" />
-  <!-- New 1.50x -> Y=231.25, H=148.75 -->
+  
   <rect x="402" y="231.25" width="24" height="148.75" fill="#16A34A" rx="2" />
-  <!-- Old 1.22x -> Y=227.5, H=152.5 -->
+  
   <rect x="406" y="227.5" width="24" height="152.5" fill="#9333EA" rx="2" />
-  <text x="418" y="395" class="axis-text" text-anchor="middle">Python</text>
+  <text x="418" y="395" class="axis-text" text-anchor="middle" font-size="10.206">Python</text>
 
-  <!-- 5. HTML -->
-  <!-- Baseline 1.0x -> Y=255 -->
+  
+  
   <rect x="488" y="255" width="24" height="125" fill="#2563EB" rx="2" />
-  <!-- New 1.36x -> Y=210, H=170 -->
+  
   <rect x="492" y="210" width="24" height="170" fill="#16A34A" rx="2" />
-  <!-- Old 1.18x -> Y=232.5, H=147.5 -->
+  
   <rect x="496" y="232.5" width="24" height="147.5" fill="#9333EA" rx="2" />
-  <text x="508" y="395" class="axis-text" text-anchor="middle">HTML</text>
+  <text x="508" y="395" class="axis-text" text-anchor="middle" font-size="10.206">HTML</text>
 
-  <!-- 6. English Prose -->
-  <!-- Baseline 1.0x -> Y=255 -->
+  
+  
   <rect x="548" y="255" width="24" height="125" fill="#2563EB" rx="2" />
-  <!-- New 1.40x -> Y=225, H=155 -->
+  
   <rect x="552" y="225" width="24" height="155" fill="#16A34A" rx="2" />
-  <!-- Old 1.05x -> Y=243.75, H=136.25 -->
+  
   <rect x="556" y="243.75" width="24" height="136.25" fill="#9333EA" rx="2" />
-  <text x="568" y="395" class="axis-text" text-anchor="middle">EN Prose</text>
+  <text x="568" y="395" class="axis-text" text-anchor="middle" font-size="10.206">EN Prose</text>
 
-  <!-- 7. Chinese Prose -->
-  <!-- Baseline 1.0x -> Y=255 -->
+  
+  
   <rect x="588" y="255" width="24" height="125" fill="#2563EB" rx="2" />
-  <!-- New 1.44x -> Y=220, H=160 -->
+  
   <rect x="592" y="220" width="24" height="160" fill="#16A34A" rx="2" />
-  <!-- Old 1.45x -> Y=218.75, H=161.25 -->
+  
   <rect x="596" y="218.75" width="24" height="161.25" fill="#9333EA" rx="2" />
-  <text x="608" y="395" class="axis-text" text-anchor="middle">CN Prose</text>
+  <text x="608" y="395" class="axis-text" text-anchor="middle" font-size="10.206">CN Prose</text>
 
-  <!-- Highlight Annotation for TypeScript -->
+  
   <path d="M 156 160 Q 156 140 170 140 L 250 140" fill="none" stroke="#EA580C" stroke-width="2" stroke-dasharray="4" />
   <circle cx="156" cy="163.75" r="3" fill="#EA580C" />
   <text x="255" y="144" class="legend-text" fill="#EA580C" font-weight="bold">+73% Tokens</text>
