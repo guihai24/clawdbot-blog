@@ -67,7 +67,7 @@
   </g>
   <circle cx='486' cy='188' r='8' fill='#16A34A'/>
   <text x='502' y='184' font-size='14' font-weight='600' fill='#111827'>受影响版本范围</text>
-  <text x='502' y='202' font-size='12' fill='#6B7280'><, <=, >= 规则</text>
+  <text x='502' y='202' font-size='12' fill='#6B7280'>&lt;, &lt;=, >= 规则</text>
 
   <g filter='url(#shadow)'>
     <rect x='470' y='230' width='160' height='56' rx='12' fill='#FFFFFF'/>

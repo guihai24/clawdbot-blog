@@ -73,7 +73,7 @@
     <rect x='20' y='320' width='620' height='60' rx='12' fill='#FFFFFF' stroke='#E5E7EB'/>
     <rect x='20' y='320' width='620' height='8' rx='12' fill='#2563EB'/>
   </g>
-  <text x='36' y='350' font-family='-apple-system, Segoe UI, sans-serif' font-size='14' font-weight='700' fill='#0F172A'>观察信号 & 过/不过标准（统一验收）</text>
+  <text x='36' y='350' font-family='-apple-system, Segoe UI, sans-serif' font-size='14' font-weight='700' fill='#0F172A'>观察信号 &amp; 过/不过标准（统一验收）</text>
   <text x='36' y='370' font-family='-apple-system, Segoe UI, sans-serif' font-size='12' fill='#334155'>审计日志 / 输出拦截脱敏 / 最小化数据 / 工具端校验 / 高风险动作变慢且可追责</text>
 
   <!-- Connections (dashed) -->
