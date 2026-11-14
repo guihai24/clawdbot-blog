@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300">
+  <!-- 颜色定义与背景渐变 -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#44403C" />
+      <stop offset="100%" stop-color="#1C1917" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <pattern id="dotTexture" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1" fill="#D6D3D1" opacity="0.06" />
+    </pattern>
+  </defs>
+
+  <!-- 1. 背景层 -->
+  <rect width="660" height="300" fill="url(#bgGrad)" />
+  <rect width="660" height="300" fill="url(#dotTexture)" />
+
+  <!-- 2. 左侧强调线 -->
+  <rect x="50" y="45" width="4.5" height="210" rx="2" fill="url(#accentGrad)" />
+
+  <!-- 3. 文字层 (x=70 开始) -->
+  <text x="70" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="bold" font-size="22" fill="#FAFAF9">
+    <tspan x="70" dy="0">Agent Skills：别再每周</tspan>
+    <tspan x="70" dy="28">重复教 AI</tspan>
+  </text>
+
+  <!-- 副标题 -->
+  <text x="70" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#A8A29E">
+    Agent Skills 能把重复交代的任务流程写成可版本管理的 SKILL.md
+  </text>
+
+  <!-- 标签胶囊 (y ≈ 240-260) -->
+  <g transform="translate(70, 235)">
+    <!-- 标签 1 -->
+    <rect x="0" y="0" width="76" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
+    <text x="38" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">上手指南</text>
+
+    <!-- 标签 2 -->
+    <rect x="88" y="0" width="84" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
+    <text x="130" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">Agent Skills</text>
+
+    <!-- 标签 3 -->
+    <rect x="184" y="0" width="76" height="24" rx="12" fill="#57534E" fill-opacity="0.4" />
+    <text x="222" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">版本管理</text>
+  </g>
+
+  <!-- 4. 装饰元素 (只能在 x ≥ 480, y ≥ 180 区域内) -->
+  <g transform="translate(520, 195)" opacity="0.25" stroke="#EA580C" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 文件夹图标与代码结构简笔线条 -->
+    <path d="M4 12v20a4 4 0 0 0 4 4h48a4 4 0 0 0 4-4V16a4 4 0 0 0-4-4H32l-6-6H8a4 4 0 0 0-4 4z" />
+    <path d="M18 22l-4 4 4 4" />
+    <path d="M30 22l4 4-4 4" />
+    <path d="M26 20l-4 12" />
+  </g>
+
+  <!-- 5. 底部色条 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
+</svg>
