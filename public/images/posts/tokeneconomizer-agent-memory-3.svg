@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="100%" height="100%">
+  <rect width="660" height="400" rx="12" fill="#FAFAFA" stroke="#E2E8F0" stroke-width="1" />
+  
+  <text x="330" y="45" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" font-weight="bold" fill="#1E293B" text-anchor="middle">Agent Memory 生命周期与过滤机制</text>
+  
+  
+  <g transform="translate(40, 90)">
+    <rect width="160" height="240" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" filter="drop-shadow(0px 2px 4px rgba(0,0,0,0.05))" />
+    <rect x="0" y="0" width="160" height="40" rx="8" fill="#2563EB" />
+    <text x="80" y="25" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">候选经验区</text>
+    <text x="20" y="70" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#475569">📄 规则：新发现的经验</text>
+    <text x="20" y="100" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#475569">🔍 来源：任务 #12等</text>
+    <text x="20" y="130" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#475569">🔢 确认次数: 1-2 次</text>
+    <text x="20" y="160" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#475569">⏱️ 最近使用：今天</text>
+    <rect x="20" y="190" width="120" height="28" rx="4" fill="#DBEAFE" />
+    <text x="80" y="209" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#1E40AF" text-anchor="middle">状态：观察中</text>
+  </g>
+
+  
+  <g transform="translate(210, 200)">
+    <line x1="0" y1="0" x2="60" y2="0" stroke="#94A3B8" stroke-width="2" stroke-dasharray="4,4" />
+    <polygon points="60,-5 70,0 60,5" fill="#94A3B8" />
+    <text x="35" y="-12" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#64748B" text-anchor="middle">确认 &gt;= 3 次</text>
+  </g>
+
+  
+  <g transform="translate(290, 90)">
+    <rect width="160" height="240" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" filter="drop-shadow(0px 2px 4px rgba(0,0,0,0.05))" />
+    <rect x="0" y="0" width="160" height="40" rx="8" fill="#16A34A" />
+    <text x="80" y="25" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">默认上下文</text>
+    <text x="20" y="70" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#475569">🚀 规则：高权重经验</text>
+    <text x="20" y="100" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#475569">🔗 来源：多次复用</text>
+    <text x="20" y="130" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#475569">🔢 确认次数: &gt;= 3 次</text>
+    <text x="20" y="160" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#475569">⏱️ 最近使用：频繁</text>
+    <rect x="20" y="190" width="120" height="28" rx="4" fill="#DCFCE7" />
+    <text x="80" y="209" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#166534" text-anchor="middle">状态：启用</text>
+  </g>
+
+  
+  <g transform="translate(460, 200)">
+    <line x1="0" y1="0" x2="60" y2="0" stroke="#94A3B8" stroke-width="2" stroke-dasharray="4,4" />
+    <polygon points="60,-5 70,0 60,5" fill="#94A3B8" />
+    <text x="35" y="-12" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#64748B" text-anchor="middle">过期未用</text>
+  </g>
+
+  
+  <g transform="translate(540, 90)">
+    <rect width="80" height="240" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" filter="drop-shadow(0px 2px 4px rgba(0,0,0,0.05))" />
+    <rect x="0" y="0" width="80" height="40" rx="8" fill="#EA580C" />
+    <text x="40" y="25" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">仓库化</text>
+    <text x="40" y="80" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#475569" text-anchor="middle">Git仓库</text>
+    <text x="40" y="110" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#475569" text-anchor="middle">Review</text>
+    <text x="40" y="140" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#475569" text-anchor="middle">Diff</text>
+    <text x="40" y="170" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#475569" text-anchor="middle">Rollback</text>
+    <rect x="10" y="190" width="60" height="28" rx="4" fill="#FFEDD5" />
+    <text x="40" y="209" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#9A3412" text-anchor="middle">版本控制</text>
+  </g>
+</svg>

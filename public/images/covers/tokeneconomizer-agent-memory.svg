@@ -1,0 +1,65 @@
+<svg width="660" height="300" viewBox="0 0 660 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 1. 背景层：渐变背景 + 不规则散点纹理 -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="660" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3F4A3C" />
+      <stop offset="100%" stop-color="#1A2218" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="0" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B9A6D" />
+      <stop offset="100%" stop-color="#6B7A4E" />
+    </linearGradient>
+    <pattern id="dotTexture" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1" fill="#A8B89A" fill-opacity="0.06" />
+      <circle cx="13" cy="12" r="1.5" fill="#A8B89A" fill-opacity="0.06" />
+    </pattern>
+  </defs>
+
+  <rect width="660" height="300" fill="url(#bgGrad)" />
+  <rect width="660" height="300" fill="url(#dotTexture)" />
+
+  <!-- 2. 左侧强调线 -->
+  <rect x="50" y="45" width="4" height="210" rx="2" fill="url(#accentGrad)" />
+
+  <!-- 3. 文字层 (从 x=70 开始) -->
+  <!-- 标题：font-size=22px 粗体，2行，行间距 dy=28 -->
+  <text x="70" y="85" fill="#F0F4EC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold">
+    <tspan x="70" dy="0">AI 编码越用越贵？</tspan>
+    <tspan x="70" dy="28">让 Agent 记住踩过的坑</tspan>
+  </text>
+
+  <!-- 副标题：font-size=13px，一行，紧跟标题下方 -->
+  <text x="70" y="152" fill="#A8B89A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13">
+    常见原因不是模型变笨，而是 Agent 在同一个仓库反复试错
+  </text>
+
+  <!-- 标签胶囊：y ≈ 240-260，宽 70-90px，高 24px，圆角 -->
+  <!-- 标签 1 -->
+  <rect x="70" y="238" width="76" height="24" rx="12" fill="#5A664F" fill-opacity="0.4" />
+  <text x="108" y="254" fill="#D4DEC8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">行业速递</text>
+
+  <!-- 标签 2 -->
+  <rect x="156" y="238" width="76" height="24" rx="12" fill="#5A664F" fill-opacity="0.4" />
+  <text x="194" y="254" fill="#D4DEC8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">AI编码</text>
+
+  <!-- 标签 3 -->
+  <rect x="242" y="238" width="86" height="24" rx="12" fill="#5A664F" fill-opacity="0.4" />
+  <text x="285" y="254" fill="#D4DEC8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Token优化</text>
+
+
+  <!-- 4. 装饰元素 (只能放在右下角，x ≥ 480, y ≥ 180 的区域内，简笔线条风格，opacity 0.15-0.3) -->
+  <g transform="translate(520, 195)" stroke="#8B9A6D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.25">
+    <!-- 代码/终端窗口折线图标 -->
+    <rect x="0" y="0" width="70" height="50" rx="6" />
+    <path d="M14 20 L24 25 L14 30" />
+    <line x1="30" y1="30" x2="48" y2="30" />
+    
+    <!-- 浮动小圆点装饰 -->
+    <circle cx="85" cy="-10" r="3" fill="#8B9A6D" />
+    <circle cx="95" cy="15" r="2" fill="#8B9A6D" />
+  </g>
+
+
+  <!-- 5. 底部色条：y=293，高 7px，横贯全宽 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)" />
+</svg>
