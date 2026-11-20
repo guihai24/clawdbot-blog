@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="660" height="400" rx="12" fill="#FAFAFA" />
+
+  <text x="330" y="38" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="17" font-weight="700" fill="#1F2937">同一页面，三种「地图」</text>
+  <text x="330" y="58" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#6B7280">看见 ≠ 理解：Agent 拿到的结构化数据决定了它能否点对</text>
+
+  
+  <g filter="url(#shadow)">
+    <rect x="20" y="76" width="196" height="216" rx="12" fill="#FFFFFF" stroke="#E5E7EB" />
+  </g>
+  <circle cx="54" cy="110" r="16" fill="#DBEAFE" />
+  <text x="54" y="116" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#2563EB">1</text>
+  <text x="78" y="116" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#1F2937">截图</text>
+  <text x="36" y="150" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#2563EB">像一张纸质照片</text>
+  <line x1="36" y1="164" x2="200" y2="164" stroke="#E5E7EB" />
+  <circle cx="44" cy="184" r="3" fill="#16A34A" />
+  <text x="54" y="188" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#374151">保留视觉全貌与遮挡</text>
+  <circle cx="44" cy="208" r="3" fill="#16A34A" />
+  <text x="54" y="212" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#374151">文字小也看得见位置</text>
+  <text x="36" y="242" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#9CA3AF">盲区</text>
+  <text x="36" y="262" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#4B5563">只能从像素里猜哪里能点</text>
+  <text x="36" y="280" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#4B5563">按钮像标签就易看走眼</text>
+
+  
+  <g filter="url(#shadow)">
+    <rect x="232" y="76" width="196" height="216" rx="12" fill="#FFFFFF" stroke="#E5E7EB" />
+  </g>
+  <circle cx="266" cy="110" r="16" fill="#FFEDD5" />
+  <text x="266" y="116" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#EA580C">2</text>
+  <text x="290" y="116" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#1F2937">DOM</text>
+  <text x="248" y="150" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#EA580C">像一张施工图纸</text>
+  <line x1="248" y1="164" x2="412" y2="164" stroke="#E5E7EB" />
+  <circle cx="256" cy="184" r="3" fill="#16A34A" />
+  <text x="266" y="188" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#374151">节点属性精确可读</text>
+  <circle cx="256" cy="208" r="3" fill="#16A34A" />
+  <text x="266" y="212" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10.8" fill="#374151">button / href / placeholder</text>
+  <text x="248" y="242" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#9CA3AF">盲区</text>
+  <text x="248" y="262" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#4B5563">几十层 div 与重复文案</text>
+  <text x="248" y="280" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#4B5563">隐藏元素混在一起</text>
+
+  
+  <g filter="url(#shadow)">
+    <rect x="444" y="76" width="196" height="216" rx="12" fill="#FFFFFF" stroke="#E5E7EB" />
+  </g>
+  <circle cx="478" cy="110" r="16" fill="#F3E8FF" />
+  <text x="478" y="116" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#9333EA">3</text>
+  <text x="502" y="116" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#1F2937">无障碍树</text>
+  <text x="460" y="150" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#9333EA">像一张盲道地图</text>
+  <line x1="460" y1="164" x2="624" y2="164" stroke="#E5E7EB" />
+  <circle cx="468" cy="184" r="3" fill="#16A34A" />
+  <text x="478" y="188" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#374151">比 DOM 更干净</text>
+  <circle cx="468" cy="208" r="3" fill="#16A34A" />
+  <text x="478" y="212" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#374151">最接近可读控件</text>
+  <text x="460" y="242" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#9CA3AF">盲区</text>
+  <text x="460" y="262" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#4B5563">依赖页面写得规范</text>
+  <text x="460" y="280" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#4B5563">div 当按钮就会缺路</text>
+
+  
+  <rect x="20" y="308" width="620" height="62" rx="10" fill="#FFF7ED" stroke="#FDBA74" />
+  <text x="330" y="334" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#9A3412">乱点的根因，常常不是「不会点」</text>
+  <text x="330" y="356" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#C2410C">而是它手里的那张地图，刚好漏掉了最关键的路</text>
+</svg>
