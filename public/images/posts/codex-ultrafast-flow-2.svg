@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400">
+  <defs>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#000000" flood-opacity="0.08" />
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="660" height="400" rx="12" fill="#FAFAFA" />
+
+  <text x="330" y="42" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="18" font-weight="600" fill="#111827">快速迭代：五个看得见的小循环</text>
+  <text x="330" y="66" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#6B7280">重点不是工具多新，而是每一步做完都能立刻看到反馈</text>
+
+  
+  <rect x="34" y="100" width="104" height="150" rx="10" fill="#FFFFFF" stroke="#E5E7EB" filter="url(#cardShadow)" />
+  <circle cx="86" cy="126" r="15" fill="#2563EB" />
+  <text x="86" y="131" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">1</text>
+  <text x="86" y="164" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#111827">结果上屏</text>
+  <text x="86" y="190" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10.5" fill="#6B7280">热重载预览</text>
+  <text x="86" y="207" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10.5" fill="#6B7280">改完立刻可见</text>
+
+  
+  <rect x="156" y="100" width="104" height="150" rx="10" fill="#FFFFFF" stroke="#E5E7EB" filter="url(#cardShadow)" />
+  <circle cx="208" cy="126" r="15" fill="#EA580C" />
+  <text x="208" y="131" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">2</text>
+  <text x="208" y="164" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#111827">小反馈</text>
+  <text x="208" y="190" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10.5" fill="#6B7280">一次只改</text>
+  <text x="208" y="207" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10.5" fill="#6B7280">一个可见变化</text>
+
+  
+  <rect x="278" y="100" width="104" height="150" rx="10" fill="#FFFFFF" stroke="#E5E7EB" filter="url(#cardShadow)" />
+  <circle cx="330" cy="126" r="15" fill="#16A34A" />
+  <text x="330" y="131" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">3</text>
+  <text x="330" y="164" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#111827">指位置</text>
+  <text x="330" y="190" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10.5" fill="#6B7280">框住按钮说</text>
+  <text x="330" y="207" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10.5" fill="#6B7280">「这里」</text>
+
+  
+  <rect x="400" y="100" width="104" height="150" rx="10" fill="#FFFFFF" stroke="#E5E7EB" filter="url(#cardShadow)" />
+  <circle cx="452" cy="126" r="15" fill="#9333EA" />
+  <text x="452" y="131" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">4</text>
+  <text x="452" y="164" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#111827">低推理</text>
+  <text x="452" y="190" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10.5" fill="#6B7280">简单改动起步</text>
+  <text x="452" y="207" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10.5" fill="#6B7280">复杂再升档</text>
+
+  
+  <rect x="522" y="100" width="104" height="150" rx="10" fill="#FFFFFF" stroke="#E5E7EB" filter="url(#cardShadow)" />
+  <circle cx="574" cy="126" r="15" fill="#D97706" />
+  <text x="574" y="131" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">5</text>
+  <text x="574" y="164" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#111827">验证后置</text>
+  <text x="574" y="190" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10.5" fill="#6B7280">满意后再跑</text>
+  <text x="574" y="207" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10.5" fill="#6B7280">全量验证</text>
+
+  
+  <path d="M 574 250 V 302 H 86 V 262" fill="none" stroke="#94A3B8" stroke-width="1.6" stroke-dasharray="5 4" />
+  <polygon points="86,250 80,262 92,262" fill="#94A3B8" />
+  <rect x="256" y="287" width="148" height="24" rx="12" fill="#FAFAFA" />
+  <text x="330" y="304" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11.5" fill="#64748B">反馈闭环 · 顺手接下一轮</text>
+
+  <text x="330" y="350" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11.5" fill="#EA580C">注意边界：涉及权限、支付、数据迁移时，验证不能后置</text>
+</svg>

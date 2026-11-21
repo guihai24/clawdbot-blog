@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="660" height="400" rx="12" fill="#FAFAFA" />
+
+  <text x="330" y="38" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="600" fill="#1F2937">别把探索任务包装成交付任务</text>
+  <text x="330" y="56" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#9CA3AF">任务性质不同，流程也应该不同</text>
+
+  <rect x="40" y="70" width="270" height="232" rx="12" fill="#FFFFFF" filter="url(#shadow)" />
+  <rect x="40" y="70" width="270" height="5" rx="2" fill="#2563EB" />
+  <text x="64" y="104" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#2563EB">交付任务</text>
+  <text x="64" y="124" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#6B7280">离线整包下发</text>
+  <line x1="56" y1="138" x2="294" y2="138" stroke="#E5E7EB" stroke-width="1" />
+
+  <circle cx="66" cy="160" r="3" fill="#2563EB" />
+  <text x="78" y="164" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#374151">目标明确，验收标准清晰</text>
+
+  <circle cx="66" cy="190" r="3" fill="#2563EB" />
+  <text x="78" y="194" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#374151">例：表单填写 / 批量改名</text>
+
+  <circle cx="66" cy="220" r="3" fill="#2563EB" />
+  <text x="78" y="224" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#374151">例：按文档补测试</text>
+
+  <circle cx="66" cy="250" r="3" fill="#16A34A" />
+  <text x="78" y="254" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#16A34A">合适：一次下发即可完成</text>
+
+  <text x="64" y="282" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#9CA3AF">决策权可以交出去</text>
+
+  <rect x="350" y="70" width="270" height="232" rx="12" fill="#FFFFFF" filter="url(#shadow)" />
+  <rect x="350" y="70" width="270" height="5" rx="2" fill="#EA580C" />
+  <text x="374" y="104" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#EA580C">探索任务</text>
+  <text x="374" y="124" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#6B7280">在线试探迭代</text>
+  <line x1="366" y1="138" x2="604" y2="138" stroke="#E5E7EB" stroke-width="1" />
+
+  <circle cx="376" cy="160" r="3" fill="#EA580C" />
+  <text x="388" y="164" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#374151">方向模糊，看了才知对不对</text>
+
+  <circle cx="376" cy="190" r="3" fill="#EA580C" />
+  <text x="388" y="194" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#374151">例：界面微调 / 文案语气</text>
+
+  <circle cx="376" cy="220" r="3" fill="#EA580C" />
+  <text x="388" y="224" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#374151">例：信息密度调整</text>
+
+  <circle cx="376" cy="250" r="3" fill="#16A34A" />
+  <text x="388" y="254" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#16A34A">合适：最小版本 + 边看边改</text>
+
+  <text x="374" y="282" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#9CA3AF">决策权必须留在过程里</text>
+
+  <path d="M312 186 L344 186" stroke="#D1D5DB" stroke-width="1.5" stroke-dasharray="4 4" />
+  <path d="M338 181 L344 186 L338 191" fill="none" stroke="#D1D5DB" stroke-width="1.5" />
+
+  <rect x="40" y="318" width="580" height="58" rx="10" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1" />
+  <text x="62" y="342" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#92400E">判断法：写不出验收标准，就别下发大任务</text>
+  <text x="62" y="362" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#B45309">先让它做一个能看见的最小版本，再围着这个版本改</text>
+</svg>

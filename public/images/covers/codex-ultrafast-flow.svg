@@ -1,0 +1,79 @@
+<svg width="660" height="300" viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#44403C"/>
+      <stop offset="1" stop-color="#1C1917"/>
+    </linearGradient>
+    <linearGradient id="accentV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EA580C"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="accentH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EA580C"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="660" height="300" fill="url(#bgGrad)"/>
+
+  <!-- 纸张颗粒纹理 -->
+  <g fill="#D6D3D1" opacity="0.06">
+    <circle cx="38" cy="52" r="2.2"/>
+    <circle cx="96" cy="18" r="1.6"/>
+    <circle cx="164" cy="76" r="2.6"/>
+    <circle cx="212" cy="34" r="1.4"/>
+    <circle cx="286" cy="62" r="2.1"/>
+    <circle cx="352" cy="22" r="1.8"/>
+    <circle cx="418" cy="70" r="2.4"/>
+    <circle cx="486" cy="40" r="1.5"/>
+    <circle cx="548" cy="88" r="2.0"/>
+    <circle cx="612" cy="30" r="2.3"/>
+    <circle cx="628" cy="126" r="1.7"/>
+    <circle cx="24" cy="146" r="2.0"/>
+    <circle cx="112" cy="200" r="1.5"/>
+    <circle cx="58" cy="268" r="2.4"/>
+    <circle cx="186" cy="284" r="1.8"/>
+    <circle cx="268" cy="212" r="1.6"/>
+    <circle cx="336" cy="278" r="2.2"/>
+    <circle cx="404" cy="196" r="1.5"/>
+    <circle cx="472" cy="286" r="2.0"/>
+    <circle cx="632" cy="222" r="1.8"/>
+    <circle cx="588" cy="292" r="1.4"/>
+  </g>
+
+  <!-- 左侧强调线 -->
+  <rect x="50" y="84" width="5" height="104" rx="2.5" fill="url(#accentV)"/>
+
+  <!-- 标题 -->
+  <text x="70" y="106" font-size="22" font-weight="700" fill="#FAFAF9">
+    <tspan x="70" dy="0">AI 编程总断心流？</tspan>
+    <tspan x="70" dy="28">别下发大任务</tspan>
+  </text>
+
+  <!-- 副标题 -->
+  <text x="70" y="162" font-size="13" fill="#A8A29E">问题常不在模型慢，而在任务下得太大</text>
+
+  <!-- 标签胶囊 -->
+  <g>
+    <rect x="70" y="240" width="76" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+    <text x="108" y="256" font-size="12" fill="#D6D3D1" text-anchor="middle">上手指南</text>
+
+    <rect x="156" y="240" width="76" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+    <text x="194" y="256" font-size="12" fill="#D6D3D1" text-anchor="middle">小步迭代</text>
+
+    <rect x="242" y="240" width="76" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+    <text x="280" y="256" font-size="12" fill="#D6D3D1" text-anchor="middle">快速反馈</text>
+  </g>
+
+  <!-- 右下角装饰：迭代循环 + 闪电 -->
+  <g opacity="0.22" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round">
+    <circle cx="560" cy="226" r="36" stroke-dasharray="7 11"/>
+  </g>
+  <g opacity="0.26" fill="#F59E0B">
+    <path d="M 566 204 L 547 232 L 559 232 L 552 250 L 572 220 L 560 220 Z"/>
+  </g>
+
+  <!-- 底部色条 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentH)"/>
+</svg>
