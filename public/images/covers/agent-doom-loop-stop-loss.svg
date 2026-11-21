@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#44403C"/>
+      <stop offset="100%" stop-color="#1C1917"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <pattern id="dotTexture" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1" fill="#D6D3D1" opacity="0.06"/>
+      <circle cx="13" cy="13" r="1.5" fill="#D6D3D1" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="660" height="300" fill="url(#bgGrad)"/>
+  <rect width="660" height="300" fill="url(#dotTexture)"/>
+
+  <!-- Left Accent Line -->
+  <rect x="50" y="50" width="4" height="195" rx="2" fill="url(#accentGrad)"/>
+
+  <!-- Text Layer -->
+  <text x="70" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#FAFAF9">
+    <tspan x="70" dy="0">Agent 死循环：最贵的不是</tspan>
+    <tspan x="70" dy="28">41 次重试，是 6 次后放弃</tspan>
+  </text>
+
+  <text x="70" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#A8A29E">
+    Agent 死循环有两个结局：顶到 40 步上限，或者安静交差
+  </text>
+
+  <!-- Tag Capsules -->
+  <g transform="translate(70, 235)">
+    <rect x="0" y="0" width="70" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
+    <text x="35" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">上手指南</text>
+
+    <rect x="80" y="0" width="65" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
+    <text x="112.5" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">Agent</text>
+
+    <rect x="155" y="0" width="75" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
+    <text x="192.5" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#D6D3D1" text-anchor="middle">止损防线</text>
+  </g>
+
+  <!-- Decorative Elements (Bottom-Right Corner) -->
+  <g transform="translate(520, 190)" opacity="0.25">
+    <circle cx="40" cy="40" r="35" fill="none" stroke="#EA580C" stroke-width="2" stroke-dasharray="6,4"/>
+    <path d="M25 40 L35 50 L55 30" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Bottom Color Bar -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentGrad)"/>
+</svg>
