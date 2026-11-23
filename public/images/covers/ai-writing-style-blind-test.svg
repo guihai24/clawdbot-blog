@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#44403C"/>
+      <stop offset="1" stop-color="#1C1917"/>
+    </linearGradient>
+    <linearGradient id="accentV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EA580C"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="accentH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EA580C"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="660" height="300" fill="url(#bg)"/>
+
+  <!-- 纸张颗粒纹理 -->
+  <g fill="#D6D3D1" opacity="0.06">
+    <circle cx="38" cy="42" r="1.6"/>
+    <circle cx="118" cy="24" r="2.2"/>
+    <circle cx="186" cy="66" r="1.4"/>
+    <circle cx="252" cy="18" r="1.8"/>
+    <circle cx="322" cy="52" r="1.3"/>
+    <circle cx="392" cy="30" r="2.0"/>
+    <circle cx="458" cy="74" r="1.5"/>
+    <circle cx="524" cy="36" r="1.9"/>
+    <circle cx="604" cy="58" r="1.4"/>
+    <circle cx="638" cy="120" r="2.1"/>
+    <circle cx="72" cy="168" r="1.7"/>
+    <circle cx="146" cy="196" r="1.4"/>
+    <circle cx="214" cy="150" r="2.0"/>
+    <circle cx="288" cy="188" r="1.5"/>
+    <circle cx="356" cy="142" r="1.8"/>
+    <circle cx="424" cy="196" r="1.3"/>
+    <circle cx="498" cy="132" r="2.2"/>
+    <circle cx="576" cy="160" r="1.6"/>
+    <circle cx="628" cy="216" r="1.8"/>
+    <circle cx="96" cy="262" r="1.5"/>
+    <circle cx="182" cy="288" r="1.9"/>
+    <circle cx="270" cy="272" r="1.3"/>
+    <circle cx="348" cy="284" r="1.7"/>
+    <circle cx="430" cy="266" r="1.4"/>
+    <circle cx="512" cy="288" r="1.8"/>
+    <circle cx="592" cy="284" r="1.5"/>
+    <circle cx="30" cy="228" r="1.6"/>
+    <circle cx="410" cy="106" r="1.2"/>
+  </g>
+
+  <!-- 左侧强调线 -->
+  <rect x="50" y="56" width="5" height="208" rx="2.5" fill="url(#accentV)"/>
+
+  <!-- 标题 -->
+  <text x="70" y="96" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" font-weight="700" fill="#FAFAF9">
+    <tspan x="70" dy="0">AI 写作不像你？</tspan>
+    <tspan x="70" dy="30">用旧文盲测调文风</tspan>
+  </text>
+
+  <!-- 副标题 -->
+  <text x="70" y="160" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#A8A29E">AI 写作不像你，往往不是提示词写得不够细。</text>
+
+  <!-- 标签胶囊 -->
+  <g font-family="'PingFang SC','Hiragino Sans GB','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="12" fill="#D6D3D1">
+    <rect x="70" y="238" width="86" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+    <text x="113" y="254" text-anchor="middle">旧文盲测</text>
+
+    <rect x="166" y="238" width="86" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+    <text x="209" y="254" text-anchor="middle">文风调校</text>
+
+    <rect x="262" y="238" width="86" height="24" rx="12" fill="#57534E" opacity="0.4"/>
+    <text x="305" y="254" text-anchor="middle">上手指南</text>
+  </g>
+
+  <!-- 右下角装饰：盲测对比 + 判定 -->
+  <g fill="none" stroke="#F59E0B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.24">
+    <rect x="492" y="200" width="50" height="62" rx="5"/>
+    <line x1="502" y1="214" x2="532" y2="214"/>
+    <line x1="502" y1="226" x2="526" y2="226"/>
+    <line x1="502" y1="238" x2="530" y2="238"/>
+    <rect x="558" y="188" width="50" height="62" rx="5"/>
+    <line x1="568" y1="202" x2="598" y2="202"/>
+    <line x1="568" y1="214" x2="592" y2="214"/>
+    <line x1="568" y1="226" x2="596" y2="226"/>
+  </g>
+  <g fill="none" stroke="#EA580C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.3">
+    <circle cx="612" cy="248" r="17"/>
+    <path d="M604 248 L610 254 L621 241"/>
+  </g>
+
+  <!-- 底部色条 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#accentH)"/>
+</svg>
