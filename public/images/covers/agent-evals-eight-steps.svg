@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300" role="img" aria-label="Agent 评测八步法：别凭感觉上线">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#44403C"/>
+      <stop offset="1" stop-color="#1C1917"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EA580C"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EA580C"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景层 -->
+  <rect width="660" height="300" fill="url(#bgGrad)"/>
+
+  <!-- 散点纹理 -->
+  <g fill="#D6D3D1" opacity="0.06">
+    <circle cx="32" cy="40" r="1.4"/>
+    <circle cx="118" cy="22" r="1"/>
+    <circle cx="210" cy="60" r="1.6"/>
+    <circle cx="298" cy="30" r="1"/>
+    <circle cx="382" cy="74" r="1.2"/>
+    <circle cx="468" cy="38" r="1.5"/>
+    <circle cx="558" cy="66" r="1"/>
+    <circle cx="628" cy="30" r="1.3"/>
+    <circle cx="88" cy="142" r="1.2"/>
+    <circle cx="182" cy="182" r="1"/>
+    <circle cx="268" cy="118" r="1.4"/>
+    <circle cx="352" cy="162" r="1"/>
+    <circle cx="442" cy="128" r="1.2"/>
+    <circle cx="618" cy="142" r="1.5"/>
+    <circle cx="42" cy="222" r="1"/>
+    <circle cx="152" cy="272" r="1.3"/>
+    <circle cx="256" cy="248" r="1"/>
+    <circle cx="362" cy="266" r="1.4"/>
+    <circle cx="452" cy="240" r="1"/>
+    <circle cx="622" cy="256" r="1.2"/>
+    <circle cx="602" cy="92" r="1"/>
+    <circle cx="202" cy="108" r="0.9"/>
+    <circle cx="498" cy="170" r="1.1"/>
+    <circle cx="12" cy="120" r="1.1"/>
+    <circle cx="330" cy="92" r="0.9"/>
+    <circle cx="648" cy="200" r="1"/>
+  </g>
+
+  <!-- 左侧强调线 -->
+  <rect x="50" y="78" width="5" height="184" rx="2.5" fill="url(#accentGrad)"/>
+
+  <!-- 文字层 -->
+  <text x="70" y="112" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="22" font-weight="700" fill="#FAFAF9" letter-spacing="0.5">
+    <tspan x="70" dy="0">Agent 评测八步法</tspan>
+    <tspan x="70" dy="28">别凭感觉上线</tspan>
+  </text>
+
+  <text x="70" y="172" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#A8A29E">
+    Agent demo 看着聪明，上线后却容易翻车
+  </text>
+
+  <!-- 标签胶囊 -->
+  <g font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#D6D3D1">
+    <rect x="70" y="240" width="84" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
+    <text x="112" y="256" text-anchor="middle">Agent 评测</text>
+
+    <rect x="164" y="240" width="74" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
+    <text x="201" y="256" text-anchor="middle">八步法</text>
+
+    <rect x="248" y="240" width="74" height="24" rx="12" fill="#57534E" fill-opacity="0.4"/>
+    <text x="285" y="256" text-anchor="middle">可靠性</text>
+  </g>
+
+  <!-- 右下角装饰：光谱峰线 + 复核勾选 -->
+  <g fill="none" stroke="#EA580C" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M514 248 L528 248 L534 220 L540 242 L547 200 L553 246 L561 248 L573 248 L579 228 L585 248 L600 248"
+          stroke-width="2" opacity="0.25"/>
+  </g>
+  <g fill="none" stroke="#F59E0B" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="588" cy="196" r="13" stroke-width="1.5" opacity="0.25"/>
+    <path d="M582 196 L587 202 L595 189" stroke-width="1.8" opacity="0.28"/>
+  </g>
+
+  <!-- 底部色条 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#barGrad)"/>
+</svg>
