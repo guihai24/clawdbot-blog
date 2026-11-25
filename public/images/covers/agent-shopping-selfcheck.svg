@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#78350F"/>
+      <stop offset="100%" stop-color="#451A03"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="660" height="300" fill="url(#bgGrad)"/>
+
+  <!-- 纸张颗粒纹理 -->
+  <g fill="#D6A456" opacity="0.06">
+    <circle cx="30" cy="40" r="2"/>
+    <circle cx="120" cy="20" r="1.5"/>
+    <circle cx="210" cy="60" r="2"/>
+    <circle cx="300" cy="25" r="1.5"/>
+    <circle cx="390" cy="55" r="2"/>
+    <circle cx="470" cy="18" r="1.5"/>
+    <circle cx="560" cy="45" r="2"/>
+    <circle cx="640" cy="80" r="1.5"/>
+    <circle cx="20" cy="150" r="1.5"/>
+    <circle cx="90" cy="210" r="2"/>
+    <circle cx="160" cy="280" r="1.5"/>
+    <circle cx="250" cy="230" r="2"/>
+    <circle cx="340" cy="170" r="1.5"/>
+    <circle cx="430" cy="275" r="2"/>
+    <circle cx="520" cy="150" r="1.5"/>
+    <circle cx="620" cy="175" r="2"/>
+    <circle cx="60" cy="95" r="2"/>
+    <circle cx="180" cy="130" r="1.5"/>
+    <circle cx="270" cy="265" r="2"/>
+    <circle cx="360" cy="110" r="1.5"/>
+    <circle cx="450" cy="95" r="2"/>
+    <circle cx="540" cy="120" r="1.5"/>
+    <circle cx="630" cy="20" r="2"/>
+    <circle cx="100" cy="255" r="1.5"/>
+    <circle cx="195" cy="30" r="2"/>
+    <circle cx="290" cy="180" r="1.5"/>
+    <circle cx="385" cy="240" r="2"/>
+    <circle cx="475" cy="200" r="1.5"/>
+    <circle cx="575" cy="100" r="2"/>
+    <circle cx="645" cy="250" r="1.5"/>
+  </g>
+
+  <!-- 左侧强调线 -->
+  <rect x="50" y="60" width="4" height="118" rx="2" fill="url(#accentGrad)"/>
+
+  <!-- 标题 -->
+  <text font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="22" font-weight="700" fill="#FEFCE8">
+    <tspan x="70" y="96">11,307 次 Agent 购物实测</tspan>
+    <tspan x="70" y="124">读不懂的产品页等于不存在</tspan>
+  </text>
+
+  <!-- 副标题 -->
+  <text x="70" y="154" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#D6A456">a16z 让四个 Agent 跑完 11,307 次购物流程</text>
+
+  <!-- 标签胶囊 -->
+  <g font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#FDE68A" text-anchor="middle">
+    <rect x="70" y="240" width="76" height="24" rx="12" fill="#92400E" opacity="0.4"/>
+    <text x="108" y="256">B2A 电商</text>
+
+    <rect x="156" y="240" width="86" height="24" rx="12" fill="#92400E" opacity="0.4"/>
+    <text x="199" y="256">产品页自查</text>
+
+    <rect x="252" y="240" width="84" height="24" rx="12" fill="#92400E" opacity="0.4"/>
+    <text x="294" y="256">Agent 解析</text>
+  </g>
+
+  <!-- 右下角装饰：节点网络 -->
+  <g opacity="0.22" stroke="#F59E0B" stroke-width="1.2" fill="none">
+    <line x1="515" y1="205" x2="555" y2="188"/>
+    <line x1="555" y1="188" x2="595" y2="212"/>
+    <line x1="515" y1="205" x2="556" y2="240"/>
+    <line x1="555" y1="188" x2="556" y2="240"/>
+    <line x1="595" y1="212" x2="556" y2="240"/>
+  </g>
+  <g fill="#F59E0B" opacity="0.25">
+    <circle cx="515" cy="205" r="5"/>
+    <circle cx="555" cy="188" r="4"/>
+    <circle cx="595" cy="212" r="5"/>
+    <circle cx="556" cy="240" r="4"/>
+  </g>
+
+  <!-- 右下角装饰：筛选漏斗 -->
+  <path d="M 610 242 L 640 242 L 628 257 L 628 272 L 622 268 L 622 257 Z" fill="#D6A456" opacity="0.13"/>
+
+  <!-- 底部色条 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#barGrad)"/>
+</svg>
