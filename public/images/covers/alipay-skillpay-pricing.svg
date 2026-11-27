@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#78350F"/>
+      <stop offset="1" stop-color="#451A03"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="660" height="300" fill="url(#bgGrad)"/>
+
+  <!-- 纸张颗粒纹理 -->
+  <g fill="#D6A456" opacity="0.06">
+    <circle cx="30" cy="40" r="2"/>
+    <circle cx="80" cy="25" r="1.5"/>
+    <circle cx="120" cy="70" r="2.5"/>
+    <circle cx="180" cy="20" r="1.5"/>
+    <circle cx="240" cy="55" r="2"/>
+    <circle cx="300" cy="30" r="1.5"/>
+    <circle cx="360" cy="80" r="2"/>
+    <circle cx="420" cy="25" r="1.5"/>
+    <circle cx="480" cy="60" r="2"/>
+    <circle cx="540" cy="15" r="1.5"/>
+    <circle cx="600" cy="45" r="2"/>
+    <circle cx="640" cy="90" r="1.5"/>
+    <circle cx="60" cy="140" r="1.5"/>
+    <circle cx="110" cy="180" r="2"/>
+    <circle cx="160" cy="130" r="1.5"/>
+    <circle cx="210" cy="200" r="2"/>
+    <circle cx="260" cy="150" r="1.5"/>
+    <circle cx="310" cy="220" r="2"/>
+    <circle cx="370" cy="170" r="1.5"/>
+    <circle cx="430" cy="130" r="2"/>
+    <circle cx="490" cy="190" r="1.5"/>
+    <circle cx="550" cy="140" r="2"/>
+    <circle cx="610" cy="200" r="1.5"/>
+    <circle cx="40" cy="250" r="2"/>
+    <circle cx="90" cy="282" r="1.5"/>
+    <circle cx="150" cy="240" r="2"/>
+    <circle cx="200" cy="290" r="1.5"/>
+    <circle cx="250" cy="262" r="2"/>
+    <circle cx="330" cy="285" r="1.5"/>
+    <circle cx="390" cy="250" r="2"/>
+    <circle cx="450" cy="290" r="1.5"/>
+    <circle cx="520" cy="272" r="2"/>
+    <circle cx="580" cy="252" r="1.5"/>
+    <circle cx="630" cy="285" r="2"/>
+  </g>
+
+  <!-- 左侧强调线 -->
+  <rect x="50" y="46" width="5" height="210" rx="2.5" fill="url(#accentGrad)"/>
+
+  <!-- 标题 -->
+  <text x="70" y="106" font-size="22" font-weight="700" fill="#FEFCE8" letter-spacing="0.5">
+    <tspan x="70" dy="0">支付宝开卖 Skill：50 元封顶</tspan>
+    <tspan x="70" dy="28">买断还是订阅？</tspan>
+  </text>
+
+  <!-- 副标题 -->
+  <text x="70" y="163" font-size="13" fill="#D6A456" letter-spacing="0.3">SkillPay 双模式：买断 0.01–50 元，订阅单周期封顶 50 元</text>
+
+  <!-- 标签胶囊 -->
+  <g>
+    <rect x="70" y="240" width="84" height="24" rx="12" fill="#92400E" opacity="0.4"/>
+    <text x="112" y="256" font-size="12" fill="#FDE68A" text-anchor="middle" letter-spacing="0.3">SkillPay</text>
+
+    <rect x="162" y="240" width="84" height="24" rx="12" fill="#92400E" opacity="0.4"/>
+    <text x="204" y="256" font-size="12" fill="#FDE68A" text-anchor="middle" letter-spacing="0.3">定价策略</text>
+
+    <rect x="254" y="240" width="76" height="24" rx="12" fill="#92400E" opacity="0.4"/>
+    <text x="292" y="256" font-size="12" fill="#FDE68A" text-anchor="middle" letter-spacing="0.3">防盗版</text>
+  </g>
+
+  <!-- 右下角装饰：定价圆环 + 网络节点 -->
+  <g fill="none" stroke="#F59E0B" stroke-linecap="round">
+    <circle cx="566" cy="218" r="34" stroke-width="2" opacity="0.22"/>
+    <circle cx="566" cy="218" r="26" stroke-width="1" stroke-dasharray="3 6" opacity="0.16"/>
+    <path d="M556 202 L566 216 L576 202 M566 216 L566 238 M557 223 L575 223 M557 230 L575 230" stroke-width="2" opacity="0.28"/>
+
+    <g stroke="#D6A456" stroke-width="1.5" opacity="0.22">
+      <line x1="488" y1="240" x2="512" y2="222"/>
+      <line x1="512" y1="222" x2="506" y2="268"/>
+      <line x1="488" y1="240" x2="506" y2="268"/>
+    </g>
+    <g fill="#D6A456" stroke="none" opacity="0.26">
+      <circle cx="488" cy="240" r="4"/>
+      <circle cx="512" cy="222" r="4"/>
+      <circle cx="506" cy="268" r="4"/>
+    </g>
+  </g>
+
+  <!-- 底部色条 -->
+  <rect x="0" y="293" width="660" height="7" fill="url(#barGrad)"/>
+</svg>

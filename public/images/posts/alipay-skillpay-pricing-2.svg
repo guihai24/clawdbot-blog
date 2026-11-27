@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="660" height="400" rx="12" fill="#FAFAFA" />
+
+  <text x="330" y="38" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#1F2937">SkillPay：两种交易模式</text>
+  <text x="330" y="58" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#9CA3AF">交付形态 决定 防盗版能力</text>
+
+  
+  <rect x="30" y="74" width="282" height="200" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" filter="url(#cardShadow)" />
+  <path d="M30 86 a12 12 0 0 1 12 -12 h258 a12 12 0 0 1 12 12 v18 H30 Z" fill="#2563EB" />
+  <text x="171" y="98" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">买断 · 交付到本地</text>
+
+  <circle cx="52" cy="132" r="3" fill="#2563EB" />
+  <text x="66" y="136" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#374151">一次性收费 0.01 – 50 元</text>
+
+  <circle cx="52" cy="160" r="3" fill="#2563EB" />
+  <text x="66" y="164" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#374151">完整 Skill 内容交付给买家</text>
+
+  <circle cx="52" cy="188" r="3" fill="#2563EB" />
+  <text x="66" y="192" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#374151">本地可读明文，防盗版弱</text>
+
+  <circle cx="52" cy="216" r="3" fill="#2563EB" />
+  <text x="66" y="220" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#374151">适合工具类、一次性成型</text>
+
+  <rect x="66" y="238" width="210" height="22" rx="6" fill="#EFF6FF" />
+  <text x="171" y="253" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#2563EB">交付即离手</text>
+
+  
+  <circle cx="330" cy="174" r="17" fill="#FAFAFA" stroke="#D1D5DB" stroke-width="1.5" />
+  <text x="330" y="179" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#6B7280">VS</text>
+
+  
+  <rect x="348" y="74" width="282" height="200" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" filter="url(#cardShadow)" />
+  <path d="M348 86 a12 12 0 0 1 12 -12 h258 a12 12 0 0 1 12 12 v18 H348 Z" fill="#9333EA" />
+  <text x="489" y="98" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">订阅 · 云端沙盒运行</text>
+
+  <circle cx="370" cy="132" r="3" fill="#9333EA" />
+  <text x="384" y="136" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#374151">按周/月/季收费，单周期 ≤ 50 元</text>
+
+  <circle cx="370" cy="160" r="3" fill="#9333EA" />
+  <text x="384" y="164" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#374151">内容留在云端，不交付明文</text>
+
+  <circle cx="370" cy="188" r="3" fill="#9333EA" />
+  <text x="384" y="192" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#374151">只拿执行结果，防盗版强</text>
+
+  <circle cx="370" cy="216" r="3" fill="#9333EA" />
+  <text x="384" y="220" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#374151">适合数据类、持续服务</text>
+
+  <rect x="384" y="238" width="210" height="22" rx="6" fill="#F5F3FF" />
+  <text x="489" y="253" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#9333EA">内容不出云端</text>
+
+  
+  <rect x="30" y="292" width="600" height="44" rx="10" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1.5" />
+  <text x="330" y="320" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#92400E">共同门槛：必须提供免费试用，最低 5 次</text>
+
+  
+  <line x1="30" y1="352" x2="630" y2="352" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4 4" />
+  <text x="330" y="378" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#6B7280">交付形态 → 防盗版能力　　价格上限 → 非高客单生意　　试用次数 → 转化成本</text>
+</svg>
