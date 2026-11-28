@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400">
+  <defs>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="660" height="400" rx="12" fill="#FAFAFA" />
+
+  <text x="330" y="40" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#111827">看 vs 懂：两条完全不同的路径</text>
+
+  
+  <rect x="40" y="62" width="270" height="196" rx="12" fill="#FFFFFF" stroke="#E5E7EB" filter="url(#sh)" />
+  <rect x="40" y="62" width="270" height="6" rx="3" fill="#2563EB" />
+  <text x="60" y="102" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="24" font-weight="700" fill="#2563EB">看</text>
+  <text x="60" y="126" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#6B7280">只需要眼睛，单向接收</text>
+  <line x1="58" y1="142" x2="292" y2="142" stroke="#F1F5F9" stroke-width="1" />
+
+  <circle cx="62" cy="168" r="3.5" fill="#93C5FD" />
+  <text x="76" y="173" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#374151">信息流过，不留痕迹</text>
+  <circle cx="62" cy="198" r="3.5" fill="#93C5FD" />
+  <text x="76" y="203" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#374151">脑子里的模型依旧模糊</text>
+  <circle cx="62" cy="228" r="3.5" fill="#93C5FD" />
+  <text x="76" y="233" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#374151">关掉窗口，记忆归零</text>
+
+  
+  <circle cx="330" cy="160" r="20" fill="#FFFFFF" stroke="#E5E7EB" filter="url(#sh)" />
+  <text x="330" y="166" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#9CA3AF">VS</text>
+
+  
+  <rect x="350" y="62" width="270" height="196" rx="12" fill="#FFFFFF" stroke="#E5E7EB" filter="url(#sh)" />
+  <rect x="350" y="62" width="270" height="6" rx="3" fill="#16A34A" />
+  <text x="370" y="102" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="24" font-weight="700" fill="#16A34A">懂</text>
+  <text x="370" y="126" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#6B7280">亲手改一次、画一次、讲一次</text>
+  <line x1="368" y1="142" x2="602" y2="142" stroke="#F1F5F9" stroke-width="1" />
+
+  <circle cx="372" cy="168" r="3.5" fill="#86EFAC" />
+  <text x="386" y="173" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#374151">模糊模型被现实撞一下</text>
+  <circle cx="372" cy="198" r="3.5" fill="#86EFAC" />
+  <text x="386" y="203" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#374151">认知被反复校准</text>
+  <circle cx="372" cy="228" r="3.5" fill="#86EFAC" />
+  <text x="386" y="233" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#374151">沉淀为可复用的产物</text>
+
+  
+  <text x="40" y="292" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#9CA3AF">对话是易失的，所以要归档</text>
+
+  <rect x="40" y="308" width="200" height="56" rx="10" fill="#FFF7ED" stroke="#FED7AA" />
+  <text x="140" y="332" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#EA580C">聊天记录</text>
+  <text x="140" y="351" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#C2410C">流水 · 会蒸发</text>
+
+  <line x1="252" y1="336" x2="408" y2="336" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="5 5" />
+  <polygon points="408,336 396,330 396,342" fill="#CBD5E1" />
+
+  <rect x="420" y="308" width="200" height="56" rx="10" fill="#ECFDF5" stroke="#A7F3D0" />
+  <text x="520" y="332" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#16A34A">产物文件</text>
+  <text x="520" y="351" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#15803D">资产 · 可沉淀</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="660" height="400" rx="12" fill="#FAFAFA" />
+
+  <text x="330" y="40" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#0F172A">这套方法的适用边界</text>
+  <text x="330" y="60" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#64748B">先把边界说清楚，免得拿它去撞墙</text>
+
+  
+  <rect x="24" y="78" width="296" height="196" rx="12" fill="#FFFFFF" filter="url(#cardShadow)" stroke="#BBF7D0" stroke-width="1.5" />
+  <rect x="24" y="78" width="6" height="196" rx="3" fill="#16A34A" />
+  <text x="48" y="106" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#16A34A">擅长 · 概念型领域</text>
+  <text x="48" y="126" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11.5" fill="#64748B">难点在于「关系看不见」</text>
+
+  <g font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12.5" fill="#334155">
+    <circle cx="54" cy="150" r="3" fill="#16A34A" /><text x="68" y="154">数学分支、加密协议</text>
+    <circle cx="54" cy="176" r="3" fill="#16A34A" /><text x="68" y="180">一篇完全陌生的论文</text>
+    <circle cx="54" cy="202" r="3" fill="#16A34A" /><text x="68" y="206">某行业的黑话体系</text>
+    <circle cx="54" cy="228" r="3" fill="#16A34A" /><text x="68" y="232">你没参与的字段规范</text>
+  </g>
+  <line x1="48" y1="246" x2="296" y2="246" stroke="#E2E8F0" stroke-width="1" />
+  <text x="48" y="264" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11.5" fill="#16A34A">六步能带你看完地图</text>
+
+  
+  <rect x="340" y="78" width="296" height="196" rx="12" fill="#FFFFFF" filter="url(#cardShadow)" stroke="#FED7AA" stroke-width="1.5" />
+  <rect x="340" y="78" width="6" height="196" rx="3" fill="#EA580C" />
+  <text x="364" y="106" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#EA580C">不擅长 · 手上功夫</text>
+  <text x="364" y="126" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11.5" fill="#64748B">难点在于「手不会动」只能靠做</text>
+
+  <g font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12.5" fill="#334155">
+    <circle cx="370" cy="150" r="3" fill="#EA580C" /><text x="384" y="154">谈判、说服与博弈</text>
+    <circle cx="370" cy="176" r="3" fill="#EA580C" /><text x="384" y="180">调试一个真实系统</text>
+    <circle cx="370" cy="202" r="3" fill="#EA580C" /><text x="384" y="206">写代码的手感</text>
+    <circle cx="370" cy="228" r="3" fill="#EA580C" /><text x="384" y="232">判断哪个研究方向值得做</text>
+  </g>
+  <line x1="364" y1="246" x2="612" y2="246" stroke="#E2E8F0" stroke-width="1" />
+  <text x="364" y="264" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11.5" fill="#EA580C">路还得自己走 · 知道 ≠ 会</text>
+
+  
+  <rect x="24" y="292" width="612" height="86" rx="12" fill="#FFFFFF" filter="url(#cardShadow)" stroke="#E2E8F0" stroke-width="1" />
+  <text x="48" y="316" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#2563EB">时间粗估（按产物复杂度猜，未实测）</text>
+
+  <g font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11.5">
+    <rect x="48" y="328" width="128" height="26" rx="13" fill="#EFF6FF" stroke="#BFDBFE" />
+    <text x="112" y="345" text-anchor="middle" fill="#2563EB" font-size="12.6">每级台阶 10–30 分钟</text>
+
+    <rect x="188" y="328" width="164" height="26" rx="13" fill="#FEF3C7" stroke="#FCD34D" />
+    <text x="270" y="345" text-anchor="middle" fill="#D97706" font-size="12.6">第三步最慢：逐个核对箭头</text>
+
+    <rect x="364" y="328" width="248" height="26" rx="13" fill="#F0FDF4" stroke="#BBF7D0" />
+    <text x="488" y="345" text-anchor="middle" fill="#16A34A">约三天走完一套，短于连读十篇文章</text>
+  </g>
+
+  <text x="48" y="370" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#94A3B8">六步负责「知道」，动手负责「会」</text>
+</svg>

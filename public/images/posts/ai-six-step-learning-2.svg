@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400">
+  <defs>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.08" />
+    </filter>
+    <marker id="arrowHead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#CBD5E1" />
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="660" height="400" rx="12" fill="#FAFAFA" />
+
+  <text x="330" y="46" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#1F2937">0 → 25%：先让眼睛有地方放</text>
+  <text x="330" y="70" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#6B7280">把看不见的关系，变成看得见的运动</text>
+
+  
+  <rect x="30" y="96" width="132" height="186" rx="10" fill="#FFFFFF" filter="url(#cardShadow)" />
+  <circle cx="96" cy="128" r="16" fill="#EA580C" />
+  <text x="96" y="133" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="96" y="166" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1F2937">别要完整综述</text>
+  <text x="96" y="192" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">0% 时连该问</text>
+  <text x="96" y="209" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">什么都不知道</text>
+  <rect x="52" y="230" width="88" height="26" rx="13" fill="#FFF7ED" />
+  <text x="96" y="247" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10" fill="#EA580C">先立骨架</text>
+
+  
+  <rect x="186" y="96" width="132" height="186" rx="10" fill="#FFFFFF" filter="url(#cardShadow)" />
+  <circle cx="252" cy="128" r="16" fill="#2563EB" />
+  <text x="252" y="133" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="252" y="166" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1F2937">写动画分镜</text>
+  <text x="252" y="192" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">90 秒 · 6 镜头</text>
+  <text x="252" y="209" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">术语 ≤ 5 个</text>
+  <rect x="208" y="230" width="88" height="26" rx="13" fill="#EFF6FF" />
+  <text x="252" y="247" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="9" fill="#2563EB">生活类比替代定义</text>
+
+  
+  <rect x="342" y="96" width="132" height="186" rx="10" fill="#FFFFFF" filter="url(#cardShadow)" />
+  <circle cx="408" cy="128" r="16" fill="#16A34A" />
+  <text x="408" y="133" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="408" y="166" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1F2937">成功标准</text>
+  <text x="408" y="192" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">一句人话说清</text>
+  <text x="408" y="209" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">领域在争论什么</text>
+  <rect x="364" y="230" width="88" height="26" rx="13" fill="#F0FDF4" />
+  <text x="408" y="247" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10" fill="#16A34A">说不到 → 重写</text>
+
+  
+  <rect x="498" y="96" width="132" height="186" rx="10" fill="#FFFFFF" filter="url(#cardShadow)" />
+  <circle cx="564" cy="128" r="16" fill="#9333EA" />
+  <text x="564" y="133" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">4</text>
+  <text x="564" y="166" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1F2937">别掉进坑里</text>
+  <text x="564" y="192" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">读得顺 ≠ 懂了</text>
+  <text x="564" y="209" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">它只是轮廓</text>
+  <rect x="520" y="230" width="88" height="26" rx="13" fill="#FAF5FF" />
+  <text x="564" y="247" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10" fill="#9333EA">停留不超一晚</text>
+
+  
+  <line x1="168" y1="189" x2="180" y2="189" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrowHead)" />
+  <line x1="324" y1="189" x2="336" y2="189" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrowHead)" />
+  <line x1="480" y1="189" x2="492" y2="189" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrowHead)" />
+
+  
+  <rect x="30" y="306" width="600" height="66" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1" />
+  <text x="330" y="332" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1D4ED8">先给轮廓，再让脑子开始提问</text>
+  <text x="330" y="354" text-anchor="middle" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#6B7280">分镜脚本 = 脚手架，不是建筑本身</text>
+</svg>
